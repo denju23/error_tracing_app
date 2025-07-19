@@ -21,7 +21,7 @@ const port = process.env.PORT || 5000;
 // Work as middleware bodyparser parse the data from req.body
 app.use(express.json());
 app.use(cors());
-
+// Routes
 app.use("/api/user", userRoutes)
 app.use("/api/project",projectRoutes)
 app.use("/api/project-member",memberRoutes)
