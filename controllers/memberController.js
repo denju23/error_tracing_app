@@ -6,6 +6,8 @@ import User from "../models/userModel.js";
 import Project from "../models/projectModel.js";
 import Member from "../models/memberModel.js";
 import nodemailer from "nodemailer";
+import sendEmail from "../utils/sendEmail.js";
+import memberInvitationTemplate from "../utils/memberInvitationTemplate.js";
 
 //@desc Get member of project
 //@route GET /api/project-member/all
@@ -16,8 +18,8 @@ const getAllMemberOfProject = asyncError(async (req, res) => {
     if (!user) {
       return errorHandler(res, 401, "Login First 🤦‍♂️");
     }
-   
-    const {Project_id}= req.query
+
+    const { Project_id } = req.query
     const isProject = await Project.findById(Project_id);
     if (!isProject) {
       return errorHandler(res, 400, "Project Not Found");
@@ -89,8 +91,8 @@ const updateMember = asyncError(async (req, res) => {
       return errorHandler(res, 401, "Login First 🤦‍♂️");
     }
     const { username, email, role, isActive, expireAt } = req.body;
-   
-    const {Project_id,Member_id}= req.query
+
+    const { Project_id, Member_id } = req.query
 
 
     if (!Project_id) {
@@ -261,33 +263,13 @@ const createMember = asyncError(async (req, res) => {
       isActive,
       expireAt,
     });
-
-    let transporter = nodemailer.createTransport({
-      port: 465,
-      host: "smtp.gmail.com",
-      auth: {
-        user: process.env.USEREMAIL,
-        pass: process.env.PASSWORD,
-      },
-      secure: true,
-    });
-
-    // console.log(memberdata._id, "memberdata._id");
     const invitationLink = `http://localhost:3000/project/${Project_id}/member-invitation/${memberdata._id}`;
+    const htmlTemplate = memberInvitationTemplate(username,role, Project_id, invitationLink);
 
-    const mailData = {
-      from: process.env.USEREMAIL,
+    await sendEmail({
       to: email,
-      subject: `You have been Invited to join Project`,
-      html: `<h2> Dear ${username}, You have been Invited to Join the Project ${Project_id} As a ${role}</h2> Please Click on the following link to accept the invitation : <a href=${invitationLink}>${invitationLink}</a>`,
-    };
-
-    transporter.sendMail(mailData, function (err, info) {
-      if (err) {
-        console.log(err);
-      } else {
-        console.log(info);
-      }
+      subject: `You're invited to join Project ${Project_id}`,
+      html: htmlTemplate,
     });
 
     res.status(200).json({

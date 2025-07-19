@@ -149,6 +149,8 @@ const getSectionsWithErrors = asyncError(async (req, res) => {
 // });
 
 
+//@desc Update Section
+//@route PUT /api/sections/update
 
 const updateSectionStatus = asyncError(async (req, res) => {
   try {

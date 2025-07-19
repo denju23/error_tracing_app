@@ -4,6 +4,10 @@ import { checkAuth } from "../middleware/auth.js";
 import Member from "../models/memberModel.js";
 import User from "../models/userModel.js";
 
+
+
+//@desc Member Invitation Response
+//@route PUT /api/:Member_id
 const handleMemberInvitationResponse = asyncError(async (req, res) => {
   try {
     const { Member_id } = req.params;
