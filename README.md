@@ -15,6 +15,21 @@ This is the backend of a **Web Error Logging & QA Bug Tracking System** built wi
 - 📦 Modular controller-service architecture
 - ✉️ Forgot password system via email (SMTP)
 
+
+
+---
+
+## ✅ Requirements
+
+Make sure you have the following installed:
+
+- [Node.js v18+](tested with Node.js 18 or higher)
+- [npm v9+](https://www.npmjs.com/)
+- [MongoDB](https://www.mongodb.com/) (local or Atlas cloud instance)
+- [Postman] (for API testing )
+
+
+
 ---
 
 ## 🧱 Project Structure
