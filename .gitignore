@@ -38,3 +38,16 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 /.github/
+
+
+logs/
+*.log
+
+# Specific log file
+app.log
+
+# Temp upload files
+tmp/
+temp/
+uploads/
+*.tmp
