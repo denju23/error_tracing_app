@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.socket.io/4.4.1/socket.io.min.js"></script>
+    <!-- <script src="/path/to/socket.io.js"></script> -->
+    <title>Socket.io Example ExpressJS</title>
+  </head>
+
+  
+  <body>
+    <h1>QA Bug Reporting</h1>
+  
+    <!-- Comment input -->
+    <button onclick="addComment()">Add Comment</button>
+  
+    <!-- Comment list -->
+    <ul id="commentList"></ul>
+  
+    <!-- Reply Form -->
+    <form id="replyForm" style="display: none;">
+      <label for="replyText">Reply:</label>
+      <input id="replyText" type="text" required /><br />
+  
+      <button type="submit">Submit Reply</button>
+    </form>
+  
+    <script>
+      const socket = io("/project-qabug-comment");
+  
+      function addComment() {
+        const commentText = prompt("Enter your comment:");
+        if (commentText !== null) {
+          socket.emit("addComment", commentText);
+        }
+      }
+  
+      function addReply(commentId) {
+        const replyText = prompt("Enter your reply:");
+        if (replyText !== null) {
+          socket.emit("addReply", { commentId, replyText });
+        }
+      }
+  
+      // Handle reply form submission
+      document.getElementById("replyForm").addEventListener("submit", (e) => {
+        e.preventDefault();
+        const commentId = document.getElementById("commentId").value;
+        const replyText = document.getElementById("replyText").value;
+  
+        // Ensure reply text is not empty
+        if (!replyText) {
+          alert("Please enter a reply.");
+          return;
+        }
+  
+        socket.emit("addReply", { commentId, replyText });
+  
+        // Clear the form and hide it
+        document.getElementById("replyText").value = "";
+        document.getElementById("replyForm").style.display = "none";
+      });
+  
+      // Event listeners for new comments
+      socket.on("newComment", (commentData) => {
+        const commentList = document.getElementById("commentList");
+        const li = document.createElement("li");
+        li.textContent = `Comment Text: ${commentData.commentText}`;
+        const replyButton = document.createElement("button");
+        replyButton.textContent = "Reply";
+        replyButton.onclick = () => addReply(commentData.commentId);
+        li.appendChild(replyButton);
+        commentList.appendChild(li);
+      });
+  
+      // Event listener for new replies
+      socket.on("newReply", (replyData) => {
+        const commentList = document.getElementById("commentList");
+        const li = document.createElement("li");
+        li.textContent = `Reply to Comment ${replyData.commentId}: ${replyData.replyText}`;
+        commentList.appendChild(li);
+      });
+    </script>
+  </body>
+  
+</html>

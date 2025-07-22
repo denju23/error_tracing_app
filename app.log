@@ -1,0 +1,974 @@
+{"level":"info","message":"GET /api/user/current","timestamp":"2023-11-02T11:22:19.507Z"}
+{"level":"info","message":"GET /api/user/current","timestamp":"2023-11-02T11:22:51.832Z"}
+{"level":"info","message":"POST /api/user/login","timestamp":"2023-11-02T11:25:39.573Z"}
+{"level":"info","message":"GET /api/user/current","timestamp":"2023-11-02T11:26:12.977Z"}
+{"level":"info","message":"POST /api/user/login","timestamp":"2023-11-02T11:36:09.056Z"}
+{"level":"info","message":"GET /api/user/current","timestamp":"2023-11-02T11:36:25.540Z"}
+{"level":"info","message":"GET /api/project","timestamp":"2023-11-02T11:42:21.850Z"}
+{"level":"info","message":"POST /api/project/new","timestamp":"2023-11-02T11:42:42.046Z"}
+{"level":"info","message":"POST /api/project/new","timestamp":"2023-11-02T11:50:13.123Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2023-11-02T11:53:23.748Z"}
+{"level":"info","message":"POST /api/project/new","timestamp":"2023-11-02T11:53:43.382Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2023-11-02T11:56:58.705Z"}
+{"level":"info","message":"GET /api/user/current","timestamp":"2023-11-02T11:57:09.461Z"}
+{"level":"fatal","message":"This is a fatal message","timestamp":"2023-11-02T11:57:09.465Z"}
+{"level":"error","message":"This is an error message","timestamp":"2023-11-02T11:57:09.472Z"}
+{"level":"warn","message":"This is a warning message","timestamp":"2023-11-02T11:57:09.473Z"}
+{"level":"info","message":"This is an information message","timestamp":"2023-11-02T11:57:09.473Z"}
+{"level":"info","message":"Server running on port 4000","timestamp":"2023-11-02T11:57:49.271Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 4000","timestamp":"2023-11-02T12:00:23.605Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api/user/current","timestamp":"2023-11-02T12:01:04.677Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api/user/curren","timestamp":"2023-11-02T12:02:15.536Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api/user/current","timestamp":"2023-11-02T12:02:29.482Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 4000","timestamp":"2023-11-02T12:02:46.458Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api/user/current","timestamp":"2023-11-02T12:03:19.790Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 4000","timestamp":"2023-11-02T12:05:16.675Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api/user/curren","timestamp":"2023-11-02T12:05:25.936Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"[object Object]GET /api/user/curren","timestamp":"2023-11-02T12:05:25.936Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 4000","timestamp":"2023-11-02T12:06:15.686Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api/user/curren","timestamp":"2023-11-02T12:06:20.098Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 4000","timestamp":"2023-11-02T12:06:43.791Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api/user/curren","timestamp":"2023-11-02T12:06:48.768Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 4000","timestamp":"2023-11-02T12:07:13.816Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api/user/curren","timestamp":"2023-11-02T12:07:47.492Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 4000","timestamp":"2023-11-02T12:09:28.695Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api/user/curren","timestamp":"2023-11-02T12:09:49.298Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server running on port 4000","timestamp":"2023-11-02T12:10:11.352Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api/user/current","timestamp":"2023-11-02T12:10:30.980Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api/user/current","timestamp":"2023-11-02T12:10:52.490Z"}
+2023-11-02T12:12:19.891Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:12:37.328Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:12:55.382Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:13:19.330Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:14:26.239Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:14:31.179Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:14:31.179Z [[31merror[39m]: undefined
+2023-11-02T12:14:46.170Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:14:49.473Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:14:49.474Z [[31merror[39m]: undefined
+2023-11-02T12:15:12.119Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:15:16.563Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:15:16.564Z [[31merror[39m]: undefined
+2023-11-02T12:15:25.898Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:15:28.791Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:15:28.791Z [[31merror[39m]: [object Object]
+2023-11-02T12:17:07.243Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:17:11.569Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:17:49.634Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:17:58.104Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:18:11.275Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:18:24.986Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:18:33.324Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:20:01.497Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:20:05.053Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:20:11.350Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:20:11.350Z [[31merror[39m]: undefined
+2023-11-02T12:20:25.550Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:20:31.825Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:20:44.831Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:20:57.993Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:21:36.518Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:21:47.725Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:21:47.725Z [[31merror[39m]: undefined
+2023-11-02T12:22:43.278Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:22:58.588Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:23:20.929Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:23:33.527Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:23:33.527Z [[31merror[39m]: GET /api/user/currentundefined
+2023-11-02T12:23:47.307Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:25:09.076Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:25:12.995Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:25:12.996Z [[31merror[39m]: GET /api/user/current [object Object]
+2023-11-02T12:25:38.451Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:25:42.713Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:26:24.749Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:26:43.033Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:26:49.792Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:27:12.619Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:27:15.836Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:28:21.818Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:28:28.980Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:29:22.230Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:29:28.273Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:29:55.488Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:30:14.867Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:30:19.129Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:30:19.129Z [[31merror[39m]: GET /api/user/current
+2023-11-02T12:30:59.626Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:31:05.533Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:31:20.755Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:31:24.280Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:31:24.280Z [[31merror[39m]: GET /api/user/current  undefined
+2023-11-02T12:33:23.961Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:33:36.336Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:33:49.884Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:33:59.747Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:34:14.299Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:34:42.091Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:34:47.050Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:35:07.429Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:35:32.120Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:35:35.141Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:35:47.551Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:35:59.491Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:36:21.986Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:36:25.184Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:36:36.088Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:46:05.919Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:46:34.734Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:46:40.043Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:46:40.044Z [[31merror[39m]: GET /api/user/current
+2023-11-02T12:47:02.685Z [[32minfo[39m]: POST /api/user/login
+2023-11-02T12:47:02.685Z [[31merror[39m]: POST /api/user/login
+2023-11-02T12:47:38.760Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:48:28.570Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:49:20.161Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:49:55.831Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:51:10.908Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:51:18.579Z [[32minfo[39m]: POST /api/user/login
+2023-11-02T12:51:53.800Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:53:21.989Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:54:18.101Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:54:34.594Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:54:50.731Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:55:01.588Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:55:10.724Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:55:45.610Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:56:22.720Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:57:31.078Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:57:42.641Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:57:42.642Z [[31merror[39m]: Error-error is not defined
+2023-11-02T12:58:11.588Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:58:28.987Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:58:34.705Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:59:21.119Z [[32minfo[39m]: Server running on port 4000
+2023-11-02T12:59:24.972Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T12:59:24.974Z [[31merror[39m]: Error-unathoraized access
+2023-11-02T12:59:47.221Z [[32minfo[39m]: POST /api/user/current
+2023-11-02T13:00:01.835Z [[32minfo[39m]: GET /api/user/current
+2023-11-02T13:00:01.836Z [[31merror[39m]: Error-unathoraized access
+2023-11-02T13:00:31.361Z [[32minfo[39m]: GET /api/user/current
+2023-11-03T04:03:42.531Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T04:05:11.026Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T04:26:56.215Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T04:43:33.123Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T04:50:57.141Z [[32minfo[39m]: GET /api/user/current
+2023-11-03T04:50:57.416Z [[32minfo[39m]: {"status":true,"statusCode":200,"data":{"message":"User Retrived","result":{"_id":"6541f3b7a7cb75a547770792","username":"xyz","email":"xyz@yopmail.com","Projects":[{"project_img":{"public_id":"1698822137343","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1698822140/1698822137343.png"},"_id":"6541f7fca7cb75a54777082b","platform":"test","title":"test","description":"Testing nxsjxnjkasnxkasnk","gitUrl":"https://gitlab.com/janedoe/myrepo.git","domain":"https://www.dominos.co.in","user":"6541f3b7a7cb75a547770792","createdAt":"2023-11-01T07:02:20.544Z","updatedAt":"2023-11-01T07:02:20.544Z","__v":0},{"project_img":{"public_id":"1698822139500","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1698822142/1698822139500.png"},"_id":"6541f7ffa7cb75a547770833","platform":"test","title":"test","description":"Testing nxsjxnjkasnxkasnk","gitUrl":"https://gitlab.com/janedoe/myrepo.git","domain":"https://www.dominos.co.in","user":"6541f3b7a7cb75a547770792","createdAt":"2023-11-01T07:02:23.180Z","updatedAt":"2023-11-01T07:02:23.180Z","__v":0},{"project_img":{"public_id":"1698822139809","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1698822143/1698822139809.png"},"_id":"6541f7ffa7cb75a54777083c","platform":"test","title":"test","description":"Testing nxsjxnjkasnxkasnk","gitUrl":"https://gitlab.com/janedoe/myrepo.git","domain":"https://www.dominos.co.in","user":"6541f3b7a7cb75a547770792","createdAt":"2023-11-01T07:02:23.804Z","updatedAt":"2023-11-01T07:02:23.804Z","__v":0},{"project_img":{"public_id":"1698822139941","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1698822143/1698822139941.png"},"_id":"6541f7ffa7cb75a54777083e","platform":"test","title":"test","description":"Testing nxsjxnjkasnxkasnk","gitUrl":"https://gitlab.com/janedoe/myrepo.git","domain":"https://www.dominos.co.in","user":"6541f3b7a7cb75a547770792","createdAt":"2023-11-01T07:02:23.820Z","updatedAt":"2023-11-01T07:02:23.820Z","__v":0},{"project_img":{"public_id":"1698822141255","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1698822143/1698822141255.png"},"_id":"6541f800a7cb75a54777084b","platform":"test","title":"test","description":"Testing nxsjxnjkasnxkasnk","gitUrl":"https://gitlab.com/janedoe/myrepo.git","domain":"https://www.dominos.co.in","user":"6541f3b7a7cb75a547770792","createdAt":"2023-11-01T07:02:24.426Z","updatedAt":"2023-11-01T07:02:24.426Z","__v":0},{"project_img":{"public_id":"1698822179812","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1698822182/1698822179812.png"},"_id":"6541f827a7cb75a547770853","platform":"test","title":"test","description":"Testing nxsjxnjkasnxkasnk","gitUrl":"https://gitlab.com/janedoe/myrepo.git","domain":"https://www.dominos.co.in","user":"6541f3b7a7cb75a547770792","createdAt":"2023-11-01T07:03:03.052Z","updatedAt":"2023-11-01T07:03:03.052Z","__v":0}],"createdAt":"2023-11-01T06:44:07.057Z","updatedAt":"2023-11-01T07:03:07.446Z","__v":0}}}
+2023-11-03T04:51:41.227Z [[32minfo[39m]: GET /api/user/current
+2023-11-03T04:51:41.235Z [[32minfo[39m]: {"status":false,"message":"unathoraized access"}
+2023-11-03T04:52:24.998Z [[32minfo[39m]: GET /api/user/curren
+2023-11-03T04:52:42.545Z [[32minfo[39m]: GET /api/user/current
+2023-11-03T04:52:42.699Z [[32minfo[39m]: {"status":true,"statusCode":200,"data":{"message":"User Retrived","result":{"_id":"6541f3b7a7cb75a547770792","username":"xyz","email":"xyz@yopmail.com","Projects":[{"project_img":{"public_id":"1698822137343","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1698822140/1698822137343.png"},"_id":"6541f7fca7cb75a54777082b","platform":"test","title":"test","description":"Testing nxsjxnjkasnxkasnk","gitUrl":"https://gitlab.com/janedoe/myrepo.git","domain":"https://www.dominos.co.in","user":"6541f3b7a7cb75a547770792","createdAt":"2023-11-01T07:02:20.544Z","updatedAt":"2023-11-01T07:02:20.544Z","__v":0},{"project_img":{"public_id":"1698822139500","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1698822142/1698822139500.png"},"_id":"6541f7ffa7cb75a547770833","platform":"test","title":"test","description":"Testing nxsjxnjkasnxkasnk","gitUrl":"https://gitlab.com/janedoe/myrepo.git","domain":"https://www.dominos.co.in","user":"6541f3b7a7cb75a547770792","createdAt":"2023-11-01T07:02:23.180Z","updatedAt":"2023-11-01T07:02:23.180Z","__v":0},{"project_img":{"public_id":"1698822139809","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1698822143/1698822139809.png"},"_id":"6541f7ffa7cb75a54777083c","platform":"test","title":"test","description":"Testing nxsjxnjkasnxkasnk","gitUrl":"https://gitlab.com/janedoe/myrepo.git","domain":"https://www.dominos.co.in","user":"6541f3b7a7cb75a547770792","createdAt":"2023-11-01T07:02:23.804Z","updatedAt":"2023-11-01T07:02:23.804Z","__v":0},{"project_img":{"public_id":"1698822139941","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1698822143/1698822139941.png"},"_id":"6541f7ffa7cb75a54777083e","platform":"test","title":"test","description":"Testing nxsjxnjkasnxkasnk","gitUrl":"https://gitlab.com/janedoe/myrepo.git","domain":"https://www.dominos.co.in","user":"6541f3b7a7cb75a547770792","createdAt":"2023-11-01T07:02:23.820Z","updatedAt":"2023-11-01T07:02:23.820Z","__v":0},{"project_img":{"public_id":"1698822141255","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1698822143/1698822141255.png"},"_id":"6541f800a7cb75a54777084b","platform":"test","title":"test","description":"Testing nxsjxnjkasnxkasnk","gitUrl":"https://gitlab.com/janedoe/myrepo.git","domain":"https://www.dominos.co.in","user":"6541f3b7a7cb75a547770792","createdAt":"2023-11-01T07:02:24.426Z","updatedAt":"2023-11-01T07:02:24.426Z","__v":0},{"project_img":{"public_id":"1698822179812","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1698822182/1698822179812.png"},"_id":"6541f827a7cb75a547770853","platform":"test","title":"test","description":"Testing nxsjxnjkasnxkasnk","gitUrl":"https://gitlab.com/janedoe/myrepo.git","domain":"https://www.dominos.co.in","user":"6541f3b7a7cb75a547770792","createdAt":"2023-11-01T07:03:03.052Z","updatedAt":"2023-11-01T07:03:03.052Z","__v":0}],"createdAt":"2023-11-01T06:44:07.057Z","updatedAt":"2023-11-01T07:03:07.446Z","__v":0}}}
+2023-11-03T04:53:21.351Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T04:53:24.596Z [[32minfo[39m]: GET /api/user/current
+2023-11-03T04:53:24.846Z [[32minfo[39m]: undefined
+2023-11-03T04:53:44.846Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T05:17:22.137Z [[32minfo[39m]: POST /api/user/register
+2023-11-03T05:17:22.753Z [[32minfo[39m]: {"status":false,"message":"User already registered!!"}
+2023-11-03T05:23:08.085Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T05:24:42.105Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T05:25:05.600Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T05:31:07.814Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T06:27:21.245Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T06:30:18.502Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T06:34:02.077Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T06:34:08.489Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T06:53:55.344Z [[32minfo[39m]: POST /api/project-member/new?Project_id=64e85aa7c62c1beeb08ed401
+2023-11-03T06:53:55.399Z [[32minfo[39m]: {"status":false,"message":"Project Not Found"}
+2023-11-03T06:54:12.862Z [[32minfo[39m]: GET /api/project
+2023-11-03T06:54:13.082Z [[32minfo[39m]: {"status":true,"statusCode":200,"data":{"projectCount":49,"resPerPage":12,"totalPages":5,"result":[{"project_img":{"public_id":"1694765691780","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1694765694/1694765691780.png"},"_id":"6504127ef1e6e606c863c674","platform":"Node Js test","description":"Web Error Tracing Project","gitUrl":"https://github.com/denju23","domain":" https://www.dominos.co.in","user":"64e5a144ed38c87ff9788498","createdAt":"2023-09-15T08:14:54.839Z","updatedAt":"2023-09-15T08:14:54.839Z","__v":0},{"project_img":{"public_id":"1695022494540","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1695022496/1695022494540.svg"},"_id":"6507fda258538e86c032ab29","platform":"test 13 ","title":"test 13 ","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident","gitUrl":"https://gitlab.com/dashboard/projects","domain":"https://gitlab.com/dashboard/projects","user":"64e5a144ed38c87ff9788498","createdAt":"2023-09-18T07:34:58.172Z","updatedAt":"2023-09-18T07:34:58.172Z","__v":0},{"project_img":{"public_id":"1695022842282","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1695022844/1695022842282.svg"},"_id":"6507fefd3a19db774e83240a","platform":"next 13","title":"next 13","description":"next 13 project description ","gitUrl":"https://gitlab.com/dashboard/projects","domain":"https://gitlab.com/dashboard/projects","user":"64e5a144ed38c87ff9788498","createdAt":"2023-09-18T07:40:45.951Z","updatedAt":"2023-09-18T07:40:45.951Z","__v":0},{"project_img":{"public_id":"1695023176172","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1695023177/1695023176172.jpg"},"_id":"6508004a669399a6162423d5","platform":"next 13 ","title":"next 13 ","description":"next 13 project description ","gitUrl":"https://gitlab.com/dashboard/projects","domain":"https://gitlab.com/dashboard/projects","user":"64e5a144ed38c87ff9788498","createdAt":"2023-09-18T07:46:18.269Z","updatedAt":"2023-09-18T07:46:18.269Z","__v":0},{"project_img":{"public_id":"1695030067547","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1695030069/1695030067547.png"},"_id":"65081b35669399a6162423f5","platform":"git project ","title":"git ","description":"https://gitlab.com/dashboard/projectshttps://gitlab.com/dashboard/projectshttps://gitlab.com/dashboard/projectshttps://gitlab.com/dashboard/projectshttps://gitlab.com/dashboard/projects","gitUrl":"https://gitlab.com/dashboard/projects","domain":"https://gitlab.com/dashboard/projects","user":"64e5a144ed38c87ff9788498","createdAt":"2023-09-18T09:41:09.763Z","updatedAt":"2023-09-18T09:41:09.763Z","__v":0},{"project_img":{"public_id":"1695030233832","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1695030235/1695030233832.png"},"_id":"65081bdc669399a616242403","platform":" openModal","title":" openModal, ","description":" openModal, setOpenModal, secretKey  openModal, setOpenModal, secretKey  openModal, setOpenModal, secretKey  openModal, setOpenModal, secretKey  openModal, setOpenModal, secretKey  openModal, setOpenModal, secretKey ","gitUrl":"https://gitlab.com/dashboard/projects","domain":"https://gitlab.com/dashboard/projects","user":"64e5a144ed38c87ff9788498","createdAt":"2023-09-18T09:43:56.330Z","updatedAt":"2023-09-18T09:43:56.330Z","__v":0},{"project_img":{"public_id":"1695030659132","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1695030661/1695030659132.jpg"},"_id":"65081d85669399a616242411","platform":"om/d","title":"https://gitlab","description":"https://gitlab.com/dashboard/projects","gitUrl":"https://gitlab.com/dashboard/projects","domain":"https://gitlab.com/dashboard/projects","user":"64e5a144ed38c87ff9788498","createdAt":"2023-09-18T09:51:01.562Z","updatedAt":"2023-09-18T09:51:01.562Z","__v":0},{"project_img":{"public_id":"1695031510380","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1695031511/1695031510380.png"},"_id":"650820d8669399a61624242b","platform":"next js ","title":"next js ","description":"next js description ","gitUrl":"https://gitlab.com/dashboard/projects","domain":"https://gitlab.com/dashboard/projects","user":"64e5a144ed38c87ff9788498","createdAt":"2023-09-18T10:05:12.808Z","updatedAt":"2023-09-18T10:05:12.808Z","__v":0},{"project_img":{"public_id":"1695032179032","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1695032180/1695032179032.jpg"},"_id":"65082374669399a61624244b","platform":"image upload","title":"image upload","description":"image upload  project description ","gitUrl":"https://gitlab.com/dashboard/projects","domain":"https://gitlab.com/dashboard/projects","user":"64e5a144ed38c87ff9788498","createdAt":"2023-09-18T10:16:21.001Z","updatedAt":"2023-09-18T10:16:21.001Z","__v":0},{"project_img":{"public_id":"1695032180724","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1695032182/1695032180724.jpg"},"_id":"65082376669399a616242453","platform":"image upload","title":"image upload","description":"image upload  project description ","gitUrl":"https://gitlab.com/dashboard/projects","domain":"https://gitlab.com/dashboard/projects","user":"64e5a144ed38c87ff9788498","createdAt":"2023-09-18T10:16:22.613Z","updatedAt":"2023-09-18T10:16:22.613Z","__v":0},{"project_img":{"public_id":"1695032272051","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1695032273/1695032272051.png"},"_id":"650823d2669399a616242461","platform":"image_upload","title":"image_upload","description":"image upload project description ","gitUrl":"https://gitlab.com/dashboard/projects","domain":"https://gitlab.com/dashboard/projects","user":"64e5a144ed38c87ff9788498","createdAt":"2023-09-18T10:17:54.421Z","updatedAt":"2023-09-18T10:17:54.421Z","__v":0},{"project_img":{"public_id":"1695035796474","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1695035798/1695035796474.png"},"_id":"65083197669399a61624246f","platform":"gdfsg","title":"dfxdfhfgh","description":"retretretretetedf tetre rtgdfg  trtret","gitUrl":"https://gitlab.com/dashboard/projects","domain":"https://gitlab.com/dashboard/projects","user":"64e5a144ed38c87ff9788498","createdAt":"2023-09-18T11:16:39.469Z","updatedAt":"2023-09-18T11:16:39.469Z","__v":0}]}}
+2023-11-03T06:55:05.602Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-03T06:55:05.760Z [[32minfo[39m]: {"status":false,"message":"Something went wrong🤦"}
+2023-11-03T07:12:26.824Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T07:12:31.114Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-03T07:12:31.342Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-03T07:12:48.336Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-03T07:12:48.603Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Member Invitation send Successfully 😍","result":{"Project_id":"6504127ef1e6e606c863c674","username":"Yash","email":"yash@yopmail.com","role":"Owner","isActive":null,"status":"pending","expireAt":"2023-08-29T00:00:00.000Z","_id":"65449d7008afac3c700d2e46","createdAt":"2023-11-03T07:12:48.544Z","updatedAt":"2023-11-03T07:12:48.544Z","__v":0}}}
+2023-11-03T07:13:49.374Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-03T07:13:49.485Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-03T07:14:27.935Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T07:40:50.366Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T07:44:27.106Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T07:44:35.044Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T07:47:05.859Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T08:04:19.539Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-03T08:04:19.881Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Member Invitation send Successfully 😍","result":{"Project_id":"6504127ef1e6e606c863c674","username":"Yash","email":"denju@yopmail.com","role":"Owner","isActive":null,"status":"pending","expireAt":"2023-11-25T00:00:00.000Z","_id":"6544a983ed069a369f9503e7","createdAt":"2023-11-03T08:04:19.799Z","updatedAt":"2023-11-03T08:04:19.799Z","__v":0}}}
+2023-11-03T08:05:02.791Z [[32minfo[39m]: GET /project/6504127ef1e6e606c863c674/member-invitation/6544a983ed069a369f9503e7
+2023-11-03T08:05:47.950Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-03T08:05:48.088Z [[32minfo[39m]: {"status":false,"message":"Member already Registered with this email"}
+2023-11-03T08:06:34.128Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T08:12:47.158Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-03T08:12:47.322Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-03T08:15:16.465Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-03T08:15:16.524Z [[32minfo[39m]: {"status":false,"message":"Login First 🤦‍♂️"}
+2023-11-03T08:15:53.770Z [[32minfo[39m]: POST /api/user/login
+2023-11-03T08:15:53.885Z [[32minfo[39m]: {"data":{"message":"Welcome back, xyz","access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTQxZjNiN2E3Y2I3NWE1NDc3NzA3OTIiLCJpYXQiOjE2OTg5OTkzNTN9.fvVpc-abj0RUboR6s2-FZkurhuOPnvCPq3pTtYhjZ3E","result":{"_id":"6541f3b7a7cb75a547770792","username":"xyz","email":"xyz@yopmail.com","password":"$2b$10$xXm/20Hww9cSqdEdLZSMTu5jpRj6dqyzA.RqjQkbvszXkf9nFAFu2","Projects":["6541f7f8a7cb75a547770823","6541f7fca7cb75a54777082b","6541f7ffa7cb75a547770833","6541f7ffa7cb75a54777083c","6541f7ffa7cb75a54777083e","6541f800a7cb75a54777084b","6541f827a7cb75a547770853","6541f82aa7cb75a547770860","6541f82aa7cb75a547770862","6541f82aa7cb75a54777085e","6541f82ba7cb75a547770873"],"createdAt":"2023-11-01T06:44:07.057Z","updatedAt":"2023-11-01T07:03:07.446Z","__v":0}},"status":true,"statusCode":200}
+2023-11-03T08:17:50.281Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-03T08:17:50.404Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-03T08:18:21.886Z [[32minfo[39m]: GET /member-invitation-registration?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk4OTk5NDcwLCJleHAiOjE2OTkxNzIyNzB9.KjXxHldCTmMvolXvx8oekyjEfot0WCtvCxPiHQE2D3g
+2023-11-03T08:18:55.271Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T08:25:15.424Z [[32minfo[39m]: GET /member-invitation-registration?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk4OTk5NDcwLCJleHAiOjE2OTkxNzIyNzB9.KjXxHldCTmMvolXvx8oekyjEfot0WCtvCxPiHQE2D3g
+2023-11-03T08:30:02.146Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T08:30:30.223Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T08:30:42.952Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T08:38:23.421Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T08:53:35.026Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T08:54:27.142Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T08:54:43.158Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T08:54:48.151Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T08:57:35.299Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T09:04:00.635Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-03T09:04:00.796Z [[32minfo[39m]: {"status":false,"message":"Something went wrong🤦"}
+2023-11-03T09:04:43.558Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T09:05:44.963Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T09:05:49.789Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T09:05:53.835Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-03T09:05:54.007Z [[32minfo[39m]: {"status":false,"message":"Something went wrong🤦"}
+2023-11-03T09:06:28.518Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T09:06:31.541Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-03T09:06:31.780Z [[32minfo[39m]: {"status":false,"message":"Something went wrong🤦"}
+2023-11-03T09:07:11.119Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T09:07:14.851Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-03T09:07:15.052Z [[32minfo[39m]: {"status":false,"message":"Something went wrong🤦"}
+2023-11-03T09:07:35.629Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T09:07:45.928Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-03T09:07:46.084Z [[32minfo[39m]: {"status":false,"message":"Something went wrong🤦"}
+2023-11-03T09:08:14.918Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T09:08:16.710Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-03T09:08:16.950Z [[32minfo[39m]: {"status":false,"message":"Something went wrong🤦"}
+2023-11-03T09:08:33.525Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T09:08:36.612Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-03T09:08:36.919Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-03T09:16:38.132Z [[32minfo[39m]: GET /user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDAyNTE2LCJleHAiOjE2OTkxNzUzMTZ9.Lx23jaxhEs125l4LveUL28ZbSyL6IyHteppzoAWF1sY
+2023-11-03T09:31:26.984Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T09:32:12.196Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T09:34:53.198Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T09:35:03.032Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T09:41:15.527Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T09:41:40.184Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T09:43:13.212Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T09:44:11.744Z [[32minfo[39m]: GET /user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDAyNTE2LCJleHAiOjE2OTkxNzUzMTZ9.Lx23jaxhEs125l4LveUL28ZbSyL6IyHteppzoAWF1sY
+2023-11-03T09:49:51.912Z [[32minfo[39m]: PUT /api/project/member-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDAyNTE2LCJleHAiOjE2OTkxNzUzMTZ9.Lx23jaxhEs125l4LveUL28ZbSyL6IyHteppzoAWF1sY
+2023-11-03T09:50:09.153Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDAyNTE2LCJleHAiOjE2OTkxNzUzMTZ9.Lx23jaxhEs125l4LveUL28ZbSyL6IyHteppzoAWF1sY
+2023-11-03T09:51:09.396Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T09:51:18.887Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDAyNTE2LCJleHAiOjE2OTkxNzUzMTZ9.Lx23jaxhEs125l4LveUL28ZbSyL6IyHteppzoAWF1sY
+2023-11-03T09:53:38.776Z [[32minfo[39m]: PUT /api/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDAyNTE2LCJleHAiOjE2OTkxNzUzMTZ9.Lx23jaxhEs125l4LveUL28ZbSyL6IyHteppzoAWF1sY
+2023-11-03T09:54:27.287Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T09:54:36.809Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDAyNTE2LCJleHAiOjE2OTkxNzUzMTZ9.Lx23jaxhEs125l4LveUL28ZbSyL6IyHteppzoAWF1sY
+2023-11-03T10:03:24.505Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDAyNTE2LCJleHAiOjE2OTkxNzUzMTZ9.Lx23jaxhEs125l4LveUL28ZbSyL6IyHteppzoAWF1sY
+2023-11-03T10:08:52.489Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T10:08:58.500Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T10:11:05.418Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T10:12:21.477Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDAyNTE2LCJleHAiOjE2OTkxNzUzMTZ9.Lx23jaxhEs125l4LveUL28ZbSyL6IyHteppzoAWF1sY
+2023-11-03T10:33:10.940Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T10:33:21.907Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDAyNTE2LCJleHAiOjE2OTkxNzUzMTZ9.Lx23jaxhEs125l4LveUL28ZbSyL6IyHteppzoAWF1sY
+2023-11-03T10:33:21.910Z [[32minfo[39m]: {"status":false,"message":"Token is required"}
+2023-11-03T10:34:07.971Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T10:34:11.992Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDAyNTE2LCJleHAiOjE2OTkxNzUzMTZ9.Lx23jaxhEs125l4LveUL28ZbSyL6IyHteppzoAWF1sY
+2023-11-03T10:34:11.996Z [[32minfo[39m]: {"status":false,"message":"Something went wrong"}
+2023-11-03T10:34:51.955Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T10:34:54.836Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDAyNTE2LCJleHAiOjE2OTkxNzUzMTZ9.Lx23jaxhEs125l4LveUL28ZbSyL6IyHteppzoAWF1sY
+2023-11-03T10:34:54.842Z [[32minfo[39m]: {"status":false,"message":"Something went wrong"}
+2023-11-03T10:38:29.882Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T10:40:27.265Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T10:40:33.116Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDAyNTE2LCJleHAiOjE2OTkxNzUzMTZ9.Lx23jaxhEs125l4LveUL28ZbSyL6IyHteppzoAWF1sY
+2023-11-03T10:40:33.122Z [[32minfo[39m]: {"status":false,"message":"Something went wrong"}
+2023-11-03T10:41:23.995Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T10:43:38.972Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T10:43:46.135Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDAyNTE2LCJleHAiOjE2OTkxNzUzMTZ9.Lx23jaxhEs125l4LveUL28ZbSyL6IyHteppzoAWF1sY
+2023-11-03T10:45:33.844Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T10:46:07.409Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDAyNTE2LCJleHAiOjE2OTkxNzUzMTZ9.Lx23jaxhEs125l4LveUL28ZbSyL6IyHteppzoAWF1sY
+2023-11-03T10:48:48.347Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T10:48:57.938Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T10:49:27.110Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDAyNTE2LCJleHAiOjE2OTkxNzUzMTZ9.Lx23jaxhEs125l4LveUL28ZbSyL6IyHteppzoAWF1sY
+2023-11-03T10:57:07.576Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T10:57:15.668Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDAyNTE2LCJleHAiOjE2OTkxNzUzMTZ9.Lx23jaxhEs125l4LveUL28ZbSyL6IyHteppzoAWF1sY
+2023-11-03T10:57:15.773Z [[32minfo[39m]: {"status":true,"statusCode":200,"data":{"message":"User registration successful"}}
+2023-11-03T10:57:46.949Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-03T10:57:47.304Z [[32minfo[39m]: {"status":false,"message":"Member already Registered with this email"}
+2023-11-03T10:57:56.456Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-03T10:57:56.783Z [[32minfo[39m]: {"status":false,"message":"Member already Registered with this email"}
+2023-11-03T11:26:46.129Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-03T11:26:46.308Z [[32minfo[39m]: {"status":false,"message":"Member already Registered with this email"}
+2023-11-03T11:26:57.419Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-03T11:26:57.634Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-03T11:28:30.302Z [[32minfo[39m]: GET /user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDEwODE3LCJleHAiOjE2OTkxODM2MTd9.ke8Btegtit6z5Qw8mkiXRKjENRPD3OF1Dx14KM4zy1Y
+2023-11-03T11:28:36.954Z [[32minfo[39m]: GET /user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDEwODE3LCJleHAiOjE2OTkxODM2MTd9.ke8Btegtit6z5Qw8mkiXRKjENRPD3OF1Dx14KM4zy1Y
+2023-11-03T11:29:26.695Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDEwODE3LCJleHAiOjE2OTkxODM2MTd9.ke8Btegtit6z5Qw8mkiXRKjENRPD3OF1Dx14KM4zy1Y
+2023-11-03T11:29:26.738Z [[32minfo[39m]: {"status":true,"statusCode":200,"data":{"message":"User registration successful"}}
+2023-11-03T11:31:02.251Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T11:31:07.266Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDEwODE3LCJleHAiOjE2OTkxODM2MTd9.ke8Btegtit6z5Qw8mkiXRKjENRPD3OF1Dx14KM4zy1Y
+2023-11-03T11:31:07.273Z [[32minfo[39m]: {"status":false,"message":"Something went wrong"}
+2023-11-03T11:31:25.965Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T11:31:29.945Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDEwODE3LCJleHAiOjE2OTkxODM2MTd9.ke8Btegtit6z5Qw8mkiXRKjENRPD3OF1Dx14KM4zy1Y
+2023-11-03T11:31:30.082Z [[32minfo[39m]: {"status":true,"statusCode":200,"data":{"message":"User registration successful"}}
+2023-11-03T11:32:03.958Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T11:32:21.078Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDEwODE3LCJleHAiOjE2OTkxODM2MTd9.ke8Btegtit6z5Qw8mkiXRKjENRPD3OF1Dx14KM4zy1Y
+2023-11-03T11:32:21.132Z [[32minfo[39m]: {"status":true,"statusCode":200,"data":{"message":"User registration successful"}}
+2023-11-03T11:42:20.064Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T11:42:23.675Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDEwODE3LCJleHAiOjE2OTkxODM2MTd9.ke8Btegtit6z5Qw8mkiXRKjENRPD3OF1Dx14KM4zy1Y
+2023-11-03T11:42:23.722Z [[32minfo[39m]: {"status":true,"statusCode":200,"data":{"message":"User registration successful"}}
+2023-11-03T11:46:34.974Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T11:46:37.876Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDEwODE3LCJleHAiOjE2OTkxODM2MTd9.ke8Btegtit6z5Qw8mkiXRKjENRPD3OF1Dx14KM4zy1Y
+2023-11-03T11:46:37.930Z [[32minfo[39m]: {"status":true,"statusCode":200,"data":{"message":"User registration successful"}}
+2023-11-03T11:47:02.703Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T11:47:06.788Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDEwODE3LCJleHAiOjE2OTkxODM2MTd9.ke8Btegtit6z5Qw8mkiXRKjENRPD3OF1Dx14KM4zy1Y
+2023-11-03T11:47:06.801Z [[32minfo[39m]: {"status":false,"message":"Something went wrong"}
+2023-11-03T11:47:20.736Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T11:47:31.076Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDEwODE3LCJleHAiOjE2OTkxODM2MTd9.ke8Btegtit6z5Qw8mkiXRKjENRPD3OF1Dx14KM4zy1Y
+2023-11-03T11:47:31.118Z [[32minfo[39m]: {"status":true,"statusCode":200,"data":{"message":"User registration successful"}}
+2023-11-03T11:50:28.885Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T11:50:40.540Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDEwODE3LCJleHAiOjE2OTkxODM2MTd9.ke8Btegtit6z5Qw8mkiXRKjENRPD3OF1Dx14KM4zy1Y
+2023-11-03T11:50:40.620Z [[32minfo[39m]: {"status":true,"statusCode":200,"data":{"message":"User registration successful"}}
+2023-11-03T11:56:00.885Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T11:56:07.162Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDEwODE3LCJleHAiOjE2OTkxODM2MTd9.ke8Btegtit6z5Qw8mkiXRKjENRPD3OF1Dx14KM4zy1Y
+2023-11-03T11:56:07.317Z [[32minfo[39m]: {"status":true,"statusCode":200,"data":{"message":"User registration successful"}}
+2023-11-03T11:57:28.405Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T11:57:31.729Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MDEwODE3LCJleHAiOjE2OTkxODM2MTd9.ke8Btegtit6z5Qw8mkiXRKjENRPD3OF1Dx14KM4zy1Y
+2023-11-03T11:57:31.878Z [[32minfo[39m]: {"status":true,"statusCode":200,"data":{"message":"User registration successful"}}
+2023-11-03T11:57:52.832Z [[32minfo[39m]: Server running on port 4000
+2023-11-03T12:03:21.516Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T04:14:52.641Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T04:15:03.420Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-06T04:15:03.940Z [[32minfo[39m]: {"status":false,"message":"Member already Registered with this email"}
+2023-11-06T04:20:34.223Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-06T04:20:34.653Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Member Invitation send Successfully 😍","result":{"Project_id":"6504127ef1e6e606c863c674","username":"Yash","email":"meet@yopmail.com","role":"Owner","isActive":null,"status":"pending","expireAt":"2023-11-25T00:00:00.000Z","_id":"654869923452edab25d17a4d","createdAt":"2023-11-06T04:20:34.518Z","updatedAt":"2023-11-06T04:20:34.518Z","__v":0}}}
+2023-11-06T04:24:00.731Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T04:24:15.187Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T04:28:24.877Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T04:44:18.693Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-06T04:44:19.430Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-06T04:46:24.961Z [[32minfo[39m]: GET /user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MjQ1ODU5LCJleHAiOjE2OTk0MTg2NTl9.sF3oxBkd6a-dPBwIUG0CBXLrYJ2lrUTBjUO_PMFmKqI
+2023-11-06T04:47:01.571Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MjQ1ODU5LCJleHAiOjE2OTk0MTg2NTl9.sF3oxBkd6a-dPBwIUG0CBXLrYJ2lrUTBjUO_PMFmKqI
+2023-11-06T04:47:01.654Z [[32minfo[39m]: {"status":true,"statusCode":200,"data":{"message":"User registration successful"}}
+2023-11-06T04:47:50.719Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T05:06:13.456Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T05:06:49.530Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T05:07:19.893Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T05:07:34.677Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T05:08:58.264Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T05:11:00.165Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T05:11:14.557Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T05:11:54.436Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-06T05:11:54.953Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-06T05:14:19.298Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T05:17:29.567Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-06T05:17:30.347Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-06T05:17:59.498Z [[32minfo[39m]: GET /user/654876ea3a5a13a36c76ff8f/registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MjQ3ODUwLCJleHAiOjE2OTk0MjA2NTB9.Yinjr56qDlpVI8FX4xZuIOvHJEdodpJ8jkrrKI1I4bM
+2023-11-06T05:19:45.943Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T05:20:08.922Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T05:20:25.719Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T05:22:59.496Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MjQ3ODUwLCJleHAiOjE2OTk0MjA2NTB9.Yinjr56qDlpVI8FX4xZuIOvHJEdodpJ8jkrrKI1I4bM&id=654876ea3a5a13a36c76ff8f
+2023-11-06T05:22:59.708Z [[32minfo[39m]: {"status":true,"statusCode":200,"data":{"message":"User registration successful"}}
+2023-11-06T05:24:28.731Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T05:24:54.227Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T05:25:17.673Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T05:25:23.129Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MjQ3ODUwLCJleHAiOjE2OTk0MjA2NTB9.Yinjr56qDlpVI8FX4xZuIOvHJEdodpJ8jkrrKI1I4bM&id=654876ea3a5a13a36c76ff8f
+2023-11-06T05:25:23.342Z [[32minfo[39m]: {"status":true,"statusCode":200,"data":{"message":"User registration successful"}}
+2023-11-06T05:26:08.577Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T05:26:18.460Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MjQ3ODUwLCJleHAiOjE2OTk0MjA2NTB9.Yinjr56qDlpVI8FX4xZuIOvHJEdodpJ8jkrrKI1I4bM&id=654876ea3a5a13a36c76ff8f
+2023-11-06T05:26:18.724Z [[32minfo[39m]: {"status":true,"statusCode":200,"data":{"message":"User registration successful"}}
+2023-11-06T05:30:07.367Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T05:30:31.152Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T05:30:42.704Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T05:30:48.302Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MjQ3ODUwLCJleHAiOjE2OTk0MjA2NTB9.Yinjr56qDlpVI8FX4xZuIOvHJEdodpJ8jkrrKI1I4bM&id=654876ea3a5a13a36c76ff8f
+2023-11-06T05:30:48.931Z [[32minfo[39m]: {"status":true,"statusCode":200,"data":{"message":"User registration successful"}}
+2023-11-06T05:31:25.038Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MjQ3ODUwLCJleHAiOjE2OTk0MjA2NTB9.Yinjr56qDlpVI8FX4xZuIOvHJEdodpJ8jkrrKI1I4bM&id=654876ea3a5a13a36c76ff8f
+2023-11-06T05:31:25.556Z [[32minfo[39m]: {"status":true,"statusCode":200,"data":{"message":"User registration successful"}}
+2023-11-06T05:42:36.072Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T05:43:00.985Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T06:20:37.631Z [[32minfo[39m]: POST /api/projct-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-06T06:21:11.848Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-06T06:21:12.450Z [[32minfo[39m]: {"status":false,"message":"Member already Registered with this email"}
+2023-11-06T06:21:33.522Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-06T06:21:33.846Z [[32minfo[39m]: {"status":false,"message":"Member already Registered with this email"}
+2023-11-06T06:21:43.585Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-06T06:21:44.038Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-06T10:05:59.439Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:18:42.405Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:18:56.084Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:19:49.674Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:19:59.040Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:20:42.333Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:20:51.978Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:21:12.396Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:21:27.173Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:21:42.401Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:22:07.300Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:22:09.651Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:22:24.560Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:22:52.718Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:23:13.693Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:23:16.205Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:23:43.200Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:23:56.957Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:24:13.693Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:24:33.479Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:24:52.532Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:25:10.539Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:25:34.356Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:26:28.136Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:27:10.072Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MjQ3ODUwLCJleHAiOjE2OTk0MjA2NTB9.Yinjr56qDlpVI8FX4xZuIOvHJEdodpJ8jkrrKI1I4bM&id=654876ea3a5a13a36c76ff8f
+2023-11-06T10:27:10.262Z [[32minfo[39m]: {"status":true,"statusCode":200,"data":{"message":"User registration successful"}}
+2023-11-06T10:27:51.191Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MjQ3ODUwLCJleHAiOjE2OTk0MjA2NTB9.Yinjr56qDlpVI8FX4xZuIOvHJEdodpJ8jkrrKI1I4bM&id=654876ea3a5a13a36c76ff8f
+2023-11-06T10:27:51.388Z [[32minfo[39m]: {"status":true,"statusCode":200,"data":{"message":"User registration successful"}}
+2023-11-06T10:28:32.341Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?id=654876ea3a5a13a36c76ff8f
+2023-11-06T10:28:32.343Z [[32minfo[39m]: {"status":false,"message":"Token is required"}
+2023-11-06T10:28:38.143Z [[32minfo[39m]: PUT /api/project/user-registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJZYXNoIiwiaWF0IjoxNjk5MjQ3ODUwLCJleHAiOjE2OTk0MjA2NTB9.Yinjr56qDlpVI8FX4xZuIOvHJEdodpJ8jkrrKI1I4bM&id=654876ea3a5a13a36c76ff8f
+2023-11-06T10:28:38.309Z [[32minfo[39m]: {"status":true,"statusCode":200,"data":{"message":"User registration successful"}}
+2023-11-06T10:30:25.286Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:31:13.864Z [[32minfo[39m]: POST /api/user/logi
+2023-11-06T10:31:59.879Z [[32minfo[39m]: POST /api/user/login
+2023-11-06T10:31:59.951Z [[32minfo[39m]: {"status":false,"message":"Invalid Email and Password 😒"}
+2023-11-06T10:32:13.967Z [[32minfo[39m]: POST /api/user/login
+2023-11-06T10:32:14.240Z [[32minfo[39m]: {"data":{"message":"Welcome back, xyz","access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTQxZjNiN2E3Y2I3NWE1NDc3NzA3OTIiLCJpYXQiOjE2OTkyNjY3MzR9.xHTcBMck3aX85ACLRyjGvRQQrc8Nuh4_i61P8jbK3AI","result":{"isUserRegistered":true,"_id":"6541f3b7a7cb75a547770792","username":"xyz","email":"xyz@yopmail.com","password":"$2b$10$xXm/20Hww9cSqdEdLZSMTu5jpRj6dqyzA.RqjQkbvszXkf9nFAFu2","Projects":["6541f7f8a7cb75a547770823","6541f7fca7cb75a54777082b","6541f7ffa7cb75a547770833","6541f7ffa7cb75a54777083c","6541f7ffa7cb75a54777083e","6541f800a7cb75a54777084b","6541f827a7cb75a547770853","6541f82aa7cb75a547770860","6541f82aa7cb75a547770862","6541f82aa7cb75a54777085e","6541f82ba7cb75a547770873"],"createdAt":"2023-11-01T06:44:07.057Z","updatedAt":"2023-11-01T07:03:07.446Z","__v":0}},"status":true,"statusCode":200}
+2023-11-06T10:32:49.676Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:33:05.408Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:33:22.215Z [[32minfo[39m]: GET /api/user/register
+2023-11-06T10:35:37.217Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:36:06.535Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:36:31.808Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:36:43.222Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:37:04.901Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:37:36.796Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:37:47.382Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:37:58.200Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:38:01.789Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:38:25.166Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:38:34.836Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:39:31.627Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:39:33.770Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:39:49.289Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:39:51.861Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:40:04.578Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:40:05.834Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:40:17.349Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:40:26.986Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:40:29.340Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:40:40.164Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:41:02.066Z [[32minfo[39m]: POST /api/user/register
+2023-11-06T10:41:02.188Z [[32minfo[39m]: {"status":false,"message":"User already registered!!"}
+2023-11-06T10:41:19.588Z [[32minfo[39m]: POST /api/user/register
+2023-11-06T10:41:19.591Z [[32minfo[39m]: {"status":false,"message":"User name is required field"}
+2023-11-06T10:41:31.108Z [[32minfo[39m]: POST /api/user/register
+2023-11-06T10:41:31.180Z [[32minfo[39m]: {"status":false,"message":"User already registered!!"}
+2023-11-06T10:42:00.243Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:42:11.072Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:42:32.480Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:42:38.242Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:42:57.934Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:43:19.934Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:43:29.070Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:43:44.201Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:43:57.394Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:44:01.186Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:44:09.831Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:44:22.350Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:44:37.491Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:44:41.099Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:44:50.382Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:44:53.328Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:45:36.536Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:45:50.274Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:46:03.925Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:46:10.402Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:46:24.262Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:46:37.462Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:46:46.174Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:46:53.264Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:47:06.463Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:47:26.644Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:53:48.546Z [[32minfo[39m]: POST /api/user/register
+2023-11-06T10:53:48.642Z [[32minfo[39m]: {"status":false,"message":"User already registered!!"}
+2023-11-06T10:54:02.214Z [[32minfo[39m]: POST /api/user/register
+2023-11-06T10:54:02.387Z [[32minfo[39m]: {"data":{"message":"Registration Done Successfully 😍"},"status":true,"statusCode":201}
+2023-11-06T10:55:49.906Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T10:56:41.648Z [[32minfo[39m]: POST /api/user/register
+2023-11-06T10:56:41.732Z [[32minfo[39m]: {"status":false,"message":"User already registered!!"}
+2023-11-06T10:57:19.710Z [[32minfo[39m]: POST /api/user/register
+2023-11-06T10:57:34.601Z [[32minfo[39m]: {"status":false,"message":"User already registered!!"}
+2023-11-06T11:01:46.994Z [[32minfo[39m]: POST /api/user/login
+2023-11-06T11:01:47.105Z [[32minfo[39m]: {"data":{"message":"Welcome back, xyz","access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTQxZjNiN2E3Y2I3NWE1NDc3NzA3OTIiLCJpYXQiOjE2OTkyNjg1MDd9.5rzIpTVQmCC3VkV68JG2LyrTSv_T559ZUEuVx35acpw","result":{"isUserRegistered":true,"_id":"6541f3b7a7cb75a547770792","username":"xyz","email":"xyz@yopmail.com","password":"$2b$10$xXm/20Hww9cSqdEdLZSMTu5jpRj6dqyzA.RqjQkbvszXkf9nFAFu2","Projects":["6541f7f8a7cb75a547770823","6541f7fca7cb75a54777082b","6541f7ffa7cb75a547770833","6541f7ffa7cb75a54777083c","6541f7ffa7cb75a54777083e","6541f800a7cb75a54777084b","6541f827a7cb75a547770853","6541f82aa7cb75a547770860","6541f82aa7cb75a547770862","6541f82aa7cb75a54777085e","6541f82ba7cb75a547770873"],"createdAt":"2023-11-01T06:44:07.057Z","updatedAt":"2023-11-01T07:03:07.446Z","__v":0}},"status":true,"statusCode":200}
+2023-11-06T12:48:23.452Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T12:49:33.213Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T12:54:47.011Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T12:55:10.299Z [[32minfo[39m]: POST /api/user/login
+2023-11-06T12:55:10.553Z [[32minfo[39m]: {"data":{"message":"Welcome back, xyz","access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTQxZjNiN2E3Y2I3NWE1NDc3NzA3OTIiLCJpYXQiOjE2OTkyNzUzMTB9.L6wZupj1BO-JgUR7bRzVcE30e8B7cM-aC_f-N2kRk84","result":{"isUserRegistered":true,"_id":"6541f3b7a7cb75a547770792","username":"xyz","email":"xyz@yopmail.com","password":"$2b$10$xXm/20Hww9cSqdEdLZSMTu5jpRj6dqyzA.RqjQkbvszXkf9nFAFu2","Projects":["6541f7f8a7cb75a547770823","6541f7fca7cb75a54777082b","6541f7ffa7cb75a547770833","6541f7ffa7cb75a54777083c","6541f7ffa7cb75a54777083e","6541f800a7cb75a54777084b","6541f827a7cb75a547770853","6541f82aa7cb75a547770860","6541f82aa7cb75a547770862","6541f82aa7cb75a54777085e","6541f82ba7cb75a547770873"],"createdAt":"2023-11-01T06:44:07.057Z","updatedAt":"2023-11-01T07:03:07.446Z","__v":0}},"status":true,"statusCode":200}
+2023-11-06T12:57:17.115Z [[32minfo[39m]: POST /api/project-member/new?Project_id=64e85aa7c62c1beeb08ed401
+2023-11-06T12:57:17.185Z [[32minfo[39m]: {"status":false,"message":"Project Not Found"}
+2023-11-06T12:58:06.379Z [[32minfo[39m]: GET /api/project
+2023-11-06T12:58:06.645Z [[32minfo[39m]: {"status":true,"statusCode":200,"data":{"projectCount":24,"resPerPage":12,"totalPages":2,"result":[{"project_img":{"public_id":"1694765691780","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1694765694/1694765691780.png"},"_id":"6504127ef1e6e606c863c674","platform":"Node Js test","description":"Web Error Tracing Project","gitUrl":"https://github.com/denju23","domain":" https://www.dominos.co.in","user":"64e5a144ed38c87ff9788498","createdAt":"2023-09-15T08:14:54.839Z","updatedAt":"2023-09-15T08:14:54.839Z","__v":0},{"project_img":{"public_id":"1695030233832","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1695030235/1695030233832.png"},"_id":"65081bdc669399a616242403","platform":" openModal","title":" openModal, ","description":" openModal, setOpenModal, secretKey  openModal, setOpenModal, secretKey  openModal, setOpenModal, secretKey  openModal, setOpenModal, secretKey  openModal, setOpenModal, secretKey  openModal, setOpenModal, secretKey ","gitUrl":"https://gitlab.com/dashboard/projects","domain":"https://gitlab.com/dashboard/projects","user":"64e5a144ed38c87ff9788498","createdAt":"2023-09-18T09:43:56.330Z","updatedAt":"2023-09-18T09:43:56.330Z","__v":0},{"project_img":{"public_id":"1695032272051","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1695032273/1695032272051.png"},"_id":"650823d2669399a616242461","platform":"image_upload","title":"image_upload","description":"image upload project description ","gitUrl":"https://gitlab.com/dashboard/projects","domain":"https://gitlab.com/dashboard/projects","user":"64e5a144ed38c87ff9788498","createdAt":"2023-09-18T10:17:54.421Z","updatedAt":"2023-09-18T10:17:54.421Z","__v":0},{"project_img":{"public_id":"1695035796474","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1695035798/1695035796474.png"},"_id":"65083197669399a61624246f","platform":"gdfsg","title":"dfxdfhfgh","description":"retretretretetedf tetre rtgdfg  trtret","gitUrl":"https://gitlab.com/dashboard/projects","domain":"https://gitlab.com/dashboard/projects","user":"64e5a144ed38c87ff9788498","createdAt":"2023-09-18T11:16:39.469Z","updatedAt":"2023-09-18T11:16:39.469Z","__v":0},{"project_img":{"public_id":"1695037541827","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1695037543/1695037541827.png"},"_id":"65083868669399a61624247d","platform":"ssssssssss","title":"ssss","description":"sssssssssssssssss","gitUrl":"https://gitlab.com/dashboard/projects","domain":"https://gitlab.com/dashboard/projects","user":"64e5a144ed38c87ff9788498","createdAt":"2023-09-18T11:45:44.068Z","updatedAt":"2023-09-18T11:45:44.068Z","__v":0},{"_id":"6513bb5a7a2a66215446adcd","platform":"Node Js","title":"Node qq ioo js","description":"Web Error Tracing Project","gitUrl":"https://github.com/denju23","domain":"https://www.dominos.co.in","user":"64e5a144ed38c87ff9788498","createdAt":"2023-09-27T05:19:22.238Z","updatedAt":"2023-09-27T05:19:22.238Z","__v":0},{"_id":"6513cf10de0cc16d3ac57b42","platform":"Next Js Test ","title":"Next Js Test","description":"abcdefghijklmnopqrstuvwxyz","gitUrl":"https://github.com/dineshp72/web-error-logging/tree/meet_developemnt","domain":"https://www.npmjs.com/package/nextjs-cors","user":"650159fab2e64c5b3ce9ccc2","createdAt":"2023-09-27T06:43:28.818Z","updatedAt":"2023-09-27T06:43:28.818Z","__v":0},{"_id":"6513d0d702de766acbffe8b2","platform":"Next Js Test ","title":"Next Js Test","description":"abcdefghijklmnopqrstuvwxyz","gitUrl":"https://github.com/dineshp72/web-error-logging/tree/meet_developemnt","domain":"https://www.npmjs.com/package/nextjs-cors","user":"650159fab2e64c5b3ce9ccc2","createdAt":"2023-09-27T06:51:03.360Z","updatedAt":"2023-09-27T06:51:03.360Z","__v":0},{"_id":"6513d1ebf860b4bcd0cabccd","platform":"Next Js Test ","title":"Next Js Test","description":"abcdefghijklmnopqrstuvwxyz","gitUrl":"https://github.com/dineshp72/web-error-logging/tree/meet_developemnt","domain":"https://www.npmjs.com/package/nextjs-cors","user":"650159fab2e64c5b3ce9ccc2","createdAt":"2023-09-27T06:55:39.565Z","updatedAt":"2023-09-27T06:55:39.565Z","__v":0},{"_id":"6513d251f860b4bcd0cabce0","platform":"Next Js Test ","title":"Next Js Test","description":"abcdefghijklmnopqrstuvwxyz","gitUrl":"https://github.com/dineshp72/web-error-logging/tree/meet_developemnt","domain":"https://www.npmjs.com/package/nextjs-cors","user":"650159fab2e64c5b3ce9ccc2","createdAt":"2023-09-27T06:57:21.997Z","updatedAt":"2023-09-27T06:57:21.997Z","__v":0},{"_id":"6513d27ef860b4bcd0cabcf3","platform":"Next Js Test ","title":"Next Js Test","description":"abcdefghijklmnopqrstuvwxyz","gitUrl":"https://github.com/dineshp72/web-error-logging/tree/meet_developemnt","domain":"https://www.npmjs.com/package/nextjs-cors","user":"650159fab2e64c5b3ce9ccc2","createdAt":"2023-09-27T06:58:06.878Z","updatedAt":"2023-09-27T06:58:06.878Z","__v":0},{"project_img":{"public_id":"1698750642783","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1698750645/1698750642783.png"},"_id":"6540e0b504f8db84c558c361","platform":"Test","title":"Test","description":"test Node js ","gitUrl":"https://github.com/denju23","domain":"https://www.dominos.co.in","user":"64e5a144ed38c87ff9788498","createdAt":"2023-10-31T11:10:45.642Z","updatedAt":"2023-10-31T11:10:45.642Z","__v":0}]}}
+2023-11-06T12:58:25.199Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-06T12:58:25.684Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-06T13:01:17.814Z [[32minfo[39m]: Server running on port 4000
+2023-11-06T13:04:14.354Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-06T13:04:14.707Z [[32minfo[39m]: {"status":false,"message":"Member already Registered with this email"}
+2023-11-07T05:40:06.109Z [[32minfo[39m]: Server running on port 4000
+2023-11-07T06:34:03.707Z [[32minfo[39m]: Server running on port 4000
+2023-11-07T07:42:44.245Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:03:01.776Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:03:41.754Z [[32minfo[39m]: POST /api/project-error-qabug/new?Project_id=64e6e061ff61f22ba9c57ffe&Error_id=651d242fac94fba6f1dba4ae
+2023-11-08T10:03:43.365Z [[32minfo[39m]: {"status":false,"message":"[object Object]"}
+2023-11-08T10:04:32.934Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:04:36.302Z [[32minfo[39m]: POST /api/project-error-qabug/new?Project_id=64e6e061ff61f22ba9c57ffe&Error_id=651d242fac94fba6f1dba4ae
+2023-11-08T10:04:38.044Z [[32minfo[39m]: {"status":false,"message":"Missing required parameter - file"}
+2023-11-08T10:05:25.014Z [[32minfo[39m]: POST /api/project-error-qabug/new?Project_id=64e6e061ff61f22ba9c57ffe&Error_id=651d242fac94fba6f1dba4ae
+2023-11-08T10:05:29.424Z [[32minfo[39m]: {"status":false,"message":"Project Does not Exist"}
+2023-11-08T10:05:50.005Z [[32minfo[39m]: POST /api/project/new
+2023-11-08T10:05:54.495Z [[32minfo[39m]: {"status":false,"message":"An error occurred"}
+2023-11-08T10:07:57.542Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:07:59.616Z [[32minfo[39m]: POST /api/project/new
+2023-11-08T10:08:04.020Z [[32minfo[39m]: {"status":true,"StatusCode":201,"data":{"message":"Project added successfully 😘","project":{"platform":"Test","title":"Test","description":"test Node js ","gitUrl":"https://github.com/denju23","domain":"https://www.dominos.co.in","user":"6540b37520280a082554b6fe","project_img":{"public_id":"1699438079631","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1699438082/1699438079631.png"},"_id":"654b5e037883b4ec63d2178f","createdAt":"2023-11-08T10:08:03.763Z","updatedAt":"2023-11-08T10:08:03.763Z","__v":0},"secrets":{"User_id":"6540b37520280a082554b6fe","Project_id":"654b5e037883b4ec63d2178f","access_key":"U2FsdGVkX1+8071CDUQv3gbq5g5MAA7I50eb3zWf66M=","secret_key":"b9669220-61c0-4c9d-8e7d-8d9b0fdb35f4","_id":"654b5e037883b4ec63d21791","__v":0}}}
+2023-11-08T10:08:43.771Z [[32minfo[39m]: POST /api/project-error/new?Project_id=654b5e037883b4ec63d2178f
+2023-11-08T10:08:43.828Z [[32minfo[39m]: {"status":false,"message":"Login First 🤦‍♂️"}
+2023-11-08T10:09:07.432Z [[32minfo[39m]: POST /api/project-error/new?Project_id=654b5e037883b4ec63d2178f
+2023-11-08T10:09:07.497Z [[32minfo[39m]: {"status":false,"message":"Login First 🤦‍♂️"}
+2023-11-08T10:09:19.398Z [[32minfo[39m]: POST /api/user/login
+2023-11-08T10:09:19.479Z [[32minfo[39m]: {"status":false,"message":"Error: data and hash arguments required"}
+2023-11-08T10:10:26.617Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:10:38.557Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:10:46.997Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:10:54.371Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:11:08.510Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:11:19.639Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:11:30.983Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:12:04.651Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:13:04.315Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:13:29.541Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:13:58.435Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:14:05.624Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:14:13.530Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:14:25.786Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:14:34.448Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:14:41.584Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:15:03.580Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:15:15.911Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:15:57.178Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:16:29.296Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:16:42.810Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:16:55.148Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:17:20.023Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:17:29.917Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:17:43.473Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:17:57.359Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:18:26.004Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:18:37.711Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:18:48.353Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:19:00.213Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:19:16.138Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:19:26.198Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:19:48.374Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:20:20.162Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:20:41.625Z [[32minfo[39m]: Server running on port 4000
+2023-11-08T10:21:54.043Z [[32minfo[39m]: POST /api/user/register
+2023-11-08T10:21:54.290Z [[32minfo[39m]: {"status":false,"message":"User already registered!!"}
+2023-11-08T10:22:18.055Z [[32minfo[39m]: POST /api/user/register
+2023-11-08T10:22:18.640Z [[32minfo[39m]: {"data":{"message":"Registration Done Successfully 😍"},"status":true,"statusCode":201}
+2023-11-08T10:22:56.562Z [[32minfo[39m]: POST /api/user/login
+2023-11-08T10:22:56.960Z [[32minfo[39m]: {"data":{"message":"Welcome back, denju","access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTRiNjE1YWZlZGU1MmRjYTgyN2FjMGMiLCJpYXQiOjE2OTk0Mzg5NzZ9.8PH1WDSUWsYzIznr9QiB9J8TfYEkuPRE7PuzlB6JjGI","result":{"_id":"654b615afede52dca827ac0c","username":"denju","email":"denju1236@yopmail.com","password":"$2b$10$/KgQ8AcgP.xLM0CxtPWrOeT0jVnD9ARATihB3vMWeqfRWYJ4A7u2.","Projects":[],"isUserRegistered":true,"createdAt":"2023-11-08T10:22:18.550Z","updatedAt":"2023-11-08T10:22:18.550Z","__v":0}},"status":true,"statusCode":200}
+2023-11-08T10:23:30.838Z [[32minfo[39m]: GET /api/user/current
+2023-11-08T10:23:30.953Z [[32minfo[39m]: {"status":true,"statusCode":200,"data":{"message":"User Retrived","result":{"_id":"654b615afede52dca827ac0c","username":"denju","email":"denju1236@yopmail.com","Projects":[],"isUserRegistered":true,"createdAt":"2023-11-08T10:22:18.550Z","updatedAt":"2023-11-08T10:22:18.550Z","__v":0}}}
+2023-11-08T10:23:52.820Z [[32minfo[39m]: POST /api/project/new
+2023-11-08T10:23:56.432Z [[32minfo[39m]: {"status":true,"StatusCode":201,"data":{"message":"Project added successfully 😘","project":{"platform":"Test","title":"Test","description":"test Node js ","gitUrl":"https://github.com/denju23","domain":"https://www.dominos.co.in","user":"654b615afede52dca827ac0c","project_img":{"public_id":"1699439032826","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1699439035/1699439032826.png"},"_id":"654b61bcfede52dca827ac12","createdAt":"2023-11-08T10:23:56.182Z","updatedAt":"2023-11-08T10:23:56.182Z","__v":0},"secrets":{"User_id":"654b615afede52dca827ac0c","Project_id":"654b61bcfede52dca827ac12","access_key":"U2FsdGVkX18BVNOwBFvlS7Y2pPRoiyLwcySBcdqXYKQrINEyDPO0HjJCrKti7cQx","secret_key":"f021646b-5cb2-41ec-a322-d6da32bf8e5e","_id":"654b61bcfede52dca827ac14","__v":0}}}
+2023-11-08T10:24:18.273Z [[32minfo[39m]: GET /api/project
+2023-11-08T10:24:18.443Z [[32minfo[39m]: {"status":true,"statusCode":200,"data":{"projectCount":26,"resPerPage":12,"totalPages":3,"result":[{"project_img":{"public_id":"1694765691780","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1694765694/1694765691780.png"},"_id":"6504127ef1e6e606c863c674","platform":"Node Js test","description":"Web Error Tracing Project","gitUrl":"https://github.com/denju23","domain":" https://www.dominos.co.in","user":"64e5a144ed38c87ff9788498","createdAt":"2023-09-15T08:14:54.839Z","updatedAt":"2023-09-15T08:14:54.839Z","__v":0},{"project_img":{"public_id":"1695030233832","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1695030235/1695030233832.png"},"_id":"65081bdc669399a616242403","platform":" openModal","title":" openModal, ","description":" openModal, setOpenModal, secretKey  openModal, setOpenModal, secretKey  openModal, setOpenModal, secretKey  openModal, setOpenModal, secretKey  openModal, setOpenModal, secretKey  openModal, setOpenModal, secretKey ","gitUrl":"https://gitlab.com/dashboard/projects","domain":"https://gitlab.com/dashboard/projects","user":"64e5a144ed38c87ff9788498","createdAt":"2023-09-18T09:43:56.330Z","updatedAt":"2023-09-18T09:43:56.330Z","__v":0},{"project_img":{"public_id":"1695032272051","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1695032273/1695032272051.png"},"_id":"650823d2669399a616242461","platform":"image_upload","title":"image_upload","description":"image upload project description ","gitUrl":"https://gitlab.com/dashboard/projects","domain":"https://gitlab.com/dashboard/projects","user":"64e5a144ed38c87ff9788498","createdAt":"2023-09-18T10:17:54.421Z","updatedAt":"2023-09-18T10:17:54.421Z","__v":0},{"project_img":{"public_id":"1695035796474","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1695035798/1695035796474.png"},"_id":"65083197669399a61624246f","platform":"gdfsg","title":"dfxdfhfgh","description":"retretretretetedf tetre rtgdfg  trtret","gitUrl":"https://gitlab.com/dashboard/projects","domain":"https://gitlab.com/dashboard/projects","user":"64e5a144ed38c87ff9788498","createdAt":"2023-09-18T11:16:39.469Z","updatedAt":"2023-09-18T11:16:39.469Z","__v":0},{"project_img":{"public_id":"1695037541827","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1695037543/1695037541827.png"},"_id":"65083868669399a61624247d","platform":"ssssssssss","title":"ssss","description":"sssssssssssssssss","gitUrl":"https://gitlab.com/dashboard/projects","domain":"https://gitlab.com/dashboard/projects","user":"64e5a144ed38c87ff9788498","createdAt":"2023-09-18T11:45:44.068Z","updatedAt":"2023-09-18T11:45:44.068Z","__v":0},{"_id":"6513bb5a7a2a66215446adcd","platform":"Node Js","title":"Node qq ioo js","description":"Web Error Tracing Project","gitUrl":"https://github.com/denju23","domain":"https://www.dominos.co.in","user":"64e5a144ed38c87ff9788498","createdAt":"2023-09-27T05:19:22.238Z","updatedAt":"2023-09-27T05:19:22.238Z","__v":0},{"_id":"6513cf10de0cc16d3ac57b42","platform":"Next Js Test ","title":"Next Js Test","description":"abcdefghijklmnopqrstuvwxyz","gitUrl":"https://github.com/dineshp72/web-error-logging/tree/meet_developemnt","domain":"https://www.npmjs.com/package/nextjs-cors","user":"650159fab2e64c5b3ce9ccc2","createdAt":"2023-09-27T06:43:28.818Z","updatedAt":"2023-09-27T06:43:28.818Z","__v":0},{"_id":"6513d0d702de766acbffe8b2","platform":"Next Js Test ","title":"Next Js Test","description":"abcdefghijklmnopqrstuvwxyz","gitUrl":"https://github.com/dineshp72/web-error-logging/tree/meet_developemnt","domain":"https://www.npmjs.com/package/nextjs-cors","user":"650159fab2e64c5b3ce9ccc2","createdAt":"2023-09-27T06:51:03.360Z","updatedAt":"2023-09-27T06:51:03.360Z","__v":0},{"_id":"6513d1ebf860b4bcd0cabccd","platform":"Next Js Test ","title":"Next Js Test","description":"abcdefghijklmnopqrstuvwxyz","gitUrl":"https://github.com/dineshp72/web-error-logging/tree/meet_developemnt","domain":"https://www.npmjs.com/package/nextjs-cors","user":"650159fab2e64c5b3ce9ccc2","createdAt":"2023-09-27T06:55:39.565Z","updatedAt":"2023-09-27T06:55:39.565Z","__v":0},{"_id":"6513d251f860b4bcd0cabce0","platform":"Next Js Test ","title":"Next Js Test","description":"abcdefghijklmnopqrstuvwxyz","gitUrl":"https://github.com/dineshp72/web-error-logging/tree/meet_developemnt","domain":"https://www.npmjs.com/package/nextjs-cors","user":"650159fab2e64c5b3ce9ccc2","createdAt":"2023-09-27T06:57:21.997Z","updatedAt":"2023-09-27T06:57:21.997Z","__v":0},{"_id":"6513d27ef860b4bcd0cabcf3","platform":"Next Js Test ","title":"Next Js Test","description":"abcdefghijklmnopqrstuvwxyz","gitUrl":"https://github.com/dineshp72/web-error-logging/tree/meet_developemnt","domain":"https://www.npmjs.com/package/nextjs-cors","user":"650159fab2e64c5b3ce9ccc2","createdAt":"2023-09-27T06:58:06.878Z","updatedAt":"2023-09-27T06:58:06.878Z","__v":0},{"project_img":{"public_id":"1698750642783","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1698750645/1698750642783.png"},"_id":"6540e0b504f8db84c558c361","platform":"Test","title":"Test","description":"test Node js ","gitUrl":"https://github.com/denju23","domain":"https://www.dominos.co.in","user":"64e5a144ed38c87ff9788498","createdAt":"2023-10-31T11:10:45.642Z","updatedAt":"2023-10-31T11:10:45.642Z","__v":0}]}}
+2023-11-08T10:24:35.582Z [[32minfo[39m]: GET /api/project/654b61bcfede52dca827ac12
+2023-11-08T10:24:35.630Z [[32minfo[39m]: {"status":false,"message":"Login First 🤦‍♂️"}
+2023-11-08T10:25:07.622Z [[32minfo[39m]: GET /api/project/654b61bcfede52dca827ac12
+2023-11-08T10:25:07.711Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Project Retrived Successfully 😍","result":{"_id":"654b61bcfede52dca827ac12","platform":"Test","title":"Test","description":"test Node js ","gitUrl":"https://github.com/denju23","domain":"https://www.dominos.co.in","user":"654b615afede52dca827ac0c","project_img":{"public_id":"1699439032826","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1699439035/1699439032826.png"},"createdAt":"2023-11-08T10:23:56.182Z","updatedAt":"2023-11-08T10:23:56.182Z","__v":0,"error_list":[],"qaComment_list":[]}}}
+2023-11-08T10:35:19.912Z [[32minfo[39m]: PUT /api/project/update/654b61bcfede52dca827ac12
+2023-11-08T10:35:19.954Z [[32minfo[39m]: {"status":false,"message":"Login First 🤦‍♂️"}
+2023-11-08T10:35:30.301Z [[32minfo[39m]: PUT /api/project/update/654b61bcfede52dca827ac12
+2023-11-08T10:35:30.355Z [[32minfo[39m]: {"status":false,"message":"Login First 🤦‍♂️"}
+2023-11-08T10:35:57.534Z [[32minfo[39m]: PUT /api/project/update/654b61bcfede52dca827ac12
+2023-11-08T10:35:57.646Z [[32minfo[39m]: {"status":true,"StatusCode":204,"data":{"message":"Project Updated Successfully 😍","result":{"project_img":{"public_id":"1699439032826","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1699439035/1699439032826.png"},"_id":"654b61bcfede52dca827ac12","platform":"Test","title":"Test for update","description":"Web Error Tracing Project","gitUrl":"https://github.com/denju23","domain":"https://www.dominos.co.in","user":"654b615afede52dca827ac0c","createdAt":"2023-11-08T10:23:56.182Z","updatedAt":"2023-11-08T10:35:57.586Z","__v":0}}}
+2023-11-08T10:39:06.632Z [[32minfo[39m]: POST /api/project-error/new?Project_id=654b5e037883b4ec63d2178f
+2023-11-08T10:39:06.916Z [[32minfo[39m]: {"status":true,"StatusCode":201,"data":{"message":"Post Request Processed Successfully 😍","result":{"Project_id":"654b5e037883b4ec63d2178f","User_id":"654b615afede52dca827ac0c","label":"Node js","title":"Next Js Error","path":"Next js error","description":"sjknsakjnks","type":"123","ip":"::1","browser":"PostmanRuntime/7.34.0","titleOfImage":"denju test","descriptionOfImage":"denju test","appVersion":"ndcjsnk","hostName":"xsdhsbdjsn","protocolUrl":"znxzjnvhxbh","platform":"znxjznkznkm","isActive":false,"isChecked":false,"isQaDone":false,"isDeveloperDone":false,"_id":"654b654afede52dca827ac26","createdAt":"2023-11-08T10:39:06.781Z","updatedAt":"2023-11-08T10:39:06.781Z","__v":0}}}
+2023-11-08T10:39:48.112Z [[32minfo[39m]: GET /api/project-error?Project_id=64e6e061ff61f22ba9c57ffe&Error_id=64f8697f969cc9f8eb27c3bf
+2023-11-08T10:39:48.157Z [[32minfo[39m]: {"status":false,"message":"Error not found"}
+2023-11-08T10:42:04.312Z [[32minfo[39m]: POST /api/project-error-qabug/new?Project_id=654b61bcfede52dca827ac12&Error_id=654b654afede52dca827ac26
+2023-11-08T10:42:08.612Z [[32minfo[39m]: {"status":false,"message":"Login First 🤦‍♂️"}
+2023-11-08T10:42:48.929Z [[32minfo[39m]: POST /api/project-error-qabug/new?Project_id=654b61bcfede52dca827ac12&Error_id=654b654afede52dca827ac26
+2023-11-08T10:42:52.474Z [[32minfo[39m]: {"status":true,"StatusCode":201,"data":{"message":"Post Request Processed Successfully 😍","result":{"QABugsData":{"Project_id":"654b61bcfede52dca827ac12","Error_id":"654b654afede52dca827ac26","comment":"xjsnxjsank","QABug_img":{"public_id":"1699440168935","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1699440171/1699440168935.png"},"email":"denju1236@yopmail.com","_id":"654b662cfede52dca827ac32","createdAt":"2023-11-08T10:42:52.430Z","updatedAt":"2023-11-08T10:42:52.430Z","__v":0},"CommentLength":10}}}
+2023-11-08T10:47:44.014Z [[32minfo[39m]: GET /api/project-error-qabug/error?Error_id=654203d633851226dea1562d
+2023-11-08T10:47:44.105Z [[32minfo[39m]: {"status":false,"message":"Login First"}
+2023-11-08T10:47:51.879Z [[32minfo[39m]: GET /api/project-error-qabug/error?Error_id=654203d633851226dea1562d
+2023-11-08T10:47:52.127Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Error Bugs Retrieved Successfully","result":[{"_id":"6542041f33851226dea156b1","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>message</div>","createdAt":"2023-11-01T07:54:07.058Z","updatedAt":"2023-11-01T07:54:07.058Z","__v":0},{"_id":"6542042b33851226dea156bd","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>message</div>","createdAt":"2023-11-01T07:54:19.706Z","updatedAt":"2023-11-01T07:54:19.706Z","__v":0},{"_id":"65420451ed87f7f80b064922","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>message</div>","createdAt":"2023-11-01T07:54:57.695Z","updatedAt":"2023-11-01T07:54:57.695Z","__v":0},{"_id":"6542047891ca0250f16a7557","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>dsadsad</div>","createdAt":"2023-11-01T07:55:36.635Z","updatedAt":"2023-11-01T07:55:36.635Z","__v":0},{"_id":"6542047f91ca0250f16a7561","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>sdsdsad</div>","createdAt":"2023-11-01T07:55:43.037Z","updatedAt":"2023-11-01T07:55:43.037Z","__v":0},{"_id":"6542048f91ca0250f16a7573","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>fefsfewfrew</div>","createdAt":"2023-11-01T07:55:59.410Z","updatedAt":"2023-11-01T07:55:59.410Z","__v":0},{"_id":"654204d491ca0250f16a75a6","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>chat-message socket.....</div>","createdAt":"2023-11-01T07:57:08.016Z","updatedAt":"2023-11-01T07:57:08.016Z","__v":0},{"_id":"654204ed91ca0250f16a75ab","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>dswsfrsewdfr</div>","createdAt":"2023-11-01T07:57:33.488Z","updatedAt":"2023-11-01T07:57:33.488Z","__v":0},{"_id":"6542051e9dad8bf9d531ec34","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>dsdsds</div>","createdAt":"2023-11-01T07:58:22.058Z","updatedAt":"2023-11-01T07:58:22.058Z","__v":0},{"_id":"654205249dad8bf9d531ec39","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>fdfrdfgdf</div>","createdAt":"2023-11-01T07:58:28.638Z","updatedAt":"2023-11-01T07:58:28.638Z","__v":0},{"_id":"654205299dad8bf9d531ec3e","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>rtrtrrr</div>","createdAt":"2023-11-01T07:58:33.659Z","updatedAt":"2023-11-01T07:58:33.659Z","__v":0},{"_id":"6542052f9dad8bf9d531ec43","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div><figure data-trix-attachment=\"{&quot;contentType&quot;:&quot;image/png&quot;,&quot;filename&quot;:&quot;apple-logo.png&quot;,&quot;filesize&quot;:5774,&quot;height&quot;:512,&quot;url&quot;:&quot;https://res.cloudinary.com/dm3gs2s0h/image/upload/v1698825508/blogs/t8oimwxbvr9p900rciyp.png&quot;,&quot;width&quot;:512}\" data-trix-content-type=\"image/png\" data-trix-attributes=\"{&quot;presentation&quot;:&quot;gallery&quot;}\" class=\"attachment attachment--preview attachment--png\"><img src=\"https://res.cloudinary.com/dm3gs2s0h/image/upload/v1698825508/blogs/t8oimwxbvr9p900rciyp.png\" width=\"512\" height=\"512\"><figcaption class=\"attachment__caption\"><span class=\"attachment__name\">apple-logo.png</span> <span class=\"attachment__size\">5.64 KB</span></figcaption></figure></div>","createdAt":"2023-11-01T07:58:39.203Z","updatedAt":"2023-11-01T07:58:39.203Z","__v":0},{"_id":"6542062f9dad8bf9d531ec83","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>hello Ketan please check this error</div>","createdAt":"2023-11-01T08:02:55.073Z","updatedAt":"2023-11-01T08:02:55.073Z","__v":0},{"_id":"65420694f032bce6794ad50a","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>hello meet please check this error</div>","createdAt":"2023-11-01T08:04:36.097Z","updatedAt":"2023-11-01T08:04:36.097Z","__v":0},{"_id":"654206ed6533643e5af13b38","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>vvdvcxv</div>","createdAt":"2023-11-01T08:06:05.953Z","updatedAt":"2023-11-01T08:06:05.953Z","__v":0},{"_id":"6542087e6533643e5af13b3d","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>ewkjfwevjweqf</div>","createdAt":"2023-11-01T08:12:46.580Z","updatedAt":"2023-11-01T08:12:46.580Z","__v":0},{"_id":"654209066533643e5af13b4e","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>jjhfjyfjyjh<br><br></div>","createdAt":"2023-11-01T08:15:02.849Z","updatedAt":"2023-11-01T08:15:02.849Z","__v":0},{"_id":"6542090a6533643e5af13b53","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>fyufuyfyuyfu</div>","createdAt":"2023-11-01T08:15:06.842Z","updatedAt":"2023-11-01T08:15:06.842Z","__v":0},{"_id":"6542090e6533643e5af13b58","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>fiufifiiuffiu</div>","createdAt":"2023-11-01T08:15:10.850Z","updatedAt":"2023-11-01T08:15:10.850Z","__v":0},{"_id":"6542097801dadeabb757656f","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>dfdfdsfdfdfdf</div>","createdAt":"2023-11-01T08:16:56.307Z","updatedAt":"2023-11-01T08:16:56.307Z","__v":0},{"_id":"6542099901dadeabb7576574","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>fdsfdsfdsf</div>","createdAt":"2023-11-01T08:17:29.218Z","updatedAt":"2023-11-01T08:17:29.218Z","__v":0},{"_id":"654209a801dadeabb7576579","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>kekjwefkqfkwq</div>","createdAt":"2023-11-01T08:17:44.832Z","updatedAt":"2023-11-01T08:17:44.832Z","__v":0},{"_id":"654209c901dadeabb757657e","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>kdwkuwguguw</div>","createdAt":"2023-11-01T08:18:17.600Z","updatedAt":"2023-11-01T08:18:17.600Z","__v":0},{"_id":"654209cf01dadeabb7576583","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>sdsdsad</div>","createdAt":"2023-11-01T08:18:23.827Z","updatedAt":"2023-11-01T08:18:23.827Z","__v":0},{"_id":"654209f301dadeabb757658c","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>dfdfdsfrds</div>","createdAt":"2023-11-01T08:18:59.591Z","updatedAt":"2023-11-01T08:18:59.591Z","__v":0},{"_id":"65420a0201dadeabb757659d","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>jfjfwqvjhqwdgjdwqvjwd</div>","createdAt":"2023-11-01T08:19:14.188Z","updatedAt":"2023-11-01T08:19:14.188Z","__v":0},{"_id":"65420a0901dadeabb75765a2","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>dfdfdsfds</div>","createdAt":"2023-11-01T08:19:21.498Z","updatedAt":"2023-11-01T08:19:21.498Z","__v":0},{"_id":"65420a1b01dadeabb75765a7","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>sdsdsdsdsdsd</div>","createdAt":"2023-11-01T08:19:39.646Z","updatedAt":"2023-11-01T08:19:39.646Z","__v":0},{"_id":"65420a3d9cb3ba15c423d9d0","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>sssssssssss</div>","createdAt":"2023-11-01T08:20:13.896Z","updatedAt":"2023-11-01T08:20:13.896Z","__v":0},{"_id":"65420a63c82b84c0b4450299","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>dcsdsdsad</div>","createdAt":"2023-11-01T08:20:51.155Z","updatedAt":"2023-11-01T08:20:51.155Z","__v":0},{"_id":"65420a87c82b84c0b445029e","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>kkkkkkkkkkkkkkkkk</div>","createdAt":"2023-11-01T08:21:27.668Z","updatedAt":"2023-11-01T08:21:27.668Z","__v":0},{"_id":"65420ad30e765c26b8459f3e","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>sdsdsd</div>","createdAt":"2023-11-01T08:22:43.403Z","updatedAt":"2023-11-01T08:22:43.403Z","__v":0},{"_id":"65420ae50e765c26b8459f49","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>rrrrrrrrrr</div>","createdAt":"2023-11-01T08:23:01.856Z","updatedAt":"2023-11-01T08:23:01.856Z","__v":0},{"_id":"65420afd0e765c26b8459f4e","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>FWEHFBEWHFWEBF</div>","createdAt":"2023-11-01T08:23:25.265Z","updatedAt":"2023-11-01T08:23:25.265Z","__v":0},{"_id":"65420b0a0e765c26b8459f57","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>CASCWC</div>","createdAt":"2023-11-01T08:23:38.342Z","updatedAt":"2023-11-01T08:23:38.342Z","__v":0},{"_id":"65420b1c0e765c26b8459f5c","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>KETAN</div>","createdAt":"2023-11-01T08:23:56.763Z","updatedAt":"2023-11-01T08:23:56.763Z","__v":0},{"_id":"65420b2d0e765c26b8459f61","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>JFEWF'<br><br></div>","createdAt":"2023-11-01T08:24:13.577Z","updatedAt":"2023-11-01T08:24:13.577Z","__v":0},{"_id":"65420b340e765c26b8459f66","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>DCDDVVEV</div>","createdAt":"2023-11-01T08:24:20.204Z","updatedAt":"2023-11-01T08:24:20.204Z","__v":0},{"_id":"65420b7f0e765c26b8459f6f","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>HDUFIHWEUVBC</div>","createdAt":"2023-11-01T08:25:35.388Z","updatedAt":"2023-11-01T08:25:35.388Z","__v":0},{"_id":"65420b8c0e765c26b8459f7a","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>MEET</div>","createdAt":"2023-11-01T08:25:48.009Z","updatedAt":"2023-11-01T08:25:48.009Z","__v":0},{"_id":"65420b9d0e765c26b8459f7f","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>MEET</div>","createdAt":"2023-11-01T08:26:05.105Z","updatedAt":"2023-11-01T08:26:05.105Z","__v":0},{"_id":"65420ba70e765c26b8459f84","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>RAJIN</div>","createdAt":"2023-11-01T08:26:15.712Z","updatedAt":"2023-11-01T08:26:15.712Z","__v":0},{"_id":"65420c900e765c26b8459fa5","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>SHHDCSDDSH</div>","createdAt":"2023-11-01T08:30:08.044Z","updatedAt":"2023-11-01T08:30:08.044Z","__v":0},{"_id":"65420caa0e765c26b8459faa","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>MEET PAGAL\\<br><br></div>","createdAt":"2023-11-01T08:30:34.217Z","updatedAt":"2023-11-01T08:30:34.217Z","__v":0},{"_id":"654210aa0e765c26b8459fc5","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>hello ketan and meet please check this error and send me the update of this error<br><br></div>","createdAt":"2023-11-01T08:47:38.562Z","updatedAt":"2023-11-01T08:47:38.562Z","__v":0},{"_id":"654210dc0e765c26b8459fca","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>this is not working properly in my system&nbsp;</div>","createdAt":"2023-11-01T08:48:28.673Z","updatedAt":"2023-11-01T08:48:28.673Z","__v":0},{"_id":"654221b283c1d345c7c368f6","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>hello ketan</div>","createdAt":"2023-11-01T10:00:18.454Z","updatedAt":"2023-11-01T10:00:18.454Z","__v":0},{"_id":"654221e883c1d345c7c368fb","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>keybjj</div>","createdAt":"2023-11-01T10:01:12.634Z","updatedAt":"2023-11-01T10:01:12.634Z","__v":0},{"_id":"654355291cd3c56ca454e3ec","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>kemfkemfekmkqqmkemk</div>","createdAt":"2023-11-02T07:52:09.821Z","updatedAt":"2023-11-02T07:52:09.821Z","__v":0},{"_id":"65438c121cd3c56ca454eac8","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>jnfjeknfekjfe<br><br></div>","createdAt":"2023-11-02T11:46:26.140Z","updatedAt":"2023-11-02T11:46:26.140Z","__v":0},{"_id":"65447e0e28a002c1354e61ee","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>mekfmekfmekfmekf</div>","createdAt":"2023-11-03T04:58:54.208Z","updatedAt":"2023-11-03T04:58:54.208Z","__v":0},{"_id":"6548dfcd2713339495cc9465","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>sdfrefkermfkewmfkew</div>","createdAt":"2023-11-06T12:45:01.476Z","updatedAt":"2023-11-06T12:45:01.476Z","__v":0},{"_id":"654b5bf93ca05805640770dc","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>new commet</div>","createdAt":"2023-11-08T09:59:21.084Z","updatedAt":"2023-11-08T09:59:21.084Z","__v":0}]}}
+2023-11-08T10:49:40.540Z [[32minfo[39m]: GET /api/project-error-qabug/error?Error_id=64e73acef8062e8185c7bccc
+2023-11-08T10:49:40.607Z [[32minfo[39m]: {"status":false,"message":"Login First"}
+2023-11-08T10:50:17.468Z [[32minfo[39m]: GET /api/project-error-qabug/error?Error_id=64e73acef8062e8185c7bccc
+2023-11-08T10:50:17.545Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Error Bugs Retrieved Successfully","result":[]}}
+2023-11-08T10:50:41.513Z [[32minfo[39m]: GET /api/project-error-qabug/error?Error_id=654203d633851226dea1562d
+2023-11-08T10:50:41.640Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Error Bugs Retrieved Successfully","result":[{"_id":"6542041f33851226dea156b1","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>message</div>","createdAt":"2023-11-01T07:54:07.058Z","updatedAt":"2023-11-01T07:54:07.058Z","__v":0},{"_id":"6542042b33851226dea156bd","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>message</div>","createdAt":"2023-11-01T07:54:19.706Z","updatedAt":"2023-11-01T07:54:19.706Z","__v":0},{"_id":"65420451ed87f7f80b064922","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>message</div>","createdAt":"2023-11-01T07:54:57.695Z","updatedAt":"2023-11-01T07:54:57.695Z","__v":0},{"_id":"6542047891ca0250f16a7557","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>dsadsad</div>","createdAt":"2023-11-01T07:55:36.635Z","updatedAt":"2023-11-01T07:55:36.635Z","__v":0},{"_id":"6542047f91ca0250f16a7561","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>sdsdsad</div>","createdAt":"2023-11-01T07:55:43.037Z","updatedAt":"2023-11-01T07:55:43.037Z","__v":0},{"_id":"6542048f91ca0250f16a7573","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>fefsfewfrew</div>","createdAt":"2023-11-01T07:55:59.410Z","updatedAt":"2023-11-01T07:55:59.410Z","__v":0},{"_id":"654204d491ca0250f16a75a6","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>chat-message socket.....</div>","createdAt":"2023-11-01T07:57:08.016Z","updatedAt":"2023-11-01T07:57:08.016Z","__v":0},{"_id":"654204ed91ca0250f16a75ab","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>dswsfrsewdfr</div>","createdAt":"2023-11-01T07:57:33.488Z","updatedAt":"2023-11-01T07:57:33.488Z","__v":0},{"_id":"6542051e9dad8bf9d531ec34","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>dsdsds</div>","createdAt":"2023-11-01T07:58:22.058Z","updatedAt":"2023-11-01T07:58:22.058Z","__v":0},{"_id":"654205249dad8bf9d531ec39","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>fdfrdfgdf</div>","createdAt":"2023-11-01T07:58:28.638Z","updatedAt":"2023-11-01T07:58:28.638Z","__v":0},{"_id":"654205299dad8bf9d531ec3e","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>rtrtrrr</div>","createdAt":"2023-11-01T07:58:33.659Z","updatedAt":"2023-11-01T07:58:33.659Z","__v":0},{"_id":"6542052f9dad8bf9d531ec43","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div><figure data-trix-attachment=\"{&quot;contentType&quot;:&quot;image/png&quot;,&quot;filename&quot;:&quot;apple-logo.png&quot;,&quot;filesize&quot;:5774,&quot;height&quot;:512,&quot;url&quot;:&quot;https://res.cloudinary.com/dm3gs2s0h/image/upload/v1698825508/blogs/t8oimwxbvr9p900rciyp.png&quot;,&quot;width&quot;:512}\" data-trix-content-type=\"image/png\" data-trix-attributes=\"{&quot;presentation&quot;:&quot;gallery&quot;}\" class=\"attachment attachment--preview attachment--png\"><img src=\"https://res.cloudinary.com/dm3gs2s0h/image/upload/v1698825508/blogs/t8oimwxbvr9p900rciyp.png\" width=\"512\" height=\"512\"><figcaption class=\"attachment__caption\"><span class=\"attachment__name\">apple-logo.png</span> <span class=\"attachment__size\">5.64 KB</span></figcaption></figure></div>","createdAt":"2023-11-01T07:58:39.203Z","updatedAt":"2023-11-01T07:58:39.203Z","__v":0},{"_id":"6542062f9dad8bf9d531ec83","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>hello Ketan please check this error</div>","createdAt":"2023-11-01T08:02:55.073Z","updatedAt":"2023-11-01T08:02:55.073Z","__v":0},{"_id":"65420694f032bce6794ad50a","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>hello meet please check this error</div>","createdAt":"2023-11-01T08:04:36.097Z","updatedAt":"2023-11-01T08:04:36.097Z","__v":0},{"_id":"654206ed6533643e5af13b38","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>vvdvcxv</div>","createdAt":"2023-11-01T08:06:05.953Z","updatedAt":"2023-11-01T08:06:05.953Z","__v":0},{"_id":"6542087e6533643e5af13b3d","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>ewkjfwevjweqf</div>","createdAt":"2023-11-01T08:12:46.580Z","updatedAt":"2023-11-01T08:12:46.580Z","__v":0},{"_id":"654209066533643e5af13b4e","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>jjhfjyfjyjh<br><br></div>","createdAt":"2023-11-01T08:15:02.849Z","updatedAt":"2023-11-01T08:15:02.849Z","__v":0},{"_id":"6542090a6533643e5af13b53","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>fyufuyfyuyfu</div>","createdAt":"2023-11-01T08:15:06.842Z","updatedAt":"2023-11-01T08:15:06.842Z","__v":0},{"_id":"6542090e6533643e5af13b58","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>fiufifiiuffiu</div>","createdAt":"2023-11-01T08:15:10.850Z","updatedAt":"2023-11-01T08:15:10.850Z","__v":0},{"_id":"6542097801dadeabb757656f","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>dfdfdsfdfdfdf</div>","createdAt":"2023-11-01T08:16:56.307Z","updatedAt":"2023-11-01T08:16:56.307Z","__v":0},{"_id":"6542099901dadeabb7576574","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>fdsfdsfdsf</div>","createdAt":"2023-11-01T08:17:29.218Z","updatedAt":"2023-11-01T08:17:29.218Z","__v":0},{"_id":"654209a801dadeabb7576579","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>kekjwefkqfkwq</div>","createdAt":"2023-11-01T08:17:44.832Z","updatedAt":"2023-11-01T08:17:44.832Z","__v":0},{"_id":"654209c901dadeabb757657e","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>kdwkuwguguw</div>","createdAt":"2023-11-01T08:18:17.600Z","updatedAt":"2023-11-01T08:18:17.600Z","__v":0},{"_id":"654209cf01dadeabb7576583","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>sdsdsad</div>","createdAt":"2023-11-01T08:18:23.827Z","updatedAt":"2023-11-01T08:18:23.827Z","__v":0},{"_id":"654209f301dadeabb757658c","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>dfdfdsfrds</div>","createdAt":"2023-11-01T08:18:59.591Z","updatedAt":"2023-11-01T08:18:59.591Z","__v":0},{"_id":"65420a0201dadeabb757659d","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>jfjfwqvjhqwdgjdwqvjwd</div>","createdAt":"2023-11-01T08:19:14.188Z","updatedAt":"2023-11-01T08:19:14.188Z","__v":0},{"_id":"65420a0901dadeabb75765a2","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>dfdfdsfds</div>","createdAt":"2023-11-01T08:19:21.498Z","updatedAt":"2023-11-01T08:19:21.498Z","__v":0},{"_id":"65420a1b01dadeabb75765a7","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>sdsdsdsdsdsd</div>","createdAt":"2023-11-01T08:19:39.646Z","updatedAt":"2023-11-01T08:19:39.646Z","__v":0},{"_id":"65420a3d9cb3ba15c423d9d0","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>sssssssssss</div>","createdAt":"2023-11-01T08:20:13.896Z","updatedAt":"2023-11-01T08:20:13.896Z","__v":0},{"_id":"65420a63c82b84c0b4450299","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>dcsdsdsad</div>","createdAt":"2023-11-01T08:20:51.155Z","updatedAt":"2023-11-01T08:20:51.155Z","__v":0},{"_id":"65420a87c82b84c0b445029e","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>kkkkkkkkkkkkkkkkk</div>","createdAt":"2023-11-01T08:21:27.668Z","updatedAt":"2023-11-01T08:21:27.668Z","__v":0},{"_id":"65420ad30e765c26b8459f3e","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>sdsdsd</div>","createdAt":"2023-11-01T08:22:43.403Z","updatedAt":"2023-11-01T08:22:43.403Z","__v":0},{"_id":"65420ae50e765c26b8459f49","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>rrrrrrrrrr</div>","createdAt":"2023-11-01T08:23:01.856Z","updatedAt":"2023-11-01T08:23:01.856Z","__v":0},{"_id":"65420afd0e765c26b8459f4e","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>FWEHFBEWHFWEBF</div>","createdAt":"2023-11-01T08:23:25.265Z","updatedAt":"2023-11-01T08:23:25.265Z","__v":0},{"_id":"65420b0a0e765c26b8459f57","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>CASCWC</div>","createdAt":"2023-11-01T08:23:38.342Z","updatedAt":"2023-11-01T08:23:38.342Z","__v":0},{"_id":"65420b1c0e765c26b8459f5c","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>KETAN</div>","createdAt":"2023-11-01T08:23:56.763Z","updatedAt":"2023-11-01T08:23:56.763Z","__v":0},{"_id":"65420b2d0e765c26b8459f61","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>JFEWF'<br><br></div>","createdAt":"2023-11-01T08:24:13.577Z","updatedAt":"2023-11-01T08:24:13.577Z","__v":0},{"_id":"65420b340e765c26b8459f66","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>DCDDVVEV</div>","createdAt":"2023-11-01T08:24:20.204Z","updatedAt":"2023-11-01T08:24:20.204Z","__v":0},{"_id":"65420b7f0e765c26b8459f6f","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>HDUFIHWEUVBC</div>","createdAt":"2023-11-01T08:25:35.388Z","updatedAt":"2023-11-01T08:25:35.388Z","__v":0},{"_id":"65420b8c0e765c26b8459f7a","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>MEET</div>","createdAt":"2023-11-01T08:25:48.009Z","updatedAt":"2023-11-01T08:25:48.009Z","__v":0},{"_id":"65420b9d0e765c26b8459f7f","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>MEET</div>","createdAt":"2023-11-01T08:26:05.105Z","updatedAt":"2023-11-01T08:26:05.105Z","__v":0},{"_id":"65420ba70e765c26b8459f84","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>RAJIN</div>","createdAt":"2023-11-01T08:26:15.712Z","updatedAt":"2023-11-01T08:26:15.712Z","__v":0},{"_id":"65420c900e765c26b8459fa5","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>SHHDCSDDSH</div>","createdAt":"2023-11-01T08:30:08.044Z","updatedAt":"2023-11-01T08:30:08.044Z","__v":0},{"_id":"65420caa0e765c26b8459faa","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>MEET PAGAL\\<br><br></div>","createdAt":"2023-11-01T08:30:34.217Z","updatedAt":"2023-11-01T08:30:34.217Z","__v":0},{"_id":"654210aa0e765c26b8459fc5","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>hello ketan and meet please check this error and send me the update of this error<br><br></div>","createdAt":"2023-11-01T08:47:38.562Z","updatedAt":"2023-11-01T08:47:38.562Z","__v":0},{"_id":"654210dc0e765c26b8459fca","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>this is not working properly in my system&nbsp;</div>","createdAt":"2023-11-01T08:48:28.673Z","updatedAt":"2023-11-01T08:48:28.673Z","__v":0},{"_id":"654221b283c1d345c7c368f6","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>hello ketan</div>","createdAt":"2023-11-01T10:00:18.454Z","updatedAt":"2023-11-01T10:00:18.454Z","__v":0},{"_id":"654221e883c1d345c7c368fb","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>keybjj</div>","createdAt":"2023-11-01T10:01:12.634Z","updatedAt":"2023-11-01T10:01:12.634Z","__v":0},{"_id":"654355291cd3c56ca454e3ec","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>kemfkemfekmkqqmkemk</div>","createdAt":"2023-11-02T07:52:09.821Z","updatedAt":"2023-11-02T07:52:09.821Z","__v":0},{"_id":"65438c121cd3c56ca454eac8","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>jnfjeknfekjfe<br><br></div>","createdAt":"2023-11-02T11:46:26.140Z","updatedAt":"2023-11-02T11:46:26.140Z","__v":0},{"_id":"65447e0e28a002c1354e61ee","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>mekfmekfmekfmekf</div>","createdAt":"2023-11-03T04:58:54.208Z","updatedAt":"2023-11-03T04:58:54.208Z","__v":0},{"_id":"6548dfcd2713339495cc9465","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>sdfrefkermfkewmfkew</div>","createdAt":"2023-11-06T12:45:01.476Z","updatedAt":"2023-11-06T12:45:01.476Z","__v":0},{"_id":"654b5bf93ca05805640770dc","Project_id":"654203ac33851226dea15604","Error_id":"654203d633851226dea1562d","imageUrl":"Node Js","comment":"<div>new commet</div>","createdAt":"2023-11-08T09:59:21.084Z","updatedAt":"2023-11-08T09:59:21.084Z","__v":0}]}}
+2023-11-16T09:01:49.459Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T09:03:52.426Z [[32minfo[39m]: POST /api/project/new
+2023-11-16T09:03:56.011Z [[32minfo[39m]: {"status":true,"StatusCode":201,"data":{"message":"Project added successfully 😘","project":{"platform":"Test","title":"Test","description":"test Node js ","gitUrl":"https://github.com/denju23","domain":"https://www.dominos.co.in","user":"654b615afede52dca827ac0c","project_img":{"public_id":"1700125432427","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1700125434/1700125432427.png"},"_id":"6555dafbb63372834fcaf65e","createdAt":"2023-11-16T09:03:55.863Z","updatedAt":"2023-11-16T09:03:55.863Z","__v":0},"secrets":{"User_id":"654b615afede52dca827ac0c","Project_id":"6555dafbb63372834fcaf65e","access_key":"U2FsdGVkX1/X3mRboELyXwEBmK6fHAXnl7SQmnJsNK6CrucprzfUaygUxeKpzLKC","secret_key":"dc245dd4-6312-4c94-8049-35fe9e167ca8","_id":"6555dafbb63372834fcaf660","__v":0}}}
+2023-11-16T09:04:06.014Z [[32minfo[39m]: POST /api/project/new
+2023-11-16T09:04:08.658Z [[32minfo[39m]: {"status":true,"StatusCode":201,"data":{"message":"Project added successfully 😘","project":{"platform":"Test","title":"Test","description":"test Node js ","gitUrl":"https://github.com/denju23","domain":"https://www.dominos.co.in","user":"654b615afede52dca827ac0c","project_img":{"public_id":"1700125446016","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1700125448/1700125446016.png"},"_id":"6555db08b63372834fcaf666","createdAt":"2023-11-16T09:04:08.563Z","updatedAt":"2023-11-16T09:04:08.563Z","__v":0},"secrets":{"User_id":"654b615afede52dca827ac0c","Project_id":"6555db08b63372834fcaf666","access_key":"U2FsdGVkX1986KvQXlVrOwUSF7u+r3cdONfwgaNhY05RaaoE8sF73kadG01bRw7Y","secret_key":"1abe95d5-531e-409b-907d-e6c94e08dd4f","_id":"6555db08b63372834fcaf668","__v":0}}}
+2023-11-16T09:08:51.679Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T09:09:25.288Z [[32minfo[39m]: POST /api/project/new
+2023-11-16T09:09:28.271Z [[32minfo[39m]: {"status":true,"StatusCode":201,"data":{"message":"Project added successfully 😘","project":{"platform":"Test","title":"Test","description":"test Node js ","gitUrl":"https://github.com/denju23","domain":"https://www.dominos.co.in","user":"654b615afede52dca827ac0c","project_img":{"public_id":"1700125765290","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1700125767/1700125765290.png"},"_id":"6555dc48e2e1c728998e7d7c","createdAt":"2023-11-16T09:09:28.166Z","updatedAt":"2023-11-16T09:09:28.166Z","__v":0},"secrets":{"User_id":"654b615afede52dca827ac0c","Project_id":"6555dc48e2e1c728998e7d7c","access_key":"U2FsdGVkX19wJbYIUcGIJRyMuFayO46/gjE6/rOVtqaoq3ns2jX7Di+WmeqQKTEB","secret_key":"2bd9725c-5b05-4516-87bd-7eabfa58541f","_id":"6555dc48e2e1c728998e7d7e","__v":0}}}
+2023-11-16T09:09:36.082Z [[32minfo[39m]: POST /api/project/new
+2023-11-16T09:09:39.131Z [[32minfo[39m]: {"status":true,"StatusCode":201,"data":{"message":"Project added successfully 😘","project":{"platform":"Test","title":"Test","description":"test Node js ","gitUrl":"https://github.com/denju23","domain":"https://www.dominos.co.in","user":"654b615afede52dca827ac0c","project_img":{"public_id":"1700125776084","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1700125778/1700125776084.png"},"_id":"6555dc53e2e1c728998e7d84","createdAt":"2023-11-16T09:09:39.038Z","updatedAt":"2023-11-16T09:09:39.038Z","__v":0},"secrets":{"User_id":"654b615afede52dca827ac0c","Project_id":"6555dc53e2e1c728998e7d84","access_key":"U2FsdGVkX1+WIyjpo+zI++h9OCwel0Eo+gYHAsEOd4A4BJYJTVtZHwkoqv5UWLec","secret_key":"30c2273c-5acb-4aa0-81a1-dcba1606a2d7","_id":"6555dc53e2e1c728998e7d86","__v":0}}}
+2023-11-16T09:34:44.601Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T09:35:55.382Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T09:51:04.413Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T09:51:26.187Z [[32minfo[39m]: POST /api/project/new
+2023-11-16T09:51:29.539Z [[32minfo[39m]: {"status":true,"StatusCode":201,"data":{"message":"Project added successfully 😘","project":{"platform":"Test","title":"Test","description":"test Node js ","gitUrl":"https://github.com/denju23","domain":"https://www.dominos.co.in","user":"654b615afede52dca827ac0c","project_img":{"public_id":"1700128286189","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1700128288/1700128286189.png"},"_id":"6555e621eb55c6acf6ef5317","createdAt":"2023-11-16T09:51:29.433Z","updatedAt":"2023-11-16T09:51:29.433Z","__v":0},"secrets":{"User_id":"654b615afede52dca827ac0c","Project_id":"6555e621eb55c6acf6ef5317","access_key":"U2FsdGVkX18IIdurv2t3IlKJ1BJuqUIxXQzWCAEErDcCua5oxQE+7adOFhkQYWe5","secret_key":"2c93aa4d-2d05-46b9-b383-02145e14e7c7","_id":"6555e621eb55c6acf6ef5319","__v":0}}}
+2023-11-16T09:55:29.296Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T09:55:56.465Z [[32minfo[39m]: POST /api/project/new
+2023-11-16T09:56:01.781Z [[32minfo[39m]: {"status":true,"StatusCode":201,"data":{"message":"Project added successfully 😘","project":{"platform":"Test","title":"Test","description":"test Node js ","gitUrl":"https://github.com/denju23","domain":"https://www.dominos.co.in","user":"654b615afede52dca827ac0c","project_img":{"public_id":"1700128556466","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1700128560/1700128556466.png"},"_id":"6555e7314e6665916492a86f","createdAt":"2023-11-16T09:56:01.658Z","updatedAt":"2023-11-16T09:56:01.658Z","__v":0},"secrets":{"User_id":"654b615afede52dca827ac0c","Project_id":"6555e7314e6665916492a86f","access_key":"U2FsdGVkX18x5YtGou0OEhDP2MEBNuLVoSEk7SrvqRuVZQ+IJSfcx8F2CR6udsq3","secret_key":"98c712e5-7017-4112-a341-8a4fe072fac7","_id":"6555e7314e6665916492a871","__v":0}}}
+2023-11-16T09:56:20.327Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T09:57:06.649Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T09:57:13.522Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T09:57:16.123Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T09:57:32.099Z [[32minfo[39m]: POST /api/project-error-qabug/new?Project_id=654b61bcfede52dca827ac12&Error_id=654b654afede52dca827ac26
+2023-11-16T09:57:33.705Z [[32minfo[39m]: {"status":false,"message":"Missing required parameter - file"}
+2023-11-16T09:57:46.408Z [[32minfo[39m]: POST /api/project-error-qabug/new?Project_id=654b61bcfede52dca827ac12&Error_id=654b654afede52dca827ac26
+2023-11-16T09:57:49.243Z [[32minfo[39m]: {"status":true,"StatusCode":201,"data":{"message":"Post Request Processed Successfully 😍","result":{"QABugsData":{"Project_id":"654b61bcfede52dca827ac12","Error_id":"654b654afede52dca827ac26","comment":"xjsnxjsank","QABug_img":{"public_id":"1700128666410","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1700128668/1700128666410.png"},"email":"denju1236@yopmail.com","_id":"6555e79df4ec1172950880cd","createdAt":"2023-11-16T09:57:49.200Z","updatedAt":"2023-11-16T09:57:49.200Z","__v":0},"CommentLength":10}}}
+2023-11-16T09:58:12.648Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T09:58:22.979Z [[32minfo[39m]: POST /api/project-error-qabug/new?Project_id=654b61bcfede52dca827ac12&Error_id=654b654afede52dca827ac26
+2023-11-16T09:58:26.137Z [[32minfo[39m]: {"status":true,"StatusCode":201,"data":{"message":"Post Request Processed Successfully 😍","result":{"QABugsData":{"Project_id":"654b61bcfede52dca827ac12","Error_id":"654b654afede52dca827ac26","comment":"xjsnxjsank","QABug_img":{"public_id":"1700128702984","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1700128705/1700128702984.png"},"email":"denju1236@yopmail.com","_id":"6555e7c21c3bab9bcab3478a","createdAt":"2023-11-16T09:58:26.097Z","updatedAt":"2023-11-16T09:58:26.097Z","__v":0},"CommentLength":10}}}
+2023-11-16T09:58:49.730Z [[32minfo[39m]: POST /api/project-error-qabug/new?Project_id=654b61bcfede52dca827ac12&Error_id=654b654afede52dca827ac26
+2023-11-16T09:58:52.668Z [[32minfo[39m]: {"status":true,"StatusCode":201,"data":{"message":"Post Request Processed Successfully 😍","result":{"QABugsData":{"Project_id":"654b61bcfede52dca827ac12","Error_id":"654b654afede52dca827ac26","comment":"xjsnxjsank","QABug_img":{"public_id":"1700128729733","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1700128731/1700128729733.png"},"email":"denju1236@yopmail.com","_id":"6555e7dc1c3bab9bcab3478f","createdAt":"2023-11-16T09:58:52.633Z","updatedAt":"2023-11-16T09:58:52.633Z","__v":0},"CommentLength":10}}}
+2023-11-16T10:33:22.170Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T10:34:35.645Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T11:32:55.521Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T11:36:44.411Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T12:03:17.019Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-16T12:03:17.163Z [[32minfo[39m]: {"status":false,"message":"Member already Registered with this email"}
+2023-11-16T12:03:47.383Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-16T12:03:47.492Z [[32minfo[39m]: {"status":false,"message":"Member already Registered with this email"}
+2023-11-16T12:05:04.671Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-16T12:05:04.773Z [[32minfo[39m]: {"status":false,"message":"Member already Registered with this email"}
+2023-11-16T12:05:40.531Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-16T12:05:40.687Z [[32minfo[39m]: {"status":false,"message":"sendEmail is not defined"}
+2023-11-16T12:08:37.391Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T12:08:50.943Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-16T12:08:51.085Z [[32minfo[39m]: {"status":false,"message":"Member already Registered with this email"}
+2023-11-16T12:08:59.820Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-16T12:08:59.964Z [[32minfo[39m]: {"status":false,"message":"__dirname is not defined"}
+2023-11-16T12:12:10.041Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T12:16:52.458Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T12:17:00.158Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-16T12:17:00.303Z [[32minfo[39m]: {"status":false,"message":"Member already Registered with this email"}
+2023-11-16T12:17:10.854Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-16T12:17:11.007Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-16T12:21:00.017Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-16T12:21:00.117Z [[32minfo[39m]: {"status":false,"message":"Member already Registered with this email"}
+2023-11-16T12:21:16.141Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-16T12:21:16.287Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Member Invitation send Successfully 😍","result":{"Project_id":"6504127ef1e6e606c863c674","username":"Yash","email":"rinkal@yopmail.com","role":"Owner","isActive":null,"status":"pending","expireAt":"2090-11-29T00:00:00.000Z","_id":"6556093cebd3ca664a56afd3","createdAt":"2023-11-16T12:21:16.242Z","updatedAt":"2023-11-16T12:21:16.242Z","__v":0}}}
+2023-11-16T12:22:44.339Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-16T12:22:44.456Z [[32minfo[39m]: {"status":false,"message":"Member already Registered with this email"}
+2023-11-16T12:23:02.322Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-16T12:23:02.483Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Member Invitation send Successfully 😍","result":{"Project_id":"6504127ef1e6e606c863c674","username":"Yash","email":"preet@yopmail.com","role":"Owner","isActive":null,"status":"pending","expireAt":"2090-11-29T00:00:00.000Z","_id":"655609a6ebd3ca664a56afdd","createdAt":"2023-11-16T12:23:02.439Z","updatedAt":"2023-11-16T12:23:02.439Z","__v":0}}}
+2023-11-16T12:30:27.411Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-16T12:30:27.582Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-16T12:31:00.263Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T12:31:08.178Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-16T12:31:08.332Z [[32minfo[39m]: {"status":false,"message":"Member already Registered with this email"}
+2023-11-16T12:31:28.178Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-16T12:31:28.437Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-16T12:39:24.408Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T12:39:27.081Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T12:40:01.671Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-16T12:40:01.856Z [[32minfo[39m]: {"status":false,"message":"Member already Registered with this email"}
+2023-11-16T12:40:15.257Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-16T12:40:15.506Z [[32minfo[39m]: {"status":false,"message":"join is not defined"}
+2023-11-16T12:41:13.079Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T12:41:24.681Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-16T12:41:24.906Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-16T12:50:13.882Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T12:50:22.385Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-16T12:50:22.550Z [[32minfo[39m]: {"status":false,"message":"Member already Registered with this email"}
+2023-11-16T12:50:37.967Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-16T12:50:38.124Z [[32minfo[39m]: {"status":false,"message":"The \"path\" argument must be of type string. Received an instance of Object"}
+2023-11-16T12:51:19.998Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T12:51:47.155Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T12:52:01.550Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T12:53:22.534Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-16T12:53:22.732Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-16T12:53:49.714Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T12:54:09.365Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-16T12:54:09.580Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-16T12:54:49.057Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T12:55:01.670Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-16T12:55:01.898Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-16T12:56:27.710Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T12:56:37.216Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-16T12:56:37.438Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-16T12:57:19.588Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T12:57:29.985Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-16T12:57:30.217Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-16T13:00:11.840Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T13:00:28.271Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T13:00:48.611Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T13:07:57.114Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-16T13:07:57.388Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-16T13:09:36.628Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T13:09:47.346Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-16T13:09:47.570Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-16T13:10:54.834Z [[32minfo[39m]: Server running on port 4000
+2023-11-16T13:11:06.068Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T04:46:55.069Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T05:01:54.214Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T05:01:54.642Z [[32minfo[39m]: {"status":false,"message":"Member already Registered with this email"}
+2023-11-17T05:03:22.088Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T05:03:22.416Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T05:04:22.277Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T05:04:35.446Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T05:04:36.019Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T05:05:11.256Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T05:10:51.177Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T05:11:06.984Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T05:11:07.561Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T05:13:22.119Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T05:13:39.483Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T05:13:40.051Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T05:15:35.889Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T05:15:36.190Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T05:22:27.941Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T05:22:28.186Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T05:24:40.831Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T05:24:41.133Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T05:37:38.972Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T05:37:39.262Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T05:53:35.687Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T05:53:35.913Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T05:57:07.328Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T05:57:22.219Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T05:57:22.793Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T05:58:25.118Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T05:58:50.183Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T05:58:50.785Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T06:01:54.856Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T06:03:40.228Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T06:03:59.772Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T06:04:13.762Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T06:04:14.319Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T06:06:32.768Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T06:09:19.708Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T06:09:20.313Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T06:13:29.587Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T06:13:49.732Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T06:13:50.352Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T06:18:29.744Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T06:19:19.509Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T06:19:32.754Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T06:21:41.971Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T06:21:48.441Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T06:21:49.137Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T06:29:27.821Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T06:29:28.121Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T06:31:40.991Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T06:31:50.067Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T06:36:33.609Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T06:36:34.267Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T06:39:55.145Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T06:40:30.146Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T06:40:30.891Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T06:41:36.600Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T06:41:36.841Z [[32minfo[39m]: {"status":false,"message":"Member already Registered with this email"}
+2023-11-17T06:43:02.079Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T06:43:28.268Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T06:43:43.979Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T06:43:44.688Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T06:46:52.198Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T06:47:45.839Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T06:47:59.819Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T06:48:00.429Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T06:49:20.441Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T06:51:36.809Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T06:52:06.866Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T06:54:17.328Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T06:54:17.895Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T06:55:21.332Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T06:55:55.454Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T06:55:56.196Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T06:59:31.428Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T06:59:31.689Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T07:00:32.037Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T07:00:56.662Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T07:00:57.310Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T07:01:48.916Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T07:07:00.862Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T07:07:02.462Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T07:07:03.256Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T07:39:21.138Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T07:39:42.925Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T07:39:43.310Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T07:52:44.152Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T07:52:44.358Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Member Invitation send Successfully 😍","result":{"Project_id":"6504127ef1e6e606c863c674","username":"denju","email":"denju@yopmail.com","role":"Owner","isActive":null,"status":"pending","expireAt":"2090-11-29T00:00:00.000Z","_id":"65571bcc5f64dce42a8abd9b","createdAt":"2023-11-17T07:52:44.293Z","updatedAt":"2023-11-17T07:52:44.293Z","__v":0}}}
+2023-11-17T07:53:20.822Z [[32minfo[39m]: GET /project/6504127ef1e6e606c863c674/member-invitation/65571bcc5f64dce42a8abd9b
+2023-11-17T07:53:51.667Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T08:02:52.936Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T08:03:12.336Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T08:03:19.404Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T08:07:24.203Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T08:07:24.471Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T08:29:34.090Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T08:29:34.333Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T08:31:44.940Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T08:31:45.190Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T08:32:56.653Z [[32minfo[39m]: GET /project/6504127ef1e6e606c863c674/member-invitation/655724f1372677ac61dd6d26
+2023-11-17T08:34:20.989Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T08:34:21.195Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T08:35:15.284Z [[32minfo[39m]: GET /user/6557258d372677ac61dd6d2b/registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJkZW5qdSIsImlhdCI6MTcwMDIxMDA2MSwiZXhwIjoxNzAwMzgyODYxfQ.rZLUM_dw1U4UF2vSzg6CcblNPMfEUShiSo-YgS0mTB8
+2023-11-17T08:39:32.594Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T08:39:32.805Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T08:45:12.829Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T08:45:18.666Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T08:47:48.286Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T08:50:07.496Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T08:50:07.821Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T08:52:08.761Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T08:54:01.190Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T08:54:36.010Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T08:54:36.236Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T08:57:58.117Z [[32minfo[39m]: GET /project/6504127ef1e6e606c863c674/member-invitation/65572a4ca1eb053d56c62159
+2023-11-17T09:04:55.108Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T09:04:55.291Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T09:05:37.709Z [[32minfo[39m]: GET /user/65572cb7a1eb053d56c6215e/registration-invitation?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlbmp1QHlvcG1haWwuY29tIiwidXNlcm5hbWUiOiJkZW5qdSIsImlhdCI6MTcwMDIxMTg5NSwiZXhwIjoxNzAwMzg0Njk1fQ.L702hmEEuRMgzaovT4kDT9DFDs7vx4euHxnCPaDH-7g
+2023-11-17T09:23:13.557Z [[32minfo[39m]: Server running on port 4000
+2023-11-17T09:23:59.322Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T09:23:59.597Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T09:24:40.534Z [[32minfo[39m]: GET /project/6504127ef1e6e606c863c674/member-invitation/6557312ff33618a0cff20125
+2023-11-17T09:25:37.323Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-17T09:25:37.474Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-17T09:26:29.971Z [[32minfo[39m]: GET /project/6504127ef1e6e606c863c674/member-invitation/65573191f33618a0cff2012c
+2023-11-23T08:12:01.042Z [[32minfo[39m]: Server running on port 4000
+2023-11-23T08:12:06.151Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-23T08:12:06.276Z [[32minfo[39m]: {"status":false,"message":"Member already Registered with this email"}
+2023-11-23T08:13:08.973Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-23T08:13:09.104Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Invitation to register sent successfully 😍"}}
+2023-11-23T08:15:04.790Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-23T08:15:04.904Z [[32minfo[39m]: {"status":false,"message":"memberInvitationTemplateData is not defined"}
+2023-11-23T08:16:45.547Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-23T08:16:45.611Z [[32minfo[39m]: {"status":false,"message":"Member already Registered with this email"}
+2023-11-23T08:17:02.569Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-23T08:17:02.667Z [[32minfo[39m]: {"status":false,"message":"memberInvitationTemplateData is not defined"}
+2023-11-23T08:18:08.229Z [[32minfo[39m]: Server running on port 4000
+2023-11-23T08:18:11.457Z [[32minfo[39m]: Server running on port 4000
+2023-11-23T08:18:15.410Z [[32minfo[39m]: Server running on port 4000
+2023-11-23T08:18:34.460Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-23T08:18:34.618Z [[32minfo[39m]: {"status":false,"message":"memberInvitationTemplateData is not defined"}
+2023-11-23T08:19:33.673Z [[32minfo[39m]: Server running on port 4000
+2023-11-23T08:19:39.804Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-23T08:19:39.930Z [[32minfo[39m]: {"status":false,"message":"Member already Registered with this email"}
+2023-11-23T08:19:53.649Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-23T08:19:53.825Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Member Invitation send Successfully 😍","result":{"Project_id":"6504127ef1e6e606c863c674","username":"denju","email":"denju@yopmail.com","role":"Owner","isActive":null,"status":"pending","expireAt":"2090-11-29T00:00:00.000Z","_id":"655f0b29ba2b988ce0070f3f","createdAt":"2023-11-23T08:19:53.778Z","updatedAt":"2023-11-23T08:19:53.778Z","__v":0}}}
+2023-11-23T08:20:34.771Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-23T08:20:34.842Z [[32minfo[39m]: {"status":false,"message":"Member already Registered with this email"}
+2023-11-23T08:21:05.660Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-23T08:21:05.757Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Member Invitation send Successfully 😍","result":{"Project_id":"6504127ef1e6e606c863c674","username":"denju","email":"denju@yopmail.com","role":"Owner","isActive":null,"status":"pending","expireAt":"2090-11-29T00:00:00.000Z","_id":"655f0b71ba2b988ce0070f49","createdAt":"2023-11-23T08:21:05.733Z","updatedAt":"2023-11-23T08:21:05.733Z","__v":0}}}
+2023-11-23T08:25:05.737Z [[32minfo[39m]: Server running on port 4000
+2023-11-23T08:27:45.447Z [[32minfo[39m]: Server running on port 4000
+2023-11-23T08:34:19.844Z [[32minfo[39m]: Server running on port 4000
+2023-11-23T08:34:30.062Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-23T08:34:30.245Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Member Invitation send Successfully 😍","result":{"Project_id":"6504127ef1e6e606c863c674","username":"denju","email":"denju@yopmail.com","role":"Owner","isActive":null,"status":"pending","expireAt":"2090-11-29T00:00:00.000Z","_id":"655f0e96574319b67b8489ff","createdAt":"2023-11-23T08:34:30.205Z","updatedAt":"2023-11-23T08:34:30.205Z","__v":0}}}
+2023-11-23T08:38:12.073Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-23T08:38:12.179Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Member Invitation send Successfully 😍","result":{"Project_id":"6504127ef1e6e606c863c674","username":"denju","email":"denju@yopmail.com","role":"Owner","isActive":null,"status":"pending","expireAt":"2090-11-29T00:00:00.000Z","_id":"655f0f74574319b67b848a05","createdAt":"2023-11-23T08:38:12.144Z","updatedAt":"2023-11-23T08:38:12.144Z","__v":0}}}
+2023-11-23T08:51:52.813Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-23T08:51:52.912Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Member Invitation send Successfully 😍","result":{"Project_id":"6504127ef1e6e606c863c674","username":"denju","email":"denju@yopmail.com","role":"Owner","isActive":null,"status":"pending","expireAt":"2090-11-29T00:00:00.000Z","_id":"655f12a8574319b67b848a0b","createdAt":"2023-11-23T08:51:52.881Z","updatedAt":"2023-11-23T08:51:52.881Z","__v":0}}}
+2023-11-23T09:11:39.957Z [[32minfo[39m]: POST /api/project-member/new?Project_id=6504127ef1e6e606c863c674
+2023-11-23T09:11:40.069Z [[32minfo[39m]: {"status":true,"StatusCode":200,"data":{"message":"Member Invitation send Successfully 😍","result":{"Project_id":"6504127ef1e6e606c863c674","username":"denju","email":"denju@yopmail.com","role":"Owner","isActive":null,"status":"pending","expireAt":"2090-11-29T00:00:00.000Z","_id":"655f174c574319b67b848a11","createdAt":"2023-11-23T09:11:40.029Z","updatedAt":"2023-11-23T09:11:40.029Z","__v":0}}}
+2025-07-22T03:39:45.502Z [[32minfo[39m]: Server running on port 4000
+2025-07-22T05:27:11.251Z [[32minfo[39m]: Server running on port 4000
+2025-07-22T05:43:07.114Z [[32minfo[39m]: POST /api%0A/user/register
+2025-07-22T05:45:08.687Z [[32minfo[39m]: POST /api%0A/user/register
+2025-07-22T05:46:35.400Z [[32minfo[39m]: POST /api%0A/user/register
+2025-07-22T05:48:27.870Z [[32minfo[39m]: Server running on port 4000
+2025-07-22T05:50:30.256Z [[32minfo[39m]: POST /api%0A/user/register
+2025-07-22T05:50:30.261Z [[32minfo[39m]: {"title":"Not Found","message":"Not Found-undefined","stackTrace":"Error: Not Found-undefined\n    at notFound (file:///C:/Users/LENOVO/Desktop/Error_Tracing/web-error-logging-denju_express_backend/web-error-logging-denju_express_backend/middleware/error.js:14:19)\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at file:///C:/Users/LENOVO/Desktop/Error_Tracing/web-error-logging-denju_express_backend/web-error-logging-denju_express_backend/server.js:65:3\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:286:9"}
+2025-07-22T05:50:30.274Z [[32minfo[39m]: {"title":"Unauthorized","message":"Not Found-undefined","stackTrace":"Error: Not Found-undefined\n    at notFound (file:///C:/Users/LENOVO/Desktop/Error_Tracing/web-error-logging-denju_express_backend/web-error-logging-denju_express_backend/middleware/error.js:14:19)\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at file:///C:/Users/LENOVO/Desktop/Error_Tracing/web-error-logging-denju_express_backend/web-error-logging-denju_express_backend/server.js:65:3\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:286:9"}
+2025-07-22T05:54:32.845Z [[32minfo[39m]: Server running on port 4000
+2025-07-22T05:54:34.031Z [[32minfo[39m]: POST /api%0A/user/register
+2025-07-22T05:54:34.035Z [[32minfo[39m]: {"title":"Not Found","message":"Not Found - /api%0A/user/register","stackTrace":"Error: Not Found - /api%0A/user/register\n    at notFound (file:///C:/Users/LENOVO/Desktop/Error_Tracing/web-error-logging-denju_express_backend/web-error-logging-denju_express_backend/middleware/error.js:17:17)\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at file:///C:/Users/LENOVO/Desktop/Error_Tracing/web-error-logging-denju_express_backend/web-error-logging-denju_express_backend/server.js:65:3\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:286:9"}
+2025-07-22T05:54:34.051Z [[32minfo[39m]: {"title":"Unauthorized","message":"Not Found - /api%0A/user/register","stackTrace":"Error: Not Found - /api%0A/user/register\n    at notFound (file:///C:/Users/LENOVO/Desktop/Error_Tracing/web-error-logging-denju_express_backend/web-error-logging-denju_express_backend/middleware/error.js:17:17)\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at file:///C:/Users/LENOVO/Desktop/Error_Tracing/web-error-logging-denju_express_backend/web-error-logging-denju_express_backend/server.js:65:3\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:286:9"}
+2025-07-22T05:54:52.592Z [[32minfo[39m]: POST /api%0A/user/register
+2025-07-22T05:54:52.596Z [[32minfo[39m]: {"title":"Not Found","message":"Not Found - /api%0A/user/register","stackTrace":"Error: Not Found - /api%0A/user/register\n    at notFound (file:///C:/Users/LENOVO/Desktop/Error_Tracing/web-error-logging-denju_express_backend/web-error-logging-denju_express_backend/middleware/error.js:17:17)\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at file:///C:/Users/LENOVO/Desktop/Error_Tracing/web-error-logging-denju_express_backend/web-error-logging-denju_express_backend/server.js:65:3\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:286:9"}
+2025-07-22T05:54:52.602Z [[32minfo[39m]: {"title":"Unauthorized","message":"Not Found - /api%0A/user/register","stackTrace":"Error: Not Found - /api%0A/user/register\n    at notFound (file:///C:/Users/LENOVO/Desktop/Error_Tracing/web-error-logging-denju_express_backend/web-error-logging-denju_express_backend/middleware/error.js:17:17)\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at file:///C:/Users/LENOVO/Desktop/Error_Tracing/web-error-logging-denju_express_backend/web-error-logging-denju_express_backend/server.js:65:3\n    at Layer.handle [as handle_request] (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\LENOVO\\Desktop\\Error_Tracing\\web-error-logging-denju_express_backend\\web-error-logging-denju_express_backend\\node_modules\\express\\lib\\router\\index.js:286:9"}
+2025-07-22T05:56:07.539Z [[32minfo[39m]: POST /api/user/register
+2025-07-22T05:56:08.195Z [[32minfo[39m]: {"data":{"message":"Registration Done Successfully 😍"},"status":true,"statusCode":201}
+2025-07-22T05:57:03.623Z [[32minfo[39m]: POST /api/user/login
+2025-07-22T05:57:03.780Z [[32minfo[39m]: {"data":{"message":"Welcome back, denju123","access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODdmMjdmOGY5N2IzZDUxM2E2ZGU2ZjkiLCJpYXQiOjE3NTMxNjM4MjN9.qFRH_3TxP0TxcAZVJPWZo5NsaRtx7cFVBvFl5iZZEvw","result":{"_id":"687f27f8f97b3d513a6de6f9","username":"denju123","email":"denju123@example.com","password":"$2b$10$vM3f33d/UfRu4qSaqtagCuyCy/j2eLm4G5jGc/fbp5f5jJa9pFr46","Projects":[],"isUserRegistered":true,"createdAt":"2025-07-22T05:56:08.124Z","updatedAt":"2025-07-22T05:56:08.124Z","__v":0}},"status":true,"statusCode":200}
+2025-07-22T05:57:48.405Z [[32minfo[39m]: POST /api/project/new
+2025-07-22T05:57:49.514Z [[32minfo[39m]: {"status":false,"message":"Missing required parameter - file"}
+2025-07-22T06:07:22.744Z [[32minfo[39m]: Server running on port 4000
+2025-07-22T06:12:40.873Z [[32minfo[39m]: POST /api/project/new
+2025-07-22T06:12:41.954Z [[32minfo[39m]: {"status":false,"message":"Missing required parameter - file"}
+2025-07-22T06:15:27.811Z [[32minfo[39m]: POST /api/project/new
+2025-07-22T06:15:28.927Z [[32minfo[39m]: {"status":false,"message":"Missing required parameter - file"}
+2025-07-22T06:15:44.044Z [[32minfo[39m]: POST /api/project/new
+2025-07-22T06:15:44.791Z [[32minfo[39m]: {"status":false,"message":"Missing required parameter - file"}
+2025-07-22T06:20:37.199Z [[32minfo[39m]: POST /api/project/new
+2025-07-22T06:20:40.306Z [[32minfo[39m]: {"status":false,"message":"platform is a required field"}
+2025-07-22T06:21:27.647Z [[32minfo[39m]: POST /api/project/new
+2025-07-22T06:21:32.294Z [[32minfo[39m]: {"status":true,"StatusCode":201,"data":{"message":"Project added successfully 😘","project":{"platform":"Node js","title":"Node Js","description":"Node Js Error Tracing Project","gitUrl":"https://github.com/denju23/error_tracing_app","domain":"https://www.pizza.com.in","user":"687f27f8f97b3d513a6de6f9","project_img":{"public_id":"1753165287650","url":"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1753165291/1753165287650.png"},"_id":"687f2deb0ed25995fe6c04f2","createdAt":"2025-07-22T06:21:31.955Z","updatedAt":"2025-07-22T06:21:31.955Z","__v":0},"secrets":{"User_id":"687f27f8f97b3d513a6de6f9","Project_id":"687f2deb0ed25995fe6c04f2","access_key":"U2FsdGVkX1/SJ355YKIQ5uTK6MTiumbXkA1pq0Gq8RtjrJXEILKqYqDi5PyyBGpa","secret_key":"004f4118-ac84-452f-be9b-7fbd8aaeeb86","_id":"687f2dec0ed25995fe6c04f4","__v":0}}}
+2025-07-22T06:23:09.297Z [[32minfo[39m]: Server running on port 4000
+2025-07-22T06:26:15.880Z [[32minfo[39m]: Server running on port 4000
+2025-07-22T06:27:18.638Z [[32minfo[39m]: POST /api/project/new
+2025-07-22T06:27:18.649Z [[32minfo[39m]: {"status":false,"message":"undefined"}
+2025-07-22T06:27:54.937Z [[32minfo[39m]: POST /api/project/new
+2025-07-22T06:27:54.948Z [[32minfo[39m]: {"status":false,"message":"undefined"}
+2025-07-22T06:28:32.666Z [[32minfo[39m]: Server running on port 4000
+2025-07-22T06:28:58.885Z [[32minfo[39m]: POST /api/project/new
+2025-07-22T06:28:58.940Z [[32minfo[39m]: {"status":false,"message":"undefined"}
+2025-07-22T06:29:03.594Z [[32minfo[39m]: POST /api/project/new
+2025-07-22T06:29:03.623Z [[32minfo[39m]: {"status":false,"message":"undefined"}
+2025-07-22T06:30:56.568Z [[32minfo[39m]: Server running on port 4000
+2025-07-22T06:30:59.048Z [[32minfo[39m]: POST /api/project/new
+2025-07-22T06:30:59.075Z [[32minfo[39m]: {"status":false,"message":"undefined"}
+2025-07-22T06:31:53.653Z [[32minfo[39m]: POST /api/project/new
+2025-07-22T06:31:53.705Z [[32minfo[39m]: {"status":false,"message":"undefined"}
+2025-07-22T06:42:13.783Z [[32minfo[39m]: POST /api/project/new
+2025-07-22T06:42:13.889Z [[32minfo[39m]: {"status":false,"message":"undefined"}
+2025-07-22T06:43:03.907Z [[32minfo[39m]: POST /api/project/new
+2025-07-22T06:43:03.920Z [[32minfo[39m]: {"status":false,"message":"undefined"}
+2025-07-22T06:49:27.470Z [[32minfo[39m]: POST /api/project/new
+2025-07-22T06:49:27.499Z [[32minfo[39m]: {"status":false,"message":"undefined"}
+2025-07-22T06:49:37.500Z [[32minfo[39m]: POST /api/project/new
+2025-07-22T06:49:37.504Z [[32minfo[39m]: {"status":false,"message":"undefined"}
+2025-07-22T06:50:14.651Z [[32minfo[39m]: POST /api/project/new
+2025-07-22T06:50:14.669Z [[32minfo[39m]: {"status":false,"message":"undefined"}
+2025-07-22T06:50:29.938Z [[32minfo[39m]: POST /api/project/new
+2025-07-22T06:50:30.000Z [[32minfo[39m]: {"status":false,"message":"undefined"}
+2025-07-22T06:50:35.739Z [[32minfo[39m]: POST /api/project/new
+2025-07-22T06:50:35.746Z [[32minfo[39m]: {"status":false,"message":"undefined"}
+2025-07-22T06:51:27.209Z [[32minfo[39m]: Server running on port 4000
+2025-07-22T06:51:41.594Z [[32minfo[39m]: Server running on port 4000
+2025-07-22T06:53:41.377Z [[32minfo[39m]: POST /api/project/new
+2025-07-22T06:53:41.562Z [[32minfo[39m]: {"status":false,"message":"undefined"}
+2025-07-22T06:54:57.276Z [[32minfo[39m]: Server running on port 4000
+2025-07-22T06:55:02.666Z [[32minfo[39m]: POST /api/project/new
+2025-07-22T06:55:02.764Z [[32minfo[39m]: {"status":false,"message":"undefined"}
+2025-07-22T06:57:05.898Z [[32minfo[39m]: Server running on port 4000
+2025-07-22T06:57:14.043Z [[32minfo[39m]: POST /api/project/new
+2025-07-22T06:57:14.124Z [[32minfo[39m]: {"status":false,"message":"undefined"}
+2025-07-22T06:57:58.067Z [[32minfo[39m]: Server running on port 4000
+2025-07-22T06:58:04.017Z [[32minfo[39m]: Server running on port 4000
+2025-07-22T06:58:04.213Z [[32minfo[39m]: POST /api/project/new
+2025-07-22T06:58:04.349Z [[32minfo[39m]: {"status":false,"message":"undefined"}
+2025-07-22T07:00:34.851Z [[32minfo[39m]: Server running on port 4000
+2025-07-22T07:06:48.820Z [[32minfo[39m]: POST /api/project/new
+2025-07-22T07:06:48.987Z [[32minfo[39m]: {"status":false,"message":"undefined"}
+2025-07-22T07:07:46.765Z [[32minfo[39m]: Server running on port 4000
+2025-07-22T07:07:57.881Z [[32minfo[39m]: Server running on port 4000
+2025-07-22T07:08:05.365Z [[32minfo[39m]: POST /api/project/new
+2025-07-22T07:08:08.249Z [[32minfo[39m]: {"status":true,"StatusCode":201,"data":{"message":"Project added successfully 😘","project":{"platform":"Node js","title":"Node Js","description":"Node Js Error Tracing Project","gitUrl":"https://github.com/denju23/error_tracing_app","domain":"https://www.pizza.com.in","user":"687f27f8f97b3d513a6de6f9","project_img":{"public_id":"1753168085511","url":"http://res.cloudinary.com/dd0vo0cov/image/upload/v1753168087/1753168085511.png"},"_id":"687f38d79a6bb4e9216448b0","createdAt":"2025-07-22T07:08:07.972Z","updatedAt":"2025-07-22T07:08:07.972Z","__v":0},"secrets":{"User_id":"687f27f8f97b3d513a6de6f9","Project_id":"687f38d79a6bb4e9216448b0","access_key":"U2FsdGVkX1+ndb7ujnjYzEZJbjlQ1MMeXoDMuw/JUOkvKsLmypVgEb1k/9+TEZyT","secret_key":"c11af6dc-ee03-4329-a740-e98530820b66","_id":"687f38d89a6bb4e9216448b2","__v":0}}}
+2025-07-22T07:08:13.511Z [[32minfo[39m]: POST /api/project/new
+2025-07-22T07:08:16.082Z [[32minfo[39m]: {"status":true,"StatusCode":201,"data":{"message":"Project added successfully 😘","project":{"platform":"Node js","title":"Node Js","description":"Node Js Error Tracing Project","gitUrl":"https://github.com/denju23/error_tracing_app","domain":"https://www.pizza.com.in","user":"687f27f8f97b3d513a6de6f9","project_img":{"public_id":"1753168093657","url":"http://res.cloudinary.com/dd0vo0cov/image/upload/v1753168095/1753168093657.png"},"_id":"687f38df9a6bb4e9216448b8","createdAt":"2025-07-22T07:08:15.819Z","updatedAt":"2025-07-22T07:08:15.819Z","__v":0},"secrets":{"User_id":"687f27f8f97b3d513a6de6f9","Project_id":"687f38df9a6bb4e9216448b8","access_key":"U2FsdGVkX1+8sYiBaWtNV0/PVgzpWGsNc+i9by2ciyuummRJoXSbyuswCnoXqJ6p","secret_key":"43446c96-65e4-42ba-9cfd-d498bea31121","_id":"687f38df9a6bb4e9216448ba","__v":0}}}
+2025-07-22T07:12:06.024Z [[32minfo[39m]: Server running on port 4000
+2025-07-22T07:12:13.572Z [[32minfo[39m]: Server running on port 4000
+2025-07-22T07:12:20.700Z [[32minfo[39m]: Server running on port 4000
+2025-07-22T07:12:21.506Z [[32minfo[39m]: POST /api/project/new
+2025-07-22T07:12:24.501Z [[32minfo[39m]: {"status":true,"StatusCode":201,"data":{"message":"Project added successfully 😘","project":{"platform":"Node js","title":"Node Js","description":"Node Js Error Tracing Project","gitUrl":"https://github.com/denju23/error_tracing_app","domain":"https://www.pizza.com.in","user":"687f27f8f97b3d513a6de6f9","project_img":{"public_id":"1753168341566","url":"http://res.cloudinary.com/dd0vo0cov/image/upload/v1753168343/1753168341566.png"},"_id":"687f39d84f5a8f4eef5d1f6e","createdAt":"2025-07-22T07:12:24.257Z","updatedAt":"2025-07-22T07:12:24.257Z","__v":0},"secrets":{"User_id":"687f27f8f97b3d513a6de6f9","Project_id":"687f39d84f5a8f4eef5d1f6e","access_key":"U2FsdGVkX18xUcMBRqQHS8vkO0H3il4dEHP7kMPT5S4J1+5NKKuSOOi2pbzV6B4s","secret_key":"b0721b59-eb88-439f-b6ce-bcad6105cbc4","_id":"687f39d84f5a8f4eef5d1f70","__v":0}}}
+2025-07-22T07:13:27.875Z [[32minfo[39m]: POST /api/project-error/new?Project_id=687f39d84f5a8f4eef5d1f6e
+2025-07-22T07:13:28.190Z [[32minfo[39m]: {"status":true,"StatusCode":201,"data":{"message":"Post Request Processed Successfully 😍","result":{"Project_id":"687f39d84f5a8f4eef5d1f6e","User_id":"687f27f8f97b3d513a6de6f9","label":"Login Error","title":"Unable to Login with Correct Credentials","path":"/login","description":"User is facing an error when trying to log in with valid credentials. The system returns a 500 internal server error.","type":"Bug","ip":"::1","browser":"PostmanRuntime/7.44.1","titleOfImage":"Login Error Screenshot","descriptionOfImage":"Screenshot showing the error message after user submits login form.","appVersion":"v1.2.3","hostName":"web-error-app.local","protocolUrl":"https://web-error-app.local/login","platform":"Web","isActive":false,"isChecked":false,"isQaDone":false,"isDeveloperDone":false,"_id":"687f3a184f5a8f4eef5d1f78","createdAt":"2025-07-22T07:13:28.039Z","updatedAt":"2025-07-22T07:13:28.039Z","__v":0}}}
+2025-07-22T07:14:34.779Z [[32minfo[39m]: POST /api/project-error-qabug/new?Project_id=687f39d84f5a8f4eef5d1f6e&Error_id=687f3a184f5a8f4eef5d1f78
+2025-07-22T07:14:35.813Z [[32minfo[39m]: {"status":false,"message":"Missing required parameter - file"}
+2025-07-22T07:15:44.160Z [[32minfo[39m]: POST /api/project-error-qabug/new?Project_id=687f39d84f5a8f4eef5d1f6e&Error_id=687f3a184f5a8f4eef5d1f78
+2025-07-22T07:15:47.444Z [[32minfo[39m]: {"status":true,"StatusCode":201,"data":{"message":"Post Request Processed Successfully 😍","result":{"QABugsData":{"Project_id":"687f39d84f5a8f4eef5d1f6e","Error_id":"687f3a184f5a8f4eef5d1f78","comment":"testing","QABug_img":{"public_id":"1753168544233","url":"http://res.cloudinary.com/dd0vo0cov/image/upload/v1753168546/1753168544233.png"},"email":"denju123@example.com","_id":"687f3aa34f5a8f4eef5d1f80","createdAt":"2025-07-22T07:15:47.366Z","updatedAt":"2025-07-22T07:15:47.366Z","__v":0},"CommentLength":7}}}
+2025-07-22T07:19:29.789Z [[32minfo[39m]: Server running on port 4000
+2025-07-22T07:19:55.561Z [[32minfo[39m]: Server running on port 4000
+2025-07-22T07:21:42.981Z [[32minfo[39m]: Server running on port 4000

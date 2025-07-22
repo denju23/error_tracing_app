@@ -1,0 +1,3611 @@
+{
+	"info": {
+		"_postman_id": "54d615d3-f3fe-45b2-af30-be02bd28e325",
+		"name": "Web_Error_loggin_express_BE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23016455",
+		"_collection_link": "https://www.postman.com/docking-module-geoscientist-83701725/workspace/web-error-logging/collection/23016455-54d615d3-f3fe-45b2-af30-be02bd28e325?action=share&source=collection_link&creator=23016455"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"denju123\",\r\n  \"email\": \"denju123@example.com\",\r\n  \"password\": \"Test@1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/user/register",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Register",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\":\"Denju patel\",\r\n    \"email\":\"denju@yopmail.com\",\r\n    \"password\":\"Test@123\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/user/register",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"user",
+								"register"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "89"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"59-LhCc+cmH/wbEYGlRVGAM3tYdcmA\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 07:50:51 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": {\n        \"message\": \"Registration Done Successfully 😍\"\n    },\n    \"status\": true,\n    \"statusCode\": 201\n}"
+				}
+			]
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"email\": \"denju123@example.com\",\r\n  \"password\": \"Test@1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/user/login",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"user",
+						"login"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\":\"denju@yopmail.com\",\r\n  \"password\":\"Test@123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/user/login",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"user",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "token={{vault:json-web-token}}; Max-Age=2160000; Path=/; HttpOnly"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "517"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"205-ipxrmIkthkb818IpZ2EftyRSSH4\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 07:53:19 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": {\n        \"message\": \"Welcome back, Denju patel\",\n        \"access_token\": \"{{vault:json-web-token}}\",\n        \"result\": {\n            \"_id\": \"687b4e5bad2ca8640181c8ea\",\n            \"username\": \"Denju patel\",\n            \"email\": \"denju@yopmail.com\",\n            \"password\": \"$2b$10$7lXMG7W.RUc2gWFtYpjIXebTmB4o807LcSLeicaMXhyuWdlEPYJ3a\",\n            \"Projects\": [],\n            \"createdAt\": \"2025-07-19T07:50:51.789Z\",\n            \"updatedAt\": \"2025-07-19T07:50:51.789Z\",\n            \"__v\": 0\n        }\n    },\n    \"status\": true,\n    \"statusCode\": 200\n}"
+				}
+			]
+		},
+		{
+			"name": "User Details",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/user/current",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"user",
+						"current"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "User Details",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/user/current",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"user",
+								"current"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "264"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"108-GWyKjlDAFhWhpNdRe45DqAF4Ppw\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 08:10:32 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"statusCode\": 200,\n    \"data\": {\n        \"message\": \"User Retrived\",\n        \"result\": {\n            \"_id\": \"687b4e5bad2ca8640181c8ea\",\n            \"username\": \"Denju patel\",\n            \"email\": \"denju@yopmail.com\",\n            \"Projects\": [],\n            \"createdAt\": \"2025-07-19T07:50:51.789Z\",\n            \"updatedAt\": \"2025-07-19T07:50:51.789Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "ChangePassword",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"oldPassword\":\"Test@123\" ,\r\n    \"newPassword\" : \"Denju@123\", \r\n    \"confirmNewPassword\": \"Denju@123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/user/ChangePassword",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"user",
+						"ChangePassword"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "ChangePassword",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"oldPassword\":\"Test@123\" ,\r\n    \"newPassword\" : \"Denju@123\", \r\n    \"confirmNewPassword\": \"Denju@123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/user/ChangePassword",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"user",
+								"ChangePassword"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "97"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"61-svKeVoswvmdRLV559crrTnjiAHE\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 08:15:32 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": {\n        \"message\": \"Your password has been changed successfully\"\n    },\n    \"status\": true,\n    \"statusCode\": 200\n}"
+				}
+			]
+		},
+		{
+			"name": "ForgotPassword",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"denju@yopmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/user/ForgotPassword",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"user",
+						"ForgotPassword"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "ForgotPassword",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"denju@yopmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/user/ForgotPassword",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"user",
+								"ForgotPassword"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "448"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1c0-XQLdiQabOx/iOpFlZ681O9Cbbew\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 08:21:04 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": {\n        \"message\": \"email send denju@yopmail.com\",\n        \"resetPassowrdToken\": \"c393079a-19dc-4303-8300-a9f48ccce400\",\n        \"result\": {\n            \"_id\": \"687b4e5bad2ca8640181c8ea\",\n            \"username\": \"Denju patel\",\n            \"email\": \"denju@yopmail.com\",\n            \"Projects\": [],\n            \"createdAt\": \"2025-07-19T07:50:51.789Z\",\n            \"updatedAt\": \"2025-07-19T08:15:32.525Z\",\n            \"__v\": 0,\n            \"resetPasswordToken\": \"c393079a-19dc-4303-8300-a9f48ccce400\",\n            \"resetPasswordExpire\": \"2025-07-19T08:26:04.935Z\"\n        }\n    },\n    \"status\": true,\n    \"statusCode\": 200\n}"
+				}
+			]
+		},
+		{
+			"name": "Reset Password",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"newPassword\" : \"Denju@123\", \r\n    \"confirmNewPassword\": \"Denju@123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/user/resetpassword/0c6168ad-0ee9-4a2d-9153-e0c0e7f33d97",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"user",
+						"resetpassword",
+						"0c6168ad-0ee9-4a2d-9153-e0c0e7f33d97"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Reset Password",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"newPassword\" : \"Denju@123\", \r\n    \"confirmNewPassword\": \"Denju@123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/user/resetpassword/0c6168ad-0ee9-4a2d-9153-e0c0e7f33d97",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"user",
+								"resetpassword",
+								"0c6168ad-0ee9-4a2d-9153-e0c0e7f33d97"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "81"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"51-X1DyTyHe59akcKvU+NlvgemWVdw\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 10:34:03 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": {\n        \"message\": \"password reset successfully\"\n    },\n    \"status\": true,\n    \"statusCode\": 200\n}"
+				}
+			]
+		},
+		{
+			"name": "Create Project",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "Node Js",
+							"type": "text"
+						},
+						{
+							"key": "gitUrl",
+							"value": "https://github.com/denju23/error_tracing_app",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Node Js Error Tracing Project",
+							"type": "text"
+						},
+						{
+							"key": "domain",
+							"value": "https://www.pizza.com.in",
+							"type": "text"
+						},
+						{
+							"key": "platform",
+							"value": "Node js",
+							"type": "text"
+						},
+						{
+							"key": "project_img",
+							"type": "file",
+							"src": "/C:/Users/LENOVO/Pictures/Screenshots/Screenshot (49).png"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{base_url}}/project/new",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"project",
+						"new"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Create Project",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "project_img",
+									"type": "file",
+									"src": "/C:/Users/LENOVO/Pictures/Screenshots/Screenshot (29).png"
+								},
+								{
+									"key": "title",
+									"value": "Node Js",
+									"type": "text"
+								},
+								{
+									"key": "gitUrl",
+									"value": "https://github.com/denju23/error_tracing_app",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Node Js Error Tracing Project",
+									"type": "text"
+								},
+								{
+									"key": "domain",
+									"value": "https://www.pizza.com.in",
+									"type": "text"
+								},
+								{
+									"key": "platform",
+									"value": "Node js",
+									"type": "text"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/project/new",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"project",
+								"new"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "http://localhost:3000"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "820"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"334-fEQ25R5mmOTSRiYgvaulVehkXt4\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 22 Jul 2025 06:21:32 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"StatusCode\": 201,\n    \"data\": {\n        \"message\": \"Project added successfully 😘\",\n        \"project\": {\n            \"platform\": \"Node js\",\n            \"title\": \"Node Js\",\n            \"description\": \"Node Js Error Tracing Project\",\n            \"gitUrl\": \"https://github.com/denju23/error_tracing_app\",\n            \"domain\": \"https://www.pizza.com.in\",\n            \"user\": \"687f27f8f97b3d513a6de6f9\",\n            \"project_img\": {\n                \"public_id\": \"1753165287650\",\n                \"url\": \"http://res.cloudinary.com/dyv0kk0g1/image/upload/v1753165291/1753165287650.png\"\n            },\n            \"_id\": \"687f2deb0ed25995fe6c04f2\",\n            \"createdAt\": \"2025-07-22T06:21:31.955Z\",\n            \"updatedAt\": \"2025-07-22T06:21:31.955Z\",\n            \"__v\": 0\n        },\n        \"secrets\": {\n            \"User_id\": \"687f27f8f97b3d513a6de6f9\",\n            \"Project_id\": \"687f2deb0ed25995fe6c04f2\",\n            \"access_key\": \"U2FsdGVkX1/SJ355YKIQ5uTK6MTiumbXkA1pq0Gq8RtjrJXEILKqYqDi5PyyBGpa\",\n            \"secret_key\": \"004f4118-ac84-452f-be9b-7fbd8aaeeb86\",\n            \"_id\": \"687f2dec0ed25995fe6c04f4\",\n            \"__v\": 0\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get All Project",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/project",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"project"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get All Project",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/project",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"project"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1096"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"448-q1e+8n429f1tzze/Y+X6HiZp1yc\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 13:14:19 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"statusCode\": 200,\n    \"data\": {\n        \"projectCount\": 3,\n        \"resPerPage\": 12,\n        \"totalPages\": 1,\n        \"result\": [\n            {\n                \"_id\": \"687b990f304f25036de0431b\",\n                \"platform\": \"Node Js\",\n                \"title\": \"Node Js\",\n                \"description\": \"Node Js Error Tracing Project\",\n                \"gitUrl\": \"https://github.com/denju23/error_tracing_app\",\n                \"domain\": \"https://www.pizza.com.in\",\n                \"user\": \"687b4e5bad2ca8640181c8ea\",\n                \"createdAt\": \"2025-07-19T13:09:35.646Z\",\n                \"updatedAt\": \"2025-07-19T13:09:35.646Z\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"687b9964304f25036de04326\",\n                \"platform\": \"Node Js\",\n                \"title\": \"Node Js\",\n                \"description\": \"Node Js Error Tracing Project\",\n                \"gitUrl\": \"https://github.com/denju23/error_tracing_app\",\n                \"domain\": \"https://www.pizza.com.in\",\n                \"user\": \"687b4e5bad2ca8640181c8ea\",\n                \"createdAt\": \"2025-07-19T13:11:00.713Z\",\n                \"updatedAt\": \"2025-07-19T13:11:00.713Z\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"687b996b304f25036de0432e\",\n                \"platform\": \"Node Js\",\n                \"title\": \"Node Js\",\n                \"description\": \"Node Js Error Tracing Project\",\n                \"gitUrl\": \"https://github.com/denju23/error_tracing_app\",\n                \"domain\": \"https://www.pizza.com.in\",\n                \"user\": \"687b4e5bad2ca8640181c8ea\",\n                \"createdAt\": \"2025-07-19T13:11:07.357Z\",\n                \"updatedAt\": \"2025-07-19T13:11:07.357Z\",\n                \"__v\": 0\n            }\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Project By ID",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/project/687b990f304f25036de0431b",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"project",
+						"687b990f304f25036de0431b"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Project By ID",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/project/687b990f304f25036de0431b",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"project",
+								"687b990f304f25036de0431b"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "429"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1ad-0I4TnBqVfKLxX47fJxUo5e+J89U\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 13:15:57 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"StatusCode\": 200,\n    \"data\": {\n        \"message\": \"Project Retrived Successfully 😍\",\n        \"result\": {\n            \"_id\": \"687b990f304f25036de0431b\",\n            \"platform\": \"Node Js\",\n            \"title\": \"Node Js\",\n            \"description\": \"Node Js Error Tracing Project\",\n            \"gitUrl\": \"https://github.com/denju23/error_tracing_app\",\n            \"domain\": \"https://www.pizza.com.in\",\n            \"user\": \"687b4e5bad2ca8640181c8ea\",\n            \"createdAt\": \"2025-07-19T13:09:35.646Z\",\n            \"updatedAt\": \"2025-07-19T13:09:35.646Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Update Project",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"platform\":\"Node Js update\",\r\n    \"title\":\"Node Js update\",\r\n    \"gitUrl\":\"https://github.com/denju2323/error_tracing_app\",\r\n    \"description\":\"Node Js Error Tracing Project update\",\r\n    \"domain\":\"https://www.pizzaupdate.com.in\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/project/update/687b990f304f25036de0431b",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"project",
+						"update",
+						"687b990f304f25036de0431b"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Update Project",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"platform\":\"Node Js update\",\r\n    \"title\":\"Node Js update\",\r\n    \"gitUrl\":\"https://github.com/denju2323/error_tracing_app\",\r\n    \"description\":\"Node Js Error Tracing Project update\",\r\n    \"domain\":\"https://www.pizzaupdate.com.in\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/project/update/687b990f304f25036de0431b",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"project",
+								"update",
+								"687b990f304f25036de0431b"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "457"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1c9-2Vll1Q+/kyidjaxo+6UUEqsaA+Q\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 13:30:08 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"StatusCode\": 204,\n    \"data\": {\n        \"message\": \"Project Updated Successfully 😍\",\n        \"result\": {\n            \"_id\": \"687b990f304f25036de0431b\",\n            \"platform\": \"Node Js update\",\n            \"title\": \"Node Js update\",\n            \"description\": \"Node Js Error Tracing Project update\",\n            \"gitUrl\": \"https://github.com/denju2323/error_tracing_app\",\n            \"domain\": \"https://www.pizzaupdate.com.in\",\n            \"user\": \"687b4e5bad2ca8640181c8ea\",\n            \"createdAt\": \"2025-07-19T13:09:35.646Z\",\n            \"updatedAt\": \"2025-07-19T13:30:08.549Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete Project",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/project/delete/687ba407304f25036de0434a",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"project",
+						"delete",
+						"687ba407304f25036de0434a"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Delete Project",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/project/delete/687ba407304f25036de0434a",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"project",
+								"delete",
+								"687ba407304f25036de0434a"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "82"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"52-wJOUYQeK4WlpUGKj5eFCdbSCfT4\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 13:56:40 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"StatusCode\": 200,\n    \"data\": {\n        \"message\": \"Project deleted successfully\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Create/Add Member",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"Denju Developer\",\r\n    \"email\": \"denju.dd@yopmail.com\",\r\n    \"role\": \"Maintainer\",\r\n    \"isActive\": \"true\",\r\n    \"expireAt\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/project-member/new?Project_id=687ba73d69009201a3d46e81",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"project-member",
+						"new"
+					],
+					"query": [
+						{
+							"key": "Project_id",
+							"value": "687ba73d69009201a3d46e81"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Add Member In Project",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"Denju Developer\",\r\n    \"email\": \"denju.v@yopmail.com\",\r\n    \"role\": \"Developer\",\r\n    \"isActive\": \"true\",\r\n    \"expireAt\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/project-member/new?Project_id=687ba73d69009201a3d46e81",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"project-member",
+								"new"
+							],
+							"query": [
+								{
+									"key": "Project_id",
+									"value": "687ba73d69009201a3d46e81"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "393"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"189-EvZOCzNU3ZDvCiO0JxyYN9O6Byc\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 14:23:07 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"StatusCode\": 200,\n    \"data\": {\n        \"message\": \"Member Invitation send Successfully 😍\",\n        \"result\": {\n            \"Project_id\": \"687ba73d69009201a3d46e81\",\n            \"username\": \"Denju Developer\",\n            \"email\": \"denju.v@yopmail.com\",\n            \"role\": \"Developer\",\n            \"isActive\": true,\n            \"status\": \"pending\",\n            \"expireAt\": null,\n            \"_id\": \"687baa4767b150ec30e56f37\",\n            \"createdAt\": \"2025-07-19T14:23:03.414Z\",\n            \"updatedAt\": \"2025-07-19T14:23:03.414Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Member",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{base_url}}/project-member?Project_id=687ba73d69009201a3d46e81&Member_id=687bab5730906b15bf90b39a",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"project-member"
+					],
+					"query": [
+						{
+							"key": "Project_id",
+							"value": "687ba73d69009201a3d46e81"
+						},
+						{
+							"key": "Member_id",
+							"value": "687bab5730906b15bf90b39a"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Member",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{base_url}}/project-member?Project_id=687ba73d69009201a3d46e81&Member_id=687bab5730906b15bf90b39a",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"project-member"
+							],
+							"query": [
+								{
+									"key": "Project_id",
+									"value": "687ba73d69009201a3d46e81"
+								},
+								{
+									"key": "Member_id",
+									"value": "687bab5730906b15bf90b39a"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "383"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"17f-uNbE2a98uQeC5dFDl8JtgXrsBr4\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 14:31:07 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"StatusCode\": 200,\n    \"data\": {\n        \"message\": \"Member Retrived Successfully\",\n        \"result\": {\n            \"_id\": \"687bab5730906b15bf90b39a\",\n            \"Project_id\": \"687ba73d69009201a3d46e81\",\n            \"username\": \"Denju Developer\",\n            \"email\": \"denju.dd@yopmail.com\",\n            \"role\": \"Maintainer\",\n            \"isActive\": true,\n            \"status\": \"pending\",\n            \"expireAt\": null,\n            \"createdAt\": \"2025-07-19T14:27:35.712Z\",\n            \"updatedAt\": \"2025-07-19T14:27:35.712Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Project Members",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{base_url}}/project-member/all?Project_id=687ba73d69009201a3d46e81",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"project-member",
+						"all"
+					],
+					"query": [
+						{
+							"key": "Project_id",
+							"value": "687ba73d69009201a3d46e81"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Project Members",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{base_url}}/project-member/all?Project_id=687ba73d69009201a3d46e81",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"project-member",
+								"all"
+							],
+							"query": [
+								{
+									"key": "Project_id",
+									"value": "687ba73d69009201a3d46e81"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1330"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"532-HpoSYU0YUQGfPPL+8mP3GluWyrw\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 14:33:53 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"statusCode\": 200,\n    \"data\": {\n        \"message\": \"Project Members Retrived Successfully\",\n        \"members\": [\n            {\n                \"_id\": \"687ba73d69009201a3d46e85\",\n                \"Project_id\": \"687ba73d69009201a3d46e81\",\n                \"User_id\": \"687b4e5bad2ca8640181c8ea\",\n                \"username\": \"Denju patel\",\n                \"email\": \"denju@yopmail.com\",\n                \"role\": \"Owner\",\n                \"isActive\": true,\n                \"status\": \"accepted\",\n                \"expireAt\": \"2025-07-21T14:10:05.503Z\",\n                \"createdAt\": \"2025-07-19T14:10:05.509Z\",\n                \"updatedAt\": \"2025-07-19T14:10:05.509Z\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"687ba7dd69009201a3d46e91\",\n                \"Project_id\": \"687ba73d69009201a3d46e81\",\n                \"username\": \"Denju User\",\n                \"email\": \"denju.b@yopmail.com\",\n                \"role\": \"Developer\",\n                \"isActive\": true,\n                \"status\": \"pending\",\n                \"expireAt\": null,\n                \"createdAt\": \"2025-07-19T14:12:45.363Z\",\n                \"updatedAt\": \"2025-07-19T14:12:45.363Z\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"687baa4767b150ec30e56f37\",\n                \"Project_id\": \"687ba73d69009201a3d46e81\",\n                \"username\": \"Denju Developer\",\n                \"email\": \"denju.v@yopmail.com\",\n                \"role\": \"Developer\",\n                \"isActive\": true,\n                \"status\": \"pending\",\n                \"expireAt\": null,\n                \"createdAt\": \"2025-07-19T14:23:03.414Z\",\n                \"updatedAt\": \"2025-07-19T14:23:03.414Z\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"687bab5730906b15bf90b39a\",\n                \"Project_id\": \"687ba73d69009201a3d46e81\",\n                \"username\": \"Denju Developer\",\n                \"email\": \"denju.dd@yopmail.com\",\n                \"role\": \"Maintainer\",\n                \"isActive\": true,\n                \"status\": \"pending\",\n                \"expireAt\": null,\n                \"createdAt\": \"2025-07-19T14:27:35.712Z\",\n                \"updatedAt\": \"2025-07-19T14:27:35.712Z\",\n                \"__v\": 0\n            }\n        ],\n        \"numberOfMembers\": 4\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Update Member",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"Update Member\",\r\n    \"email\": \"denju.dd@yopmail.com\",\r\n    \"role\": \"QA\",\r\n    \"isActive\": \"false\",\r\n    \"expireAt\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/project-member/update?Project_id=687ba73d69009201a3d46e81&Member_id=687ba7dd69009201a3d46e91",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"project-member",
+						"update"
+					],
+					"query": [
+						{
+							"key": "Project_id",
+							"value": "687ba73d69009201a3d46e81"
+						},
+						{
+							"key": "Member_id",
+							"value": "687ba7dd69009201a3d46e91"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Update Member",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"Update Member\",\r\n    \"email\": \"denju.dd@yopmail.com\",\r\n    \"role\": \"QA\",\r\n    \"isActive\": \"false\",\r\n    \"expireAt\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/project-member/update?Project_id=687ba73d69009201a3d46e81&Member_id=687ba7dd69009201a3d46e91",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"project-member",
+								"update"
+							],
+							"query": [
+								{
+									"key": "Project_id",
+									"value": "687ba73d69009201a3d46e81"
+								},
+								{
+									"key": "Member_id",
+									"value": "687ba7dd69009201a3d46e91"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "378"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"17a-LXu8vs8EypJXDAD5a5OfLQ7pKX0\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 14:40:10 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"StatusCode\": 204,\n    \"data\": {\n        \"message\": \"Member Updated Successfully 😍\",\n        \"result\": {\n            \"_id\": \"687ba7dd69009201a3d46e91\",\n            \"Project_id\": \"687ba73d69009201a3d46e81\",\n            \"username\": \"Update Member\",\n            \"email\": \"denju.dd@yopmail.com\",\n            \"role\": \"QA\",\n            \"isActive\": false,\n            \"status\": \"pending\",\n            \"expireAt\": null,\n            \"createdAt\": \"2025-07-19T14:12:45.363Z\",\n            \"updatedAt\": \"2025-07-19T14:40:10.860Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete Member",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{base_url}}/project-member/delete?Project_id=687ba73d69009201a3d46e81&Member_id=687ba7dd69009201a3d46e91",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"project-member",
+						"delete"
+					],
+					"query": [
+						{
+							"key": "Project_id",
+							"value": "687ba73d69009201a3d46e81"
+						},
+						{
+							"key": "Member_id",
+							"value": "687ba7dd69009201a3d46e91"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Delete Member",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{base_url}}/project-member/delete?Project_id=687ba73d69009201a3d46e81&Member_id=687ba7dd69009201a3d46e91",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"project-member",
+								"delete"
+							],
+							"query": [
+								{
+									"key": "Project_id",
+									"value": "687ba73d69009201a3d46e81"
+								},
+								{
+									"key": "Member_id",
+									"value": "687ba7dd69009201a3d46e91"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "81"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"51-3JNyCmYLjI0Qm8oeTtX6cqb1SNI\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 14:45:57 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"StatusCode\": 200,\n    \"data\": {\n        \"message\": \"Member Deleted successfully\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Dashboard Data",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{base_url}}/dashboard",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"dashboard"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Dashboard Data",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{base_url}}/dashboard",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"dashboard"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "433"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1b1-I7P/wQWn5JZgWDUd2itHA6fkyhw\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 14:52:14 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": {\n        \"NumberOfProjects\": 3,\n        \"NumberOfErrors\": 0,\n        \"weeklyErrors\": [\n            {\n                \"start\": \"2025-07-12T14:52:14.802Z\",\n                \"end\": \"2025-07-19T14:52:14.802Z\",\n                \"count\": 0\n            },\n            {\n                \"start\": \"2025-07-05T14:52:14.802Z\",\n                \"end\": \"2025-07-12T14:52:14.802Z\",\n                \"count\": 0\n            },\n            {\n                \"start\": \"2025-06-28T14:52:14.802Z\",\n                \"end\": \"2025-07-05T14:52:14.802Z\",\n                \"count\": 0\n            },\n            {\n                \"start\": \"2025-06-21T14:52:14.802Z\",\n                \"end\": \"2025-06-28T14:52:14.802Z\",\n                \"count\": 0\n            }\n        ],\n        \"TopErrors\": []\n    },\n    \"status\": true,\n    \"statusCode\": 200\n}"
+				}
+			]
+		},
+		{
+			"name": "Add/Generate Error",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"label\": \"Login Error\",\r\n  \"title\": \"Unable to Login with Correct Credentials\",\r\n  \"path\": \"/login\",\r\n  \"description\": \"User is facing an error when trying to log in with valid credentials. The system returns a 500 internal server error.\",\r\n  \"type\": \"Bug\",\r\n  \"titleOfImage\": \"Login Error Screenshot\",\r\n  \"descriptionOfImage\": \"Screenshot showing the error message after user submits login form.\",\r\n  \"appVersion\": \"v1.2.3\",\r\n  \"hostName\": \"web-error-app.local\",\r\n  \"protocolUrl\": \"https://web-error-app.local/login\",\r\n  \"platform\": \"Web\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/project-error/new?Project_id=687f39d84f5a8f4eef5d1f6e",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"project-error",
+						"new"
+					],
+					"query": [
+						{
+							"key": "Project_id",
+							"value": "687f39d84f5a8f4eef5d1f6e"
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Add Error",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"label\": \"Login Error\",\r\n  \"title\": \"Unable to Login with Correct Credentials\",\r\n  \"path\": \"/login\",\r\n  \"description\": \"User is facing an error when trying to log in with valid credentials. The system returns a 500 internal server error.\",\r\n  \"type\": \"Bug\",\r\n  \"titleOfImage\": \"Login Error Screenshot\",\r\n  \"descriptionOfImage\": \"Screenshot showing the error message after user submits login form.\",\r\n  \"appVersion\": \"v1.2.3\",\r\n  \"hostName\": \"web-error-app.local\",\r\n  \"protocolUrl\": \"https://web-error-app.local/login\",\r\n  \"platform\": \"Web\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/project-error/new?Project_id=687ba73d69009201a3d46e81",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"project-error",
+								"new"
+							],
+							"query": [
+								{
+									"key": "Project_id",
+									"value": "687ba73d69009201a3d46e81"
+								},
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "911"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"38f-/1CKpNwTtHJZbpmt8fS1DsoGWh8\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 14:56:10 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"StatusCode\": 201,\n    \"data\": {\n        \"message\": \"Post Request Processed Successfully 😍\",\n        \"result\": {\n            \"Project_id\": \"687ba73d69009201a3d46e81\",\n            \"User_id\": \"687b4e5bad2ca8640181c8ea\",\n            \"label\": \"Login Error\",\n            \"title\": \"Unable to Login with Correct Credentials\",\n            \"path\": \"/login\",\n            \"description\": \"User is facing an error when trying to log in with valid credentials. The system returns a 500 internal server error.\",\n            \"type\": \"Bug\",\n            \"ip\": \"::1\",\n            \"browser\": \"PostmanRuntime/7.44.1\",\n            \"titleOfImage\": \"Login Error Screenshot\",\n            \"descriptionOfImage\": \"Screenshot showing the error message after user submits login form.\",\n            \"appVersion\": \"v1.2.3\",\n            \"hostName\": \"web-error-app.local\",\n            \"protocolUrl\": \"https://web-error-app.local/login\",\n            \"platform\": \"Web\",\n            \"isActive\": false,\n            \"isChecked\": false,\n            \"isQaDone\": false,\n            \"isDeveloperDone\": false,\n            \"_id\": \"687bb20aff54bc26ba766e9b\",\n            \"createdAt\": \"2025-07-19T14:56:10.878Z\",\n            \"updatedAt\": \"2025-07-19T14:56:10.878Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				},
+				{
+					"name": "Add/Generate Error",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"label\": \"Login Error\",\r\n  \"title\": \"Unable to Login with Correct Credentials\",\r\n  \"path\": \"/login\",\r\n  \"description\": \"User is facing an error when trying to log in with valid credentials. The system returns a 500 internal server error.\",\r\n  \"type\": \"Bug\",\r\n  \"titleOfImage\": \"Login Error Screenshot\",\r\n  \"descriptionOfImage\": \"Screenshot showing the error message after user submits login form.\",\r\n  \"appVersion\": \"v1.2.3\",\r\n  \"hostName\": \"web-error-app.local\",\r\n  \"protocolUrl\": \"https://web-error-app.local/login\",\r\n  \"platform\": \"Web\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/project-error/new?Project_id=687f39d84f5a8f4eef5d1f6e",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"project-error",
+								"new"
+							],
+							"query": [
+								{
+									"key": "Project_id",
+									"value": "687f39d84f5a8f4eef5d1f6e"
+								},
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "http://localhost:3000"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "911"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"38f-jikMj+wy/rpYzJQ5DO4cAi1OUyk\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 22 Jul 2025 07:13:28 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"StatusCode\": 201,\n    \"data\": {\n        \"message\": \"Post Request Processed Successfully 😍\",\n        \"result\": {\n            \"Project_id\": \"687f39d84f5a8f4eef5d1f6e\",\n            \"User_id\": \"687f27f8f97b3d513a6de6f9\",\n            \"label\": \"Login Error\",\n            \"title\": \"Unable to Login with Correct Credentials\",\n            \"path\": \"/login\",\n            \"description\": \"User is facing an error when trying to log in with valid credentials. The system returns a 500 internal server error.\",\n            \"type\": \"Bug\",\n            \"ip\": \"::1\",\n            \"browser\": \"PostmanRuntime/7.44.1\",\n            \"titleOfImage\": \"Login Error Screenshot\",\n            \"descriptionOfImage\": \"Screenshot showing the error message after user submits login form.\",\n            \"appVersion\": \"v1.2.3\",\n            \"hostName\": \"web-error-app.local\",\n            \"protocolUrl\": \"https://web-error-app.local/login\",\n            \"platform\": \"Web\",\n            \"isActive\": false,\n            \"isChecked\": false,\n            \"isQaDone\": false,\n            \"isDeveloperDone\": false,\n            \"_id\": \"687f3a184f5a8f4eef5d1f78\",\n            \"createdAt\": \"2025-07-22T07:13:28.039Z\",\n            \"updatedAt\": \"2025-07-22T07:13:28.039Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get/Retrived Error ",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/project-error?Project_id=687ba73d69009201a3d46e81&Error_id=687bb20aff54bc26ba766e9b",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"project-error"
+					],
+					"query": [
+						{
+							"key": "Project_id",
+							"value": "687ba73d69009201a3d46e81"
+						},
+						{
+							"key": "Error_id",
+							"value": "687bb20aff54bc26ba766e9b"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get/Retrived Error",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/project-error?Project_id=687ba73d69009201a3d46e81&Error_id=687bb20aff54bc26ba766e9b",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"project-error"
+							],
+							"query": [
+								{
+									"key": "Project_id",
+									"value": "687ba73d69009201a3d46e81"
+								},
+								{
+									"key": "Error_id",
+									"value": "687bb20aff54bc26ba766e9b"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "898"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"382-77o7QSd/JfcclEzj0Mhi6i3+sWo\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 14:59:01 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"statusCode\": 200,\n    \"data\": {\n        \"message\": \"Error Retrived Successfully\",\n        \"result\": {\n            \"_id\": \"687bb20aff54bc26ba766e9b\",\n            \"Project_id\": \"687ba73d69009201a3d46e81\",\n            \"User_id\": \"687b4e5bad2ca8640181c8ea\",\n            \"label\": \"Login Error\",\n            \"title\": \"Unable to Login with Correct Credentials\",\n            \"path\": \"/login\",\n            \"description\": \"User is facing an error when trying to log in with valid credentials. The system returns a 500 internal server error.\",\n            \"type\": \"Bug\",\n            \"ip\": \"::1\",\n            \"browser\": \"PostmanRuntime/7.44.1\",\n            \"titleOfImage\": \"Login Error Screenshot\",\n            \"descriptionOfImage\": \"Screenshot showing the error message after user submits login form.\",\n            \"appVersion\": \"v1.2.3\",\n            \"hostName\": \"web-error-app.local\",\n            \"protocolUrl\": \"https://web-error-app.local/login\",\n            \"platform\": \"Web\",\n            \"isActive\": false,\n            \"isChecked\": false,\n            \"isQaDone\": false,\n            \"isDeveloperDone\": false,\n            \"createdAt\": \"2025-07-19T14:56:10.878Z\",\n            \"updatedAt\": \"2025-07-19T14:56:10.878Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get/Retrived All Error of Project",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/project-error/all?Project_id=687ba73d69009201a3d46e81",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"project-error",
+						"all"
+					],
+					"query": [
+						{
+							"key": "Project_id",
+							"value": "687ba73d69009201a3d46e81"
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get All Error of Project",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/project-error/all?Project_id=687ba73d69009201a3d46e81",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"project-error",
+								"all"
+							],
+							"query": [
+								{
+									"key": "Project_id",
+									"value": "687ba73d69009201a3d46e81"
+								},
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "909"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"38d-Na49MkUxtoHZymrz7OzzNAFPwLo\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 15:07:03 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"statusCode\": 200,\n    \"data\": {\n        \"message\": \"Project Errors Retrived Successfully\",\n        \"result\": [\n            {\n                \"_id\": \"687bb20aff54bc26ba766e9b\",\n                \"Project_id\": \"687ba73d69009201a3d46e81\",\n                \"User_id\": \"687b4e5bad2ca8640181c8ea\",\n                \"label\": \"Login Error\",\n                \"title\": \"Unable to Login with Correct Credentials\",\n                \"path\": \"/login\",\n                \"description\": \"User is facing an error when trying to log in with valid credentials. The system returns a 500 internal server error.\",\n                \"type\": \"Bug\",\n                \"ip\": \"::1\",\n                \"browser\": \"PostmanRuntime/7.44.1\",\n                \"titleOfImage\": \"Login Error Screenshot\",\n                \"descriptionOfImage\": \"Screenshot showing the error message after user submits login form.\",\n                \"appVersion\": \"v1.2.3\",\n                \"hostName\": \"web-error-app.local\",\n                \"protocolUrl\": \"https://web-error-app.local/login\",\n                \"platform\": \"Web\",\n                \"isActive\": false,\n                \"isChecked\": false,\n                \"isQaDone\": false,\n                \"isDeveloperDone\": false,\n                \"createdAt\": \"2025-07-19T14:56:10.878Z\",\n                \"updatedAt\": \"2025-07-19T14:56:10.878Z\",\n                \"__v\": 0\n            }\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Update Error",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"label\": \"Updated Error\",\r\n      \"isQaDone\":\"false\",\r\n      \"isDeveloperDone\":\"true\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/project-error/update?Project_id=687ba73d69009201a3d46e81&Error_id=687bb20aff54bc26ba766e9b",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"project-error",
+						"update"
+					],
+					"query": [
+						{
+							"key": "Project_id",
+							"value": "687ba73d69009201a3d46e81"
+						},
+						{
+							"key": "Error_id",
+							"value": "687bb20aff54bc26ba766e9b"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Update Error",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n      \"label\": \"Updated Error\",\r\n      \"isQaDone\":\"false\",\r\n      \"isDeveloperDone\":\"true\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/project-error/update?Project_id=687ba73d69009201a3d46e81&Error_id=687bb20aff54bc26ba766e9b",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"project-error",
+								"update"
+							],
+							"query": [
+								{
+									"key": "Project_id",
+									"value": "687ba73d69009201a3d46e81"
+								},
+								{
+									"key": "Error_id",
+									"value": "687bb20aff54bc26ba766e9b"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "919"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"397-FNamENxVx5iavBZvlKkFczKfJu0\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 16:24:46 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"satusCode\": 204,\n    \"data\": {\n        \"message\": \"Error Update Request Processed Successfully 😍\",\n        \"result\": {\n            \"_id\": \"687bb20aff54bc26ba766e9b\",\n            \"Project_id\": \"687ba73d69009201a3d46e81\",\n            \"User_id\": \"687b4e5bad2ca8640181c8ea\",\n            \"label\": \"Updated Error\",\n            \"title\": \"Unable to Login with Correct Credentials\",\n            \"path\": \"/login\",\n            \"description\": \"User is facing an error when trying to log in with valid credentials. The system returns a 500 internal server error.\",\n            \"type\": \"Bug\",\n            \"ip\": \"::1\",\n            \"browser\": \"PostmanRuntime/7.44.1\",\n            \"titleOfImage\": \"Login Error Screenshot\",\n            \"descriptionOfImage\": \"Screenshot showing the error message after user submits login form.\",\n            \"appVersion\": \"v1.2.3\",\n            \"hostName\": \"web-error-app.local\",\n            \"protocolUrl\": \"https://web-error-app.local/login\",\n            \"platform\": \"Web\",\n            \"isActive\": false,\n            \"isChecked\": false,\n            \"isQaDone\": false,\n            \"isDeveloperDone\": true,\n            \"createdAt\": \"2025-07-19T14:56:10.878Z\",\n            \"updatedAt\": \"2025-07-19T16:24:46.622Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Drag/update Error",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"isQaDone\":\"true\",\r\n      \"isDeveloperDone\":\"true\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/project-error/drag?Project_id=687ba73d69009201a3d46e81&Error_id=687bb20aff54bc26ba766e9b",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"project-error",
+						"drag"
+					],
+					"query": [
+						{
+							"key": "Project_id",
+							"value": "687ba73d69009201a3d46e81"
+						},
+						{
+							"key": "Error_id",
+							"value": "687bb20aff54bc26ba766e9b"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Drag/update Error",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n      \"isQaDone\":\"true\",\r\n      \"isDeveloperDone\":\"true\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/project-error/drag?Project_id=687ba73d69009201a3d46e81&Error_id=687bb20aff54bc26ba766e9b",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"project-error",
+								"drag"
+							],
+							"query": [
+								{
+									"key": "Project_id",
+									"value": "687ba73d69009201a3d46e81"
+								},
+								{
+									"key": "Error_id",
+									"value": "687bb20aff54bc26ba766e9b"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "897"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"381-w0hr2ZGAwluXSANUDfgjpY6qVrk\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 16:28:15 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"satusCode\": 204,\n    \"data\": {\n        \"message\": \"Status Updated Successfully\",\n        \"result\": {\n            \"_id\": \"687bb20aff54bc26ba766e9b\",\n            \"Project_id\": \"687ba73d69009201a3d46e81\",\n            \"User_id\": \"687b4e5bad2ca8640181c8ea\",\n            \"label\": \"Updated Error\",\n            \"title\": \"Unable to Login with Correct Credentials\",\n            \"path\": \"/login\",\n            \"description\": \"User is facing an error when trying to log in with valid credentials. The system returns a 500 internal server error.\",\n            \"type\": \"Bug\",\n            \"ip\": \"::1\",\n            \"browser\": \"PostmanRuntime/7.44.1\",\n            \"titleOfImage\": \"Login Error Screenshot\",\n            \"descriptionOfImage\": \"Screenshot showing the error message after user submits login form.\",\n            \"appVersion\": \"v1.2.3\",\n            \"hostName\": \"web-error-app.local\",\n            \"protocolUrl\": \"https://web-error-app.local/login\",\n            \"platform\": \"Web\",\n            \"isActive\": false,\n            \"isChecked\": false,\n            \"isQaDone\": true,\n            \"isDeveloperDone\": true,\n            \"createdAt\": \"2025-07-19T14:56:10.878Z\",\n            \"updatedAt\": \"2025-07-19T16:28:15.052Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete Error",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/project-error/delete?Project_id=687ba73d69009201a3d46e81&Error_id=687bb20aff54bc26ba766e9b",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"project-error",
+						"delete"
+					],
+					"query": [
+						{
+							"key": "Project_id",
+							"value": "687ba73d69009201a3d46e81"
+						},
+						{
+							"key": "Error_id",
+							"value": "687bb20aff54bc26ba766e9b"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Delete Error",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/project-error/delete?Project_id=687ba73d69009201a3d46e81&Error_id=687bb20aff54bc26ba766e9b",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"project-error",
+								"delete"
+							],
+							"query": [
+								{
+									"key": "Project_id",
+									"value": "687ba73d69009201a3d46e81"
+								},
+								{
+									"key": "Error_id",
+									"value": "687bb20aff54bc26ba766e9b"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "79"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"4f-ak85e70OlXslm3mlh2V52YGRJuw\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 16:30:22 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"satusCode\": 200,\n    \"data\": {\n        \"message\": \"Error deleted successfully\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Create/Generate QA Bug",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "QABug_img",
+							"type": "file",
+							"src": "/C:/Users/LENOVO/Pictures/Screenshots/Screenshot (7).png"
+						},
+						{
+							"key": "comment",
+							"value": "testing",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{base_url}}/project-error-qabug/new?Project_id=687f39d84f5a8f4eef5d1f6e&Error_id=687f3a184f5a8f4eef5d1f78",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"project-error-qabug",
+						"new"
+					],
+					"query": [
+						{
+							"key": "Project_id",
+							"value": "687f39d84f5a8f4eef5d1f6e"
+						},
+						{
+							"key": "Error_id",
+							"value": "687f3a184f5a8f4eef5d1f78"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Create/Generate QA Bug",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"imageUrl\": \"imgUrl/img.png\",\r\n    \"comment\":\"Project Error Bug Found\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/project-error-qabug/new?Project_id=687ba73d69009201a3d46e81&Error_id=687bc99dff54bc26ba766eb5",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"project-error-qabug",
+								"new"
+							],
+							"query": [
+								{
+									"key": "Project_id",
+									"value": "687ba73d69009201a3d46e81"
+								},
+								{
+									"key": "Error_id",
+									"value": "687bc99dff54bc26ba766eb5"
+								}
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "453"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1c5-BewGHtm9OfmUuZFekY6nbmpDcg8\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 16:37:07 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"StatusCode\": 201,\n    \"data\": {\n        \"message\": \"Post Request Processed Successfully 😍\",\n        \"result\": {\n            \"QABugsData\": {\n                \"Project_id\": \"687ba73d69009201a3d46e81\",\n                \"Error_id\": \"687bc99dff54bc26ba766eb5\",\n                \"imageUrl\": \"imgUrl/img.png\",\n                \"comment\": \"Project Error Bug Found\",\n                \"username\": \"Denju patel\",\n                \"email\": \"denju@yopmail.com\",\n                \"_id\": \"687bc9b3ff54bc26ba766ebc\",\n                \"createdAt\": \"2025-07-19T16:37:07.678Z\",\n                \"updatedAt\": \"2025-07-19T16:37:07.678Z\",\n                \"__v\": 0\n            },\n            \"CommentLength\": 23\n        }\n    }\n}"
+				},
+				{
+					"name": "Create/Generate QA Bug",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "QABug_img",
+									"type": "file",
+									"src": "/C:/Users/LENOVO/Pictures/Screenshots/Screenshot (7).png"
+								},
+								{
+									"key": "comment",
+									"value": "testing",
+									"type": "text"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/project-error-qabug/new?Project_id=687f39d84f5a8f4eef5d1f6e&Error_id=687f3a184f5a8f4eef5d1f78",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"project-error-qabug",
+								"new"
+							],
+							"query": [
+								{
+									"key": "Project_id",
+									"value": "687f39d84f5a8f4eef5d1f6e"
+								},
+								{
+									"key": "Error_id",
+									"value": "687f3a184f5a8f4eef5d1f78"
+								}
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "http://localhost:3000"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "515"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"203-6zBXNGuT0pyBwiAkcy/hZ4RjWKU\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 22 Jul 2025 07:15:47 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"StatusCode\": 201,\n    \"data\": {\n        \"message\": \"Post Request Processed Successfully 😍\",\n        \"result\": {\n            \"QABugsData\": {\n                \"Project_id\": \"687f39d84f5a8f4eef5d1f6e\",\n                \"Error_id\": \"687f3a184f5a8f4eef5d1f78\",\n                \"comment\": \"testing\",\n                \"QABug_img\": {\n                    \"public_id\": \"1753168544233\",\n                    \"url\": \"http://res.cloudinary.com/dd0vo0cov/image/upload/v1753168546/1753168544233.png\"\n                },\n                \"email\": \"denju123@example.com\",\n                \"_id\": \"687f3aa34f5a8f4eef5d1f80\",\n                \"createdAt\": \"2025-07-22T07:15:47.366Z\",\n                \"updatedAt\": \"2025-07-22T07:15:47.366Z\",\n                \"__v\": 0\n            },\n            \"CommentLength\": 7\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get QA Bug By Id",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/project-error-qabug?QaBug_id=687bca7bff54bc26ba766ec1",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"project-error-qabug"
+					],
+					"query": [
+						{
+							"key": "QaBug_id",
+							"value": "687bca7bff54bc26ba766ec1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get QA Bug By Id",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/project-error-qabug?QaBug_id=687bca7bff54bc26ba766ec1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"project-error-qabug"
+							],
+							"query": [
+								{
+									"key": "QaBug_id",
+									"value": "687bca7bff54bc26ba766ec1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "406"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"196-08Kmi9Jz9eKG08kxYsE80PEtapM\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 16:41:16 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"StatusCode\": 200,\n    \"data\": {\n        \"message\": \"QABug Retrived Successfully\",\n        \"result\": {\n            \"_id\": \"687bca7bff54bc26ba766ec1\",\n            \"Project_id\": \"687ba73d69009201a3d46e81\",\n            \"Error_id\": \"687bc99dff54bc26ba766eb5\",\n            \"imageUrl\": \"imgUrl/img.png\",\n            \"comment\": \"Project Error Bug Found\",\n            \"username\": \"Denju patel\",\n            \"email\": \"denju@yopmail.com\",\n            \"createdAt\": \"2025-07-19T16:40:27.204Z\",\n            \"updatedAt\": \"2025-07-19T16:40:27.204Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get QA Bugs By Error ID",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/project-error-qabug/error?Error_id=687bc99dff54bc26ba766eb5",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"project-error-qabug",
+						"error"
+					],
+					"query": [
+						{
+							"key": "Error_id",
+							"value": "687bc99dff54bc26ba766eb5"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get QA Bugs By Error ID",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/project-error-qabug/error?Error_id=687bc99dff54bc26ba766eb5",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"project-error-qabug",
+								"error"
+							],
+							"query": [
+								{
+									"key": "Error_id",
+									"value": "687bc99dff54bc26ba766eb5"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1046"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"416-w05g1q6itA7d2WaJONsExd26TCk\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 16:47:40 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"StatusCode\": 200,\n    \"data\": {\n        \"message\": \"Error Bugs Retrieved Successfully\",\n        \"result\": [\n            {\n                \"_id\": \"687bc9b3ff54bc26ba766ebc\",\n                \"Project_id\": \"687ba73d69009201a3d46e81\",\n                \"Error_id\": \"687bc99dff54bc26ba766eb5\",\n                \"imageUrl\": \"imgUrl/img.png\",\n                \"comment\": \"Project Error Bug Found\",\n                \"username\": \"Denju patel\",\n                \"email\": \"denju@yopmail.com\",\n                \"createdAt\": \"2025-07-19T16:37:07.678Z\",\n                \"updatedAt\": \"2025-07-19T16:37:07.678Z\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"687bca7bff54bc26ba766ec1\",\n                \"Project_id\": \"687ba73d69009201a3d46e81\",\n                \"Error_id\": \"687bc99dff54bc26ba766eb5\",\n                \"imageUrl\": \"imgUrl/img.png\",\n                \"comment\": \"Project Error Bug Found\",\n                \"username\": \"Denju patel\",\n                \"email\": \"denju@yopmail.com\",\n                \"createdAt\": \"2025-07-19T16:40:27.204Z\",\n                \"updatedAt\": \"2025-07-19T16:40:27.204Z\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"687bcb9fff54bc26ba766ec8\",\n                \"Project_id\": \"687ba73d69009201a3d46e81\",\n                \"Error_id\": \"687bc99dff54bc26ba766eb5\",\n                \"imageUrl\": \"imgUrl/img.png\",\n                \"comment\": \"Project Error Bug Found\",\n                \"username\": \"Denju patel\",\n                \"email\": \"denju@yopmail.com\",\n                \"createdAt\": \"2025-07-19T16:45:19.093Z\",\n                \"updatedAt\": \"2025-07-19T16:45:19.093Z\",\n                \"__v\": 0\n            }\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get QA Bugs By Project ID",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/project-error-qabug/project?Project_id=687ba73d69009201a3d46e81",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"project-error-qabug",
+						"project"
+					],
+					"query": [
+						{
+							"key": "Project_id",
+							"value": "687ba73d69009201a3d46e81"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get QA Bugs By Project ID",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/project-error-qabug/project?Project_id=687ba73d69009201a3d46e81",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"project-error-qabug",
+								"project"
+							],
+							"query": [
+								{
+									"key": "Project_id",
+									"value": "687ba73d69009201a3d46e81"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1043"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"413-3cvUqKV8369bl99Vk9JwDdrgr8o\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 17:34:55 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"StatusCode\": 200,\n    \"data\": {\n        \"message\": \"QA Bugs Retrieved Successfully\",\n        \"result\": [\n            {\n                \"_id\": \"687bc9b3ff54bc26ba766ebc\",\n                \"Project_id\": \"687ba73d69009201a3d46e81\",\n                \"Error_id\": \"687bc99dff54bc26ba766eb5\",\n                \"imageUrl\": \"imgUrl/img.png\",\n                \"comment\": \"Project Error Bug Found\",\n                \"username\": \"Denju patel\",\n                \"email\": \"denju@yopmail.com\",\n                \"createdAt\": \"2025-07-19T16:37:07.678Z\",\n                \"updatedAt\": \"2025-07-19T16:37:07.678Z\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"687bca7bff54bc26ba766ec1\",\n                \"Project_id\": \"687ba73d69009201a3d46e81\",\n                \"Error_id\": \"687bc99dff54bc26ba766eb5\",\n                \"imageUrl\": \"imgUrl/img.png\",\n                \"comment\": \"Project Error Bug Found\",\n                \"username\": \"Denju patel\",\n                \"email\": \"denju@yopmail.com\",\n                \"createdAt\": \"2025-07-19T16:40:27.204Z\",\n                \"updatedAt\": \"2025-07-19T16:40:27.204Z\",\n                \"__v\": 0\n            },\n            {\n                \"_id\": \"687bcb9fff54bc26ba766ec8\",\n                \"Project_id\": \"687ba73d69009201a3d46e81\",\n                \"Error_id\": \"687bc99dff54bc26ba766eb5\",\n                \"imageUrl\": \"imgUrl/img.png\",\n                \"comment\": \"Project Error Bug Found\",\n                \"username\": \"Denju patel\",\n                \"email\": \"denju@yopmail.com\",\n                \"createdAt\": \"2025-07-19T16:45:19.093Z\",\n                \"updatedAt\": \"2025-07-19T16:45:19.093Z\",\n                \"__v\": 0\n            }\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Update QA Bug",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"imageUrl\": \"/img23.png\",\r\n    \"comment\":\"Project Error Bug Found Upadated\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/project-error-qabug/update?QaBug_id=687bca7bff54bc26ba766ec1",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"project-error-qabug",
+						"update"
+					],
+					"query": [
+						{
+							"key": "QaBug_id",
+							"value": "687bca7bff54bc26ba766ec1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Update QA Bug",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"imageUrl\": \"/img23.png\",\r\n    \"comment\":\"Project Error Bug Found Upadated\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/project-error-qabug/update?QaBug_id=687bca7bff54bc26ba766ec1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"project-error-qabug",
+								"update"
+							],
+							"query": [
+								{
+									"key": "QaBug_id",
+									"value": "687bca7bff54bc26ba766ec1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "411"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"19b-2pHYa/NqkBWXpeevF1BDxNDUihE\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 17:37:49 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"StatusCode\": 200,\n    \"data\": {\n        \"message\": \"QA Bug Updated Successfully\",\n        \"result\": {\n            \"_id\": \"687bca7bff54bc26ba766ec1\",\n            \"Project_id\": \"687ba73d69009201a3d46e81\",\n            \"Error_id\": \"687bc99dff54bc26ba766eb5\",\n            \"imageUrl\": \"/img23.png\",\n            \"comment\": \"Project Error Bug Found Upadated\",\n            \"username\": \"Denju patel\",\n            \"email\": \"denju@yopmail.com\",\n            \"createdAt\": \"2025-07-19T16:40:27.204Z\",\n            \"updatedAt\": \"2025-07-19T17:37:49.248Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete QA Bug",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/project-error-qabug/delete?QaBug_id=687bca7bff54bc26ba766ec1",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"project-error-qabug",
+						"delete"
+					],
+					"query": [
+						{
+							"key": "QaBug_id",
+							"value": "687bca7bff54bc26ba766ec1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Delete QA Bug",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/project-error-qabug/delete?QaBug_id=687bca7bff54bc26ba766ec1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"project-error-qabug",
+								"delete"
+							],
+							"query": [
+								{
+									"key": "QaBug_id",
+									"value": "687bca7bff54bc26ba766ec1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "81"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"51-IdOEB53MO/DY8BRbe2Hnw7vWISk\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 17:39:05 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"StatusCode\": 200,\n    \"data\": {\n        \"message\": \"QA Bug Deleted Successfully\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Update Member Invitation Response",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"response\":\"accept\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/project/member-invitation/687bab5730906b15bf90b39a",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"project",
+						"member-invitation",
+						"687bab5730906b15bf90b39a"
+					],
+					"query": [
+						{
+							"key": "Member_id",
+							"value": "687bab5730906b15bf90b39a",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Update Member Invitation Response",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"response\":\"accept\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/project/member-invitation/687bab5730906b15bf90b39a",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"project",
+								"member-invitation",
+								"687bab5730906b15bf90b39a"
+							],
+							"query": [
+								{
+									"key": "Member_id",
+									"value": "687bab5730906b15bf90b39a",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "375"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"177-YKqsORHMHgbuTI5QHP37Zd4Vaek\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 17:47:51 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"statusCode\": 200,\n    \"data\": {\n        \"message\": \"Invitation accepted\",\n        \"result\": {\n            \"_id\": \"687bab5730906b15bf90b39a\",\n            \"Project_id\": \"687ba73d69009201a3d46e81\",\n            \"username\": \"Denju Developer\",\n            \"email\": \"denju.dd@yopmail.com\",\n            \"role\": \"Maintainer\",\n            \"isActive\": true,\n            \"status\": \"accepted\",\n            \"expireAt\": null,\n            \"createdAt\": \"2025-07-19T14:27:35.712Z\",\n            \"updatedAt\": \"2025-07-19T17:47:51.087Z\",\n            \"__v\": 0\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Sections ",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"response\":\"accept\"\r\n}"
+				},
+				"url": {
+					"raw": "{{base_url}}/sections?Project_id=687ba73d69009201a3d46e81",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"sections"
+					],
+					"query": [
+						{
+							"key": "Project_id",
+							"value": "687ba73d69009201a3d46e81"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Sections",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"response\":\"accept\"\r\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/sections?Project_id=687ba73d69009201a3d46e81",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"sections"
+							],
+							"query": [
+								{
+									"key": "Project_id",
+									"value": "687ba73d69009201a3d46e81"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "378"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"17a-fjhCRZb+gwjmIGLps3fP9xT/DxU\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 17:53:34 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"StatusCode\": 200,\n    \"data\": {\n        \"message\": \"Section Data Retrived Successfully\",\n        \"result\": [\n            {\n                \"_id\": \"687bb20aff54bc26ba766e9e\",\n                \"Project_id\": \"687ba73d69009201a3d46e81\",\n                \"totalError\": [\n                    \"687bb20aff54bc26ba766e9b\",\n                    \"687bc99dff54bc26ba766eb5\"\n                ],\n                \"isQaDone\": [],\n                \"isDeveloperDone\": [],\n                \"bothDone\": [],\n                \"createdAt\": \"2025-07-19T14:56:10.957Z\",\n                \"updatedAt\": \"2025-07-19T16:36:45.970Z\",\n                \"__v\": 0\n            }\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Update Section",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"oldIndex\": 0,\r\n  \"newIndex\": 0,\r\n  \"targetSection\": \"isDeveloperDone\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/sections/update?Project_id=687ba73d69009201a3d46e81&Error_id=687bb20aff54bc26ba766e9b",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"sections",
+						"update"
+					],
+					"query": [
+						{
+							"key": "Project_id",
+							"value": "687ba73d69009201a3d46e81"
+						},
+						{
+							"key": "Error_id",
+							"value": "687bb20aff54bc26ba766e9b"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Update Section",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"oldIndex\": 0,\r\n  \"newIndex\": 0,\r\n  \"targetSection\": \"isDeveloperDone\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/sections/update?Project_id=687ba73d69009201a3d46e81&Error_id=687bb20aff54bc26ba766e9b",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"sections",
+								"update"
+							],
+							"query": [
+								{
+									"key": "Project_id",
+									"value": "687ba73d69009201a3d46e81"
+								},
+								{
+									"key": "Error_id",
+									"value": "687bb20aff54bc26ba766e9b"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "81"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"51-Lp4Ypi7JoT4foEf5khmB0NETbb4\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Jul 2025 18:01:23 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"statusCode\": 200,\n    \"data\": {\n        \"message\": \"Status Updated Successfully\"\n    }\n}"
+				}
+			]
+		}
+	]
+}
